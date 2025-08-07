@@ -12,7 +12,7 @@ const config = {
     MAILER_PASSWORD: process.env.MAILER_PASSWORD,
     MONGODB_URI: process.env.MONGODB_URI,
     DB_NAME: process.env.DB_NAME,
-    APP_NAME: process.env.APP_NAME || 'NexaEase',
+    APP_NAME: process.env.APP_NAME || 'Zeevno',
 }
 
 config.IS_DEV = config.NODE_ENV === 'development'

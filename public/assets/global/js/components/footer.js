@@ -1,5 +1,5 @@
 const footerData = {
-    logo: "NexaEase",
+    logo: "Zeevno",
     description: "Your one-stop shop for all the latest tech gadgets and accessories at competitive prices.",
     quickLinks: [
         { text: "Home", url: "/" },
@@ -16,9 +16,9 @@ const footerData = {
     contactInfo: {
         address: "Gulshan E Iqbal, Karachi",
         phone: "+92 300 1234567",
-        email: "info@nexaease.com"
+        email: "info@zeevno.com"
     },
-    copyright: "© 2023 NexaEase. All Rights Reserved."
+    copyright: "© 2023 Zeevno. All Rights Reserved."
 };
 
 function loadCSS(href) {

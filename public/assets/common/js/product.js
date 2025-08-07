@@ -23,7 +23,7 @@ function generateColorDivs(variants) {
 async function renderProduct(product) {
     const container = document.getElementById('main-section');
     container.innerHTML = await createProductHTML(product);
-    document.title = `${product.name} - NexaEase`
+    document.title = `${product.name} - Zeevno`
 
     initColorSelection();
     initImageGallery();

@@ -20,7 +20,7 @@ function baseTemplate(content, options = {}) {
           <!-- Header with Logo -->
           <div style="padding: 30px 20px; text-align: center; background: linear-gradient(135deg, #f9fafb, #ffffff);">
             ${showLogo ? `
-              <img src="https://i.ibb.co/fdrJ4Gkz/nexa-ease-logo-transparent.png" alt="NexaEase" 
+              <img src="https://i.ibb.co/fdrJ4Gkz/nexa-ease-logo-transparent.png" alt="Zeevno" 
                    style="height: 50px; width: auto; margin-bottom: 15px;">
             ` : ''}
             ${title ? `<h2 style="margin: 0; font-size: 24px; font-weight: 600; color: #111827;">${title}</h2>` : ''}
@@ -41,7 +41,7 @@ function baseTemplate(content, options = {}) {
                 <a href="${appConfig.BASE_URL}/terms" style="color: #6b7280; text-decoration: none;">Terms of Service</a>
                 <br>
               ` : ''}
-              <span style="color: #9ca3af;">© ${new Date().getFullYear()} NexaEase. All rights reserved.</span>
+              <span style="color: #9ca3af;">© ${new Date().getFullYear()} Zeevno. All rights reserved.</span>
             </p>
           </div>
         </div>
@@ -49,7 +49,7 @@ function baseTemplate(content, options = {}) {
       
       <!-- Watermark -->
       <p style="font-size: 11px; text-align: center; color: #d1d5db; margin-top: 20px;">
-        Secured with NexaEase Communication
+        Secured with Zeevno Communication
       </p>
     </div>
   `;
@@ -193,7 +193,7 @@ function orderPlacedTemplate({ orderNumber, createdAt, username, address, phone,
 function magicLinkTemplate(verifyUrl, email) {
   const content = `
     <p style="font-size: 16px; line-height: 1.6; color: #4b5563; margin-bottom: 24px; text-align: center;">
-      Click the button below to securely log in to your NexaEase account. This link will expire in 
+      Click the button below to securely log in to your Zeevno account. This link will expire in 
       <strong style="color: #4f46e5;">15 minutes</strong> and can only be used once.
     </p>
 
@@ -224,7 +224,7 @@ function magicLinkTemplate(verifyUrl, email) {
 
   return baseTemplate(content, {
     title: 'Your Secure Login Link',
-    subtitle: 'NexaEase Authentication',
+    subtitle: 'Zeevno Authentication',
     showLogo: true
   });
 }
@@ -233,7 +233,7 @@ function magicLinkTemplate(verifyUrl, email) {
 function newsletterSubscriptionTemplate(email, unsubscribeLink) {
   const content = `
     <p style="font-size: 16px; line-height: 1.6; color: #4b5563; margin-bottom: 20px;">
-      Welcome to the NexaEase newsletter!
+      Welcome to the Zeevno newsletter!
     </p>
     
     <p style="font-size: 15px; line-height: 1.6; color: #4b5563; margin-bottom: 25px;">
@@ -282,7 +282,7 @@ function newsletterUnsubscribeTemplate(email) {
     </p>
     
     <p style="font-size: 15px; line-height: 1.6; color: #4b5563; margin-bottom: 25px;">
-      You have been successfully unsubscribed from the NexaEase newsletter. 
+      You have been successfully unsubscribed from the Zeevno newsletter. 
       The email address <strong style="color: #1e293b;">${email}</strong> will no longer receive our updates.
     </p>
     
@@ -325,7 +325,7 @@ function newsletterIssueTemplate(content, unsubscribeToken) {
     
     <div style="text-align: center; font-size: 13px; color: #6b7280;">
       <p style="margin: 0 0 10px 0;">
-        You're receiving this email because you subscribed to the NexaEase newsletter.
+        You're receiving this email because you subscribed to the Zeevno newsletter.
       </p>
       <a href="${unsubscribeLink}" 
          style="color: #6b7280; text-decoration: none;">Unsubscribe</a> 
