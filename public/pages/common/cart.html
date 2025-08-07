@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Basic Meta -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Review and manage your cart on NexaEase before proceeding to checkout. Seamless shopping, secure experience.">
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph / Social Meta -->
+  <meta property="og:title" content="Your Cart - NexaEase">
+  <meta property="og:description"
+    content="Securely review and update the items in your cart on NexaEase. Checkout with confidence.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://nexaease.com/cart">
+  <meta property="og:image" content="https://nexaease.com/assets/nexaease-preview.png">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Your Cart - NexaEase">
+  <meta name="twitter:description"
+    content="Checkout confidently on NexaEase. Review items in your cart before placing your order.">
+  <meta name="twitter:image" content="https://nexaease.com/assets/nexaease-preview.png">
+
+  <!-- Page Title -->
+  <title>Your Cart - NexaEase</title>
+
+  <!-- Fonts & Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" />
+
+  <!-- Styles -->
+  <link href="/c/css/cart.css" rel="stylesheet">
+  <link href="/g/css/components/base.css" rel="stylesheet">
+
+  <!-- Favicon -->
+  <link rel="icon" href="/g/imgs/favicon.ico" type="image/png">
+
+  <!-- Structured Data for SEO -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Your Cart - NexaEase",
+      "url": "https://nexaease.com/cart",
+      "description": "Review your NexaEase shopping cart and proceed to secure checkout.",
+      "publisher": {
+        "@type": "Organization",
+        "name": "NexaEase",
+        "url": "https://nexaease.com",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://nexaease.com/assets/logo.png"
+        }
+      }
+    }
+  </script>
+</head>
+
+<body>
+  <div class="page-container">
+    <div class="nexa-cart-container">
+      <!-- Cart Header -->
+      <div class="cart-header">
+        <h1>
+          <i class='bx bxs-shopping-bag'></i>
+          Your Cart
+          <span class="item-count">0 items</span>
+        </h1>
+        <div class="progress-steps">
+          <div id="step-1" class="step active">
+            <span class="step-number">1</span>
+            <span class="step-name">Your Selection</span>
+          </div>
+          <div id="step-2" class="step">
+            <span class="step-number">2</span>
+            <span class="step-name">Checkout</span>
+          </div>
+          <div id="step-3" class="step">
+            <span class="step-number">3</span>
+            <span class="step-name">Complete</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Cart Content -->
+      <div class="cart-content">
+        <!-- Items Column (75%) -->
+        <div class="cart-items">
+          <!-- Cart items will be dynamically inserted here -->
+          <div id="empty-cart-message" class="empty-cart">
+            <h2>Your Tech Toolkit is Empty!</h2>
+            <p>Looks like you haven't added anything yet. Start shopping now!</p>
+            <a href="/" class="shop-now-btn">Shop Now</a>
+          </div>
+        </div>
+
+        <!-- Summary Column (25%) -->
+        <div class="cart-summary">
+          <div class="summary-card">
+            <h3>Order Summary</h3>
+            <div class="summary-row">
+              <span>Subtotal (0 items)</span>
+              <span>Rs 0</span>
+            </div>
+            <div class="summary-row">
+              <span>Shipping</span>
+              <span class="free">FREE</span>
+            </div>
+            <div class="summary-row discount-row" style="display: none;">
+              <span>Discount</span>
+              <span class="discount">-Rs 0</span>
+            </div>
+            <div class="divider"></div>
+            <div class="summary-row total">
+              <span>Total</span>
+              <span>Rs 0</span>
+            </div>
+            <button class="checkout-btn" disabled>Proceed to Checkout</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="/g/js/scrolltotop.js"></script>
+  <script src="/g/js/notifier.js"></script>
+  <script src="/g/js/waveLoader.js"></script>
+  <script src="/g/js/components/navbar.js"></script>
+  <script src="/g/js/components/footer.js"></script>
+
+  <script src="/c/js/cart.js"></script>
+</body>
+
+</html>

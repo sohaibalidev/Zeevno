@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Basic Meta -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description"
+        content="NexaEase is a sleek and modern e-commerce platform for discovering top-quality products across categories. Shop smart, shop NexaEase." />
+    <meta name="robots" content="index, follow" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:title" content="NexaEase - Modern E-Commerce" />
+    <meta property="og:description"
+        content="Shop smarter with NexaEase. Explore premium products in a clean, intuitive shopping experience." />
+    <meta property="og:image" content="https://nexaease.com/assets/nexaease-preview.png" />
+    <meta property="og:url" content="https://nexaease.com/" />
+    <meta property="og:type" content="website" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="NexaEase - Modern E-Commerce" />
+    <meta name="twitter:description" content="Discover curated products and seamless shopping on NexaEase." />
+    <meta name="twitter:image" content="https://nexaease.com/assets/nexaease-preview.png" />
+
+    <!-- Title -->
+    <title>NexaEase - Modern E-Commerce</title>
+
+    <!-- Fonts & Icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="/c/css/index.css" />
+
+    <!-- Favicon -->
+    <link rel="icon" href="/g/imgs/favicon.ico" type="image/png" />
+
+    <!-- Structured Data (Schema.org) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "NexaEase",
+      "url": "https://nexaease.com",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://nexaease.com/search?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    }
+  </script>
+</head>
+
+<body>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="carousel">
+                <div class="carousel-inner" id="carouselInner">
+                    <div class="carousel-item">
+                        <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+                            alt="Featured Product 1" onclick="handleCarouselClick(1)">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+                            alt="Featured Product 2" onclick="handleCarouselClick(2)">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+                            alt="Featured Product 3" onclick="handleCarouselClick(3)">
+                    </div>
+                </div>
+
+                <div class="carousel-controls" id="carousel-controls">
+                    <button class="carousel-control" id="prevBtn">
+                        <i class='bx bx-chevron-left'></i>
+                    </button>
+                    <button class="carousel-control" id="nextBtn">
+                        <i class='bx bx-chevron-right'></i>
+                    </button>
+                </div>
+
+                <div class="carousel-indicators" id="carouselIndicators">
+                    <div class="indicator active" data-index="0"></div>
+                    <div class="indicator" data-index="1"></div>
+                    <div class="indicator" data-index="2"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="categories-container">
+        <h2 class="section-title">Our Collections</h2>
+        <div class="categories-grid" id="categoriesGrid"></div>
+    </div>
+
+    <!-- Featured Products -->
+    <section class="featured">
+        <div class="container">
+            <h2 class="section-title">Featured Products</h2>
+            <div class="featured-products">
+                <!-- FEATURED PRODUCTS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Grid -->
+    <section class="products">
+        <div class="container">
+            <h2 class="section-title">Our Products</h2>
+            <div id="spinner-div"></div>
+            <div class="products-grid" id="products-grid">
+                <!-- PRODUCTS GRID -->
+            </div>
+            <div class="pagination">
+                <button class="active">1</button>
+                <button>2</button>
+                <button>3</button>
+                <button>4</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="newsletter">
+        <div class="container newsletter-container">
+            <h2 class="newsletter-title">Subscribe to Our Newsletter</h2>
+            <p class="newsletter-desc">Get the latest updates on new products and upcoming sales</p>
+
+            <form class="newsletter-form" id="newsletterForm">
+                <input type="email" placeholder="Your email address" class="newsletter-input" id="newsletterEmail"
+                    required>
+                <button type="submit" class="newsletter-btn">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+    <script src="/g/js/scrolltotop.js"></script>
+    <script src="/g/js/waveLoader.js"></script>
+    <script src="/g/js/spinner.js"></script>
+    <script src="/g/js/notifier.js"></script>
+    <script src="/g/js/components/navbar.js"></script>
+    <script src="/g/js/components/footer.js"></script>
+
+    <script src="/c/js/index.js" defer></script>
+</body>
+
+</html>

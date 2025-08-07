@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Basic Meta -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Create your NexaEase account and start managing your e-commerce business with ease. Magic link authentication ensures secure and fast onboarding.">
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph / Social Meta -->
+  <meta property="og:title" content="Register - NexaEase">
+  <meta property="og:description"
+    content="Join NexaEase and kickstart your e-commerce journey. Create your account using magic link verification.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://nexaease.com/register">
+  <meta property="og:image" content="https://nexaease.com/assets/nexaease-preview.png">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Register - NexaEase">
+  <meta name="twitter:description"
+    content="Create your NexaEase account instantly using magic link email authentication. No password required.">
+  <meta name="twitter:image" content="https://nexaease.com/assets/nexaease-preview.png">
+
+  <!-- Page Title -->
+  <title>Register - NexaEase</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.boxicons.com/fonts/basic/boxicons.min.css" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/a/css/register.css">
+  <link rel="stylesheet" href="/g/css/notifier.css">
+
+  <!-- Favicon -->
+  <link rel="icon" href="/g/imgs/favicon.png" type="image/x-icon">
+
+  <!-- Structured Data for SEO -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Register - NexaEase",
+      "url": "https://nexaease.com/register",
+      "description": "Create your NexaEase account and start managing your e-commerce business.",
+      "publisher": {
+        "@type": "Organization",
+        "name": "NexaEase",
+        "url": "https://nexaease.com",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://nexaease.com/assets/logo.png"
+        }
+      }
+    }
+  </script>
+</head>
+
+<body>
+  <div id="notify"></div>
+
+  <div class="auth-illustration">
+    <div class="illustration-shapes">
+      <div class="shape shape-1"></div>
+      <div class="shape shape-2"></div>
+      <div class="shape shape-3"></div>
+    </div>
+    <div class="app-logo">
+      <i class='bx bxs-store'></i>
+      <span>NexaEase</span>
+    </div>
+  </div>
+
+  <div class="auth-container">
+    <div class="form-logo">
+      <img src="/g/imgs/app-logo.png" alt="NexaEase Logo">
+    </div>
+
+    <header class="auth-header">
+      <h1>Create your account</h1>
+      <p>Get started with your e-commerce dashboard</p>
+    </header>
+
+    <form id="registerForm" class="auth-form" autocomplete="on" novalidate>
+      <div class="form-grid">
+        <div class="form-group">
+          <label for="fullName">Full Name</label>
+          <div class="input-wrapper">
+            <i class='input-icon bx bxs-user'></i>
+            <input type="text" id="fullName" name="fullName" required placeholder="Sohaib Ali" autocomplete="name" />
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email</label>
+          <div class="input-wrapper">
+            <i class='input-icon bx bxs-envelope'></i>
+            <input type="email" id="email" name="email" required placeholder="example@mail.com" autocomplete="email" />
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="phone">Phone</label>
+          <div class="input-wrapper">
+            <i class='input-icon bx bxs-phone'></i>
+            <input type="tel" id="phone" name="phone" required placeholder="+92 300 1234567" autocomplete="tel" />
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="city">City</label>
+          <div class="input-wrapper">
+            <i class='input-icon bx bxs-location-plus'></i>
+            <input type="text" id="city" name="city" required placeholder="Karachi" autocomplete="address-level2" />
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="address">Address</label>
+          <div class="input-wrapper">
+            <textarea id="address" name="address" required placeholder="House No, Street, Town"
+              autocomplete="street-address"></textarea>
+          </div>
+        </div>
+      </div>
+
+      <div class="form-footer">
+        <button type="submit" class="btn-primary">
+          <span class="btn-text">Create Account</span>
+          <i class='bx bxs-check-circle'></i>
+        </button>
+        <p class="agreement">
+          By creating an account, you agree to our <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a>
+        </p>
+      </div>
+    </form>
+
+    <div class="auth-divider">
+      <span>Already have an account?</span>
+    </div>
+
+    <a href="/login" class="btn-secondary">Sign in instead</a>
+  </div>
+
+  <script src="/g/js/notifier.js" defer></script>
+  <script src="/a/js/register.js" defer></script>
+
+</body>
+
+</html>

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Meta Tags -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description"
+        content="Track your NexaEase order in real-time. Get live updates on shipping, delivery status, and more." />
+    <meta name="robots" content="noindex, nofollow" />
+
+    <!-- Page Title -->
+    <title>NexaEase - Order Tracking</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="/imgs/nexa-ease-symbol.png" type="image/png" />
+
+    <!-- External Libraries -->
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+
+    <!-- Local CSS -->
+    <link rel="stylesheet" href="/c/css/trackorder.css" />
+
+    <!-- Open Graph (Optional) -->
+    <meta property="og:title" content="Track Your Order | NexaEase" />
+    <meta property="og:description"
+        content="Get real-time order status and delivery updates for your NexaEase purchases." />
+    <meta property="og:image" content="https://nexaease.com/assets/track-preview.png" />
+    <meta property="og:url" content="https://nexaease.com/track" />
+    <meta property="og:type" content="website" />
+
+    <!-- Twitter Card (Optional) -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="NexaEase - Track Your Order" />
+    <meta name="twitter:description" content="Live delivery tracking for all your NexaEase orders." />
+    <meta name="twitter:image" content="https://nexaease.com/assets/track-preview.png" />
+</head>
+
+<body>
+    <div class="track-order-container" id="container">
+        <div class="track-order-card">
+            <div class="track-order-header">
+                <h1 class="track-order-title">Track Your Order</h1>
+                <p class="track-order-subtitle">Enter your Order ID below to check your order status and details</p>
+            </div>
+
+            <div class="track-order-form">
+                <div class="form-group">
+                    <label for="orderInput" class="form-label">Order ID</label>
+                    <div class="input-group">
+                        <input type="text" id="orderInput" class="form-input" placeholder="e.g. NE0123456789ABCDEF"
+                            aria-label="Order ID">
+                        <button onclick="trackOrder()" class="form-button">
+                            <span class="button-text">Track Order</span>
+                            <div class="spinner"></div>
+                        </button>
+                    </div>
+                    <p class="form-hint">You can find your Order ID in your confirmation email</p>
+                </div>
+            </div>
+
+            <div class="track-order-footer">
+                <p>Need help? <a onclick="toCont()" class="help-link">Contact our support team</a></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="result" style="display: none;"></div>
+
+    <div id="cancelOrderModal" class="modal" style="display: none;">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Cancel Order</h3>
+                <button class="modal-close" onclick="closeModal()">&times;</button>
+            </div>
+            <div class="modal-body">
+                <p>Are you sure you want to cancel order <strong id="modalOrderNumber"></strong>?</p>
+                <p>This action cannot be undone.</p>
+            </div>
+            <div class="modal-footer">
+                <button class="modal-btn secondary" onclick="closeModal()">Go Back</button>
+                <button class="modal-btn danger" id="confirmCancelBtn">Yes, Cancel Order</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="/g/js/notifier.js"></script>
+    <!-- <script src="/g/js/waveLoader.js"></script> -->
+    <script src="/g/js/layout.js"></script>
+
+    <script src="/c/js/trackorder.js"></script>
+</body>
+
+</html>

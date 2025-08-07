@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Basic Meta -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="robots" content="noindex, nofollow"> <!-- Only if you want to block search indexing -->
+
+    <!-- SEO Meta -->
+    <meta name="description" content="Verify your NexaEase account securely.">
+    <meta name="keywords" content="NexaEase, account verification, magic link, ecommerce login">
+    <meta name="author" content="NexaEase Team">
+
+    <!-- Open Graph (Social Sharing) -->
+    <meta property="og:title" content="Verify - NexaEase">
+    <meta property="og:description" content="Complete your account verification and unlock full access to NexaEase.">
+    <meta property="og:image" content="https://nexaease.com/og-verify.png"> <!-- Replace with actual image URL -->
+    <meta property="og:url" content="https://nexaease.com/verify">
+    <meta property="og:type" content="website">
+
+    <!-- Favicon -->
+    <link rel="icon" href="/g/imgs/favicon.png" type="image/x-icon">
+
+    <!-- Page Title -->
+    <title>Verify - NexaEase</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Icons -->
+    <link href="https://cdn.boxicons.com/fonts/basic/boxicons.min.css" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="/a/css/verify.css">
+    <link rel="stylesheet" href="/g/css/notifier.css">
+
+    <!-- Script -->
+    <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "WebPage",
+          "name": "Verify - NexaEase",
+          "description": "Complete your account verification to start shopping at NexaEase.",
+          "url": "https://nexaease.com/verify",
+          "publisher": {
+            "@type": "Organization",
+            "name": "NexaEase",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://nexaease.com/logo.png"
+            }
+          }
+        }
+    </script>
+</head>
+
+<body>
+    <div id="notify"></div>
+
+    <div class="auth-container">
+        <div class="app-logo">
+            <i class='bxr bx-store'></i>
+            <span>NexaEase</span>
+        </div>
+
+        <div id="loadingState" class="verification-state">
+            <div class="spinner-container">
+                <div class="spinner"></div>
+            </div>
+            <h2>Verifying your account</h2>
+            <p>Please wait while we verify your credentials</p>
+        </div>
+
+        <div id="successState" class="verification-state hidden">
+            <div class="status-icon success">
+                <i class='bxr bxs-check-circle'></i>
+            </div>
+            <h2>Account Verified!</h2>
+            <p>Your account has been successfully verified. You can now access all features.</p>
+            <a href="/login" class="btn-primary">Continue to Dashboard</a>
+        </div>
+
+        <div id="errorState" class="verification-state hidden">
+            <div class="status-icon error">
+                <i class='bxr bxs-x-circle'></i>
+            </div>
+            <h2>Verification Failed</h2>
+            <p id="errorMessage">The verification link is invalid or has expired.</p>
+            <div class="action-buttons">
+                <a href="/register" class="btn-secondary">Create New Account</a>
+                <a href="/login" class="btn-primary">Try Again</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="/g/js/notifier.js" defer></script>
+    <script src="/a/js/verify.js" defer></script>
+</body>
+
+</html>

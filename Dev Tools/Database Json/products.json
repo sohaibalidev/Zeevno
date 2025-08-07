@@ -1,0 +1,7157 @@
+[
+  {
+    "id": "123401",
+    "category": "airbuds",
+    "name": "SoundMax 360",
+    "pricing": {
+      "originalPrice": 8800,
+      "currentPrice": 5000
+    },
+    "inventory": {
+      "stockQuantity": 49,
+      "inStock": true
+    },
+    "isFeatured": true,
+    "createdAt": "2025-07-29T03:36:31.203939",
+    "variants": {
+      "hasColorOptions": true,
+      "availableColors": [
+        "Red",
+        "Blue",
+        "Yellow"
+      ]
+    },
+    "media": {
+      "imageUrls": [
+        "/api/images/img7.jpeg",
+        "/api/images/img13.jpeg",
+        "/api/images/img11.jpeg",
+        "/api/images/img2.jpeg"
+      ],
+      "primaryImage": "/api/images/img7.jpeg"
+    },
+    "specifications": {
+      "packageContents": "1 x Headset, 1 x AUX Cable, 1 x Cleaning Cloth",
+      "description": "The ultimate solution for your everyday needs with advanced features.",
+      "keyFeatures": [
+        "High-resolution display",
+        "Multiple color options",
+        "Lightweight design",
+        "Voice assistant"
+      ],
+      "technicalSpecs": {
+        "screenSize": "1.4 inch",
+        "sensors": "Heart rate, Step counter",
+        "waterResistance": "IP68",
+        "expressDelivery": "Not Available",
+        "modelYear": 2021
+      },
+      "reviewIds": [
+        "rev_1008",
+        "rev_1085",
+        "rev_1034",
+        "rev_1039",
+        "rev_1081",
+        "rev_1023"
+      ]
+    },
+    "metadata": {
+      "lastUpdated": "2025-07-29T03:36:31.203939",
+      "source": "inventorySystem"
+    }
+  },
+  {
+    "id": "123402",
+    "category": "bluetooth-speaker",
+    "name": "HyperMax X2",
+    "pricing": {
+      "originalPrice": 6300,
+      "currentPrice": 3700
+    },
+    "inventory": {
+      "stockQuantity": 0,
+      "inStock": false
+    },
+    "isFeatured": false,
+    "createdAt": "2025-07-29T03:36:31.203939",
+    "variants": {
+      "hasColorOptions": true,
+      "availableColors": [
+        "Green",
+        "LimeGreen",
+        "Olive"
+      ]
+    },
+    "media": {
+      "imageUrls": [
+        "/api/images/img10.jpeg",
+        "/api/images/img1.jpeg",
+        "/api/images/img11.jpeg",
+        "/api/images/img4.jpeg"
+      ],
+      "primaryImage": "/api/images/img10.jpeg"
+    },
+    "specifications": {
+      "packageContents": "1 x Smartwatch, 1 x Magnetic Charger, 1 x Strap (Extra)",
+      "description": "Transform your experience with this high-quality, feature-rich product.",
+      "keyFeatures": [
+        "High-resolution display",
+        "Multiple color options",
+        "Lightweight design",
+        "Voice assistant"
+      ],
+      "technicalSpecs": {
+        "screenSize": "1.4 inch",
+        "sensors": "Heart rate, Step counter",
+        "waterResistance": "IP68",
+        "expressDelivery": "Not Available",
+        "modelYear": 2021
+      },
+      "reviewIds": [
+        "rev_1003",
+        "rev_1087",
+        "rev_1011",
+        "rev_1095"
+      ]
+    },
+    "metadata": {
+      "lastUpdated": "2025-07-29T03:36:31.203939",
+      "source": "inventorySystem"
+    }
+  },
+  {
+    "id": "123403",
+    "category": "smartwatch",
+    "name": "SoundMate Air",
+    "pricing": {
+      "originalPrice": 7000,
+      "currentPrice": 4600
+    },
+    "inventory": {
+      "stockQuantity": 24,
+      "inStock": true
+    },
+    "isFeatured": false,
+    "createdAt": "2025-07-29T03:36:31.203939",
+    "variants": {
+      "hasColorOptions": true,
+      "availableColors": [
+        "Black",
+        "White",
+        "Silver",
+        "Gray"
+      ]
+    },
+    "media": {
+      "imageUrls": [
+        "/api/images/img2.jpeg",
+        "/api/images/img10.jpeg",
+        "/api/images/img11.jpeg",
+        "/api/images/img7.jpeg"
+      ],
+      "primaryImage": "/api/images/img2.jpeg"
+    },
+    "specifications": {
+      "packageContents": "1 x Device, 1 x USB-C Cable, 1 x Ear Tips (S/M/L), 1 x Storage Pouch",
+      "description": "The ultimate solution for your everyday needs with advanced features.",
+      "keyFeatures": [
+        "Immersive experience",
+        "Adjustable straps",
+        "High refresh rate",
+        "Wide compatibility"
+      ],
+      "technicalSpecs": {
+        "batteryCapacity": "4000mAh",
+        "connectivity": "Bluetooth 5.0",
+        "colorOptions": "3",
+        "expressDelivery": "Not Available",
+        "modelYear": 2020
+      },
+      "reviewIds": [
+        "rev_1093",
+        "rev_1018",
+        "rev_1062"
+      ]
+    },
+    "metadata": {
+      "lastUpdated": "2025-07-29T03:36:31.203939",
+      "source": "inventorySystem"
+    }
+  },
+  {
+    "id": "123404",
+    "category": "wireless-charger",
+    "name": "PulseBoost Elite",
+    "pricing": {
+      "originalPrice": 8100,
+      "currentPrice": 4700
+    },
+    "inventory": {
+      "stockQuantity": 0,
+      "inStock": false
+    },
+    "isFeatured": false,
+    "createdAt": "2025-07-29T03:36:31.203939",
+    "variants": {
+      "hasColorOptions": true,
+      "availableColors": [
+        "Black",
+        "White",
+        "Silver",
+        "Gray"
+      ]
+    },
+    "media": {
+      "imageUrls": [
+        "/api/images/img5.jpeg",
+        "/api/images/img3.jpeg",
+        "/api/images/img9.jpeg",
+        "/api/images/img4.jpeg"
+      ],
+      "primaryImage": "/api/images/img5.jpeg"
+    },
+    "specifications": {
+      "packageContents": "1 x Device, 1 x USB-C Cable, 1 x Ear Tips (S/M/L), 1 x Storage Pouch",
+      "description": "Designed for performance and style, this product exceeds expectations.",
+      "keyFeatures": [
+        "Sleek design",
+        "Multiple ports",
+        "Compact size",
+        "Fast data transfer"
+      ],
+      "technicalSpecs": {
+        "weight": "150g",
+        "compatibility": "iOS/Android",
+        "chargingTime": "2 hours",
+        "expressDelivery": "Not Available",
+        "modelYear": 2022
+      },
+      "reviewIds": [
+        "rev_1030",
+        "rev_1016",
+        "rev_1081",
+        "rev_1088",
+        "rev_1031",
+        "rev_1056"
+      ]
+    },
+    "metadata": {
+      "lastUpdated": "2025-07-29T03:36:31.203939",
+      "source": "inventorySystem"
+    }
+  },
+  {
+    "id": "123405",
+    "category": "powerbank",
+    "name": "ChargePro Plus",
+    "pricing": {
+      "originalPrice": 7200,
+      "currentPrice": 5900
+    },
+    "inventory": {
+      "stockQuantity": 48,
+      "inStock": true
+    },
+    "isFeatured": false,
+    "createdAt": "2025-07-29T03:36:31.203939",
+    "variants": {
+      "hasColorOptions": true,
+      "availableColors": [
+        "Red",
+        "Blue",
+        "Yellow"
+      ]
+    },
+    "media": {
+      "imageUrls": [
+        "/api/images/img4.jpeg",
+        "/api/images/img13.jpeg",
+        "/api/images/img3.jpeg",
+        "/api/images/img7.jpeg"
+      ],
+      "primaryImage": "/api/images/img4.jpeg"
+    },
+    "specifications": {
+      "packageContents": "1 x Product, 2 x AAA Batteries, Quick Start Guide",
+      "description": "Transform your experience with this high-quality, feature-rich product.",
+      "keyFeatures": [
+        "Sleek design",
+        "Multiple ports",
+        "Compact size",
+        "Fast data transfer"
+      ],
+      "technicalSpecs": {
+        "screenSize": "1.4 inch",
+        "sensors": "Heart rate, Step counter",
+        "waterResistance": "IP68",
+        "expressDelivery": "Not Available",
+        "modelYear": 2021
+      },
+      "reviewIds": [
+        "rev_1058",
+        "rev_1006",
+        "rev_1018",
+        "rev_1080"
+      ]
+    },
+    "metadata": {
+      "lastUpdated": "2025-07-29T03:36:31.203939",
+      "source": "inventorySystem"
+    }
+  },
+  {
+    "id": "123406",
+    "category": "wireless-charger",
+    "name": "HyperSync X2",
+    "pricing": {
+      "originalPrice": 5800,
+      "currentPrice": 2700
+    },
+    "inventory": {
+      "stockQuantity": 0,
+      "inStock": false
+    },
+    "isFeatured": true,
+    "createdAt": "2025-07-29T03:36:31.203939",
+    "variants": {
+      "hasColorOptions": true,
+      "availableColors": [
+        "Green",
+        "LimeGreen",
+        "Olive"
+      ]
+    },
+    "media": {
+      "imageUrls": [
+        "/api/images/img13.jpeg",
+        "/api/images/img4.jpeg",
+        "/api/images/img5.jpeg",
+        "/api/images/img9.jpeg"
+      ],
+      "primaryImage": "/api/images/img13.jpeg"
+    },
+    "specifications": {
+      "packageContents": "1 x VR Headset, 2 x Controllers, 1 x Lens Cleaning Kit",
+      "description": "Designed for performance and style, this product exceeds expectations.",
+      "keyFeatures": [
+        "High-resolution display",
+        "Multiple color options",
+        "Lightweight design",
+        "Voice assistant"
+      ],
+      "technicalSpecs": {
+        "screenSize": "1.4 inch",
+        "sensors": "Heart rate, Step counter",
+        "waterResistance": "IP68",
+        "expressDelivery": "Not Available",
+        "modelYear": 2021
+      },
+      "reviewIds": [
+        "rev_1038",
+        "rev_1098",
+        "rev_1069",
+        "rev_1084",
+        "rev_1031",
+        "rev_1036"
+      ]
+    },
+    "metadata": {
+      "lastUpdated": "2025-07-29T03:36:31.203939",
+      "source": "inventorySystem"
+    }
+  },
+  {
+    "id": "123407",
+    "category": "bluetooth-speaker",
+    "name": "QiMax 5",
+    "pricing": {
+      "originalPrice": 7200,
+      "currentPrice": 5400
+    },
+    "inventory": {
+      "stockQuantity": 0,
+      "inStock": false
+    },
+    "isFeatured": false,
+    "createdAt": "2025-07-29T03:36:31.203939",
+    "variants": {
+      "hasColorOptions": true,
+      "availableColors": [
+        "Green",
+        "LimeGreen",
+        "Olive"
+      ]
+    },
+    "media": {
+      "imageUrls": [
+        "/api/images/img1.jpeg",
+        "/api/images/img12.jpeg",
+        "/api/images/img3.jpeg",
+        "/api/images/img5.jpeg"
+      ],
+      "primaryImage": "/api/images/img1.jpeg"
+    },
+    "specifications": {
+      "packageContents": "1 x Main Unit, 1 x Charging Cable, 1 x User Manual, 1 x Warranty Card",
+      "description": "The ultimate solution for your everyday needs with advanced features.",
+      "keyFeatures": [
+        "High-resolution display",
+        "Multiple color options",
+        "Lightweight design",
+        "Voice assistant"
+      ],
+      "technicalSpecs": {
+        "screenSize": "1.4 inch",
+        "sensors": "Heart rate, Step counter",
+        "waterResistance": "IP68",
+        "expressDelivery": "Not Available",
+        "modelYear": 2021
+      },
+      "reviewIds": [
+        "rev_1088",
+        "rev_1008",
+        "rev_1064",
+        "rev_1055",
+        "rev_1038",
+        "rev_1056"
+      ]
+    },
+    "metadata": {
+      "lastUpdated": "2025-07-29T03:36:31.203939",
+      "source": "inventorySystem"
+    }
+  },
+  {
+    "id": "123408",
+    "category": "gaming-headset",
+    "name": "HyperTitan Ultra",
+    "pricing": {
+      "originalPrice": 7000,
+      "currentPrice": 4300
+    },
+    "inventory": {
+      "stockQuantity": 23,
+      "inStock": true
+    },
+    "isFeatured": false,
+    "createdAt": "2025-07-29T03:36:31.203939",
+    "variants": {
+      "hasColorOptions": true,
+      "availableColors": [
+        "Black",
+        "White",
+        "Silver",
+        "Gray"
+      ]
+    },
+    "media": {
+      "imageUrls": [
+        "/api/images/img13.jpeg",
+        "/api/images/img7.jpeg",
+        "/api/images/img11.jpeg",
+        "/api/images/img8.jpeg"
+      ],
+      "primaryImage": "/api/images/img13.jpeg"
+    },
+    "specifications": {
+      "packageContents": "1 x Speaker, 1 x Power Adapter, 1 x 3.5mm Audio Cable",
+      "description": "The ultimate solution for your everyday needs with advanced features.",
+      "keyFeatures": [
+        "Sleek design",
+        "Multiple ports",
+        "Compact size",
+        "Fast data transfer"
+      ],
+      "technicalSpecs": {
+        "driverSize": "40mm",
+        "frequencyResponse": "20Hz-20kHz",
+        "impedance": "32 ohms",
+        "expressDelivery": "Not Available",
+        "modelYear": 2020
+      },
+      "reviewIds": [
+        "rev_1058",
+        "rev_1026",
+        "rev_1036"
+      ]
+    },
+    "metadata": {
+      "lastUpdated": "2025-07-29T03:36:31.203939",
+      "source": "inventorySystem"
+    }
+  },
+  {
+    "id": "123409",
+    "category": "wireless-charger",
+    "name": "PulseMax 360",
+    "pricing": {
+      "originalPrice": 6100,
+      "currentPrice": 3200
+    },
+    "inventory": {
+      "stockQuantity": 0,
+      "inStock": false
+    },
+    "isFeatured": false,
+    "createdAt": "2025-07-29T03:36:31.203939",
+    "variants": {
+      "hasColorOptions": true,
+      "availableColors": [
+        "Green",
+        "LimeGreen",
+        "Olive"
+      ]
+    },
+    "media": {
+      "imageUrls": [
+        "/api/images/img1.jpeg",
+        "/api/images/img12.jpeg",
+        "/api/images/img5.jpeg",
+        "/api/images/img9.jpeg"
+      ],
+      "primaryImage": "/api/images/img1.jpeg"
+    },
+    "specifications": {
+      "packageContents": "1 x Headset, 1 x AUX Cable, 1 x Cleaning Cloth",
+      "description": "Transform your experience with this high-quality, feature-rich product.",
+      "keyFeatures": [
+        "Noise cancellation",
+        "Comfortable fit",
+        "Wireless freedom",
+        "Crystal clear sound"
+      ],
+      "technicalSpecs": {
+        "batteryCapacity": "4000mAh",
+        "connectivity": "Bluetooth 5.0",
+        "colorOptions": "3",
+        "expressDelivery": "Not Available",
+        "modelYear": 2020
+      },
+      "reviewIds": [
+        "rev_1025",
+        "rev_1100",
+        "rev_1012"
+      ]
+    },
+    "metadata": {
+      "lastUpdated": "2025-07-29T03:36:31.203939",
+      "source": "inventorySystem"
+    }
+  },
+  {
+    "id": "123410",
+    "category": "gaming-headset",
+    "name": "HyperSync Elite",
+    "pricing": {
+      "originalPrice": 5300,
+      "currentPrice": 2100
+    },
+    "inventory": {
+      "stockQuantity": 0,
+      "inStock": false
+    },
+    "isFeatured": false,
+    "createdAt": "2025-07-29T03:36:31.203939",
+    "variants": {
+      "hasColorOptions": true,
+      "availableColors": [
+        "Red",
+        "Blue",
+        "Yellow"
+      ]
+    },
+    "media": {
+      "imageUrls": [
+        "/api/images/img2.jpeg",
+        "/api/images/img12.jpeg",
+        "/api/images/img10.jpeg",
+        "/api/images/img13.jpeg"
+      ],
+      "primaryImage": "/api/images/img2.jpeg"
+    },
+    "specifications": {
+      "packageContents": "1 x Smartwatch, 1 x Magnetic Charger, 1 x Strap (Extra)",
+      "description": "The ultimate solution for your everyday needs with advanced features.",
+      "keyFeatures": [
+        "High-resolution display",
+        "Multiple color options",
+        "Lightweight design",
+        "Voice assistant"
+      ],
+      "technicalSpecs": {
+        "driverSize": "40mm",
+        "frequencyResponse": "20Hz-20kHz",
+        "impedance": "32 ohms",
+        "expressDelivery": "Not Available",
+        "modelYear": 2020
+      },
+      "reviewIds": [
+        "rev_1041",
+        "rev_1053",
+        "rev_1096"
+      ]
+    },
+    "metadata": {
+      "lastUpdated": "2025-07-29T03:36:31.203939",
+      "source": "inventorySystem"
+    }
+  },
+  {
+    "id": "123411",
+    "category": "bluetooth-speaker",
+    "name": "PulsePro Ultra",
+    "pricing": {
+      "originalPrice": 7400,
+      "currentPrice": 5700
+    },
+    "inventory": {
+      "stockQuantity": 5,
+      "inStock": true
+    },
+    "isFeatured": true,
+    "createdAt": "2025-07-29T03:36:31.203939",
+    "variants": {
+      "hasColorOptions": true,
+      "availableColors": [
+        "Red",
+        "Blue",
+        "Yellow"
+      ]
+    },
+    "media": {
+      "imageUrls": [
+        "/api/images/img6.jpeg",
+        "/api/images/img11.jpeg",
+        "/api/images/img1.jpeg",
+        "/api/images/img7.jpeg"
+      ],
+      "primaryImage": "/api/images/img6.jpeg"
+    },
+    "specifications": {
+      "packageContents": "1 x Product, 2 x AAA Batteries, Quick Start Guide",
+      "description": "The ultimate solution for your everyday needs with advanced features.",
+      "keyFeatures": [
+        "Immersive experience",
+        "Adjustable straps",
+        "High refresh rate",
+        "Wide compatibility"
+      ],
+      "technicalSpecs": {
+        "material": "Plastic",
+        "warranty": "1 year",
+        "dimensions": "5x3x1 inches",
+        "expressDelivery": "Not Available",
+        "modelYear": 2021
+      },
+      "reviewIds": [
+        "rev_1041",
+        "rev_1043",
+        "rev_1003",
+        "rev_1088",
+        "rev_1063",
+        "rev_1094"
+      ]
+    },
+    "metadata": {
+      "lastUpdated": "2025-07-29T03:36:31.203939",
+      "source": "inventorySystem"
+    }
+  },
+  {
+    "id": "123412",
+    "category": "gaming-headset",
+    "name": "SoundPro 360",
+    "pricing": {
+      "originalPrice": 7100,
+      "currentPrice": 6100
+    },
+    "inventory": {
+      "stockQuantity": 0,
+      "inStock": false
+    },
+    "isFeatured": false,
+    "createdAt": "2025-07-29T03:36:31.203939",
+    "variants": {
+      "hasColorOptions": true,
+      "availableColors": [
+        "Red",
+        "Blue",
+        "Yellow"
+      ]
+    },
+    "media": {
+      "imageUrls": [
+        "/api/images/img3.jpeg",
+        "/api/images/img1.jpeg",
+        "/api/images/img10.jpeg",
+        "/api/images/img13.jpeg"
+      ],
+      "primaryImage": "/api/images/img3.jpeg"
+    },
+    "specifications": {
+      "packageContents": "1 x Smartwatch, 1 x Magnetic Charger, 1 x Strap (Extra)",
+      "description": "Experience cutting-edge technology with our premium product.",
+      "keyFeatures": [
+        "High-resolution display",
+        "Multiple color options",
+        "Lightweight design",
+        "Voice assistant"
+      ],
+      "technicalSpecs": {
+        "screenSize": "1.4 inch",
+        "sensors": "Heart rate, Step counter",
+        "waterResistance": "IP68",
+        "expressDelivery": "Not Available",
+        "modelYear": 2021
+      },
+      "reviewIds": [
+        "rev_1025",
+        "rev_1100",
+        "rev_1073",
+        "rev_1012",
+        "rev_1082"
+      ]
+    },
+    "metadata": {
+      "lastUpdated": "2025-07-29T03:36:31.203939",
+      "source": "inventorySystem"
+    }
+  },
+  {
+    "id": "123413",
+    "category": "smartwatch",
+    "name": "HyperTitan 5",
+    "pricing": {
+      "originalPrice": 7400,
+      "currentPrice": 4800
+    },
+    "inventory": {
+      "stockQuantity": 0,
+      "inStock": false
+    },
+    "isFeatured": false,
+    "createdAt": "2025-07-29T03:36:31.203939",
+    "variants": {
+      "hasColorOptions": true,
+      "availableColors": [
+        "Red",
+        "Blue",
+        "Yellow"
+      ]
+    },
+    "media": {
+      "imageUrls": [
+        "/api/images/img10.jpeg",
+        "/api/images/img4.jpeg",
+        "/api/images/img5.jpeg",
+        "/api/images/img6.jpeg"
+      ],
+      "primaryImage": "/api/images/img10.jpeg"
+    },
+    "specifications": {
+      "packageContents": "1 x Device, 1 x USB-C Cable, 1 x Ear Tips (S/M/L), 1 x Storage Pouch",
+      "description": "Innovative design meets superior functionality in this amazing product.",
+      "keyFeatures": [
+        "Sleek design",
+        "Multiple ports",
+        "Compact size",
+        "Fast data transfer"
+      ],
+      "technicalSpecs": {
+        "material": "Plastic",
+        "warranty": "1 year",
+        "dimensions": "5x3x1 inches",
+        "expressDelivery": "Not Available",
+        "modelYear": 2021
+      },
+      "reviewIds": [
+        "rev_1006",
+        "rev_1080",
+        "rev_1087",
+        "rev_1016",
+        "rev_1033",
+        "rev_1091"
+      ]
+    },
+    "metadata": {
+      "lastUpdated": "2025-07-29T03:36:31.203939",
+      "source": "inventorySystem"
+    }
+  },
+  {
+    "id": "123414",
+    "category": "powerbank",
+    "name": "HyperBoost Plus",
+    "pricing": {
+      "originalPrice": 7200,
+      "currentPrice": 3300
+    },
+    "inventory": {
+      "stockQuantity": 50,
+      "inStock": true
+    },
+    "isFeatured": false,
+    "createdAt": "2025-07-29T03:36:31.203939",
+    "variants": {
+      "hasColorOptions": true,
+      "availableColors": [
+        "Black",
+        "White",
+        "Silver",
+        "Gray"
+      ]
+    },
+    "media": {
+      "imageUrls": [
+        "/api/images/img9.jpeg",
+        "/api/images/img5.jpeg",
+        "/api/images/img1.jpeg",
+        "/api/images/img2.jpeg"
+      ],
+      "primaryImage": "/api/images/img9.jpeg"
+    },
+    "specifications": {
+      "packageContents": "1 x Main Unit, 1 x Charging Cable, 1 x User Manual, 1 x Warranty Card",
+      "description": "The ultimate solution for your everyday needs with advanced features.",
+      "keyFeatures": [
+        "High-resolution display",
+        "Multiple color options",
+        "Lightweight design",
+        "Voice assistant"
+      ],
+      "technicalSpecs": {
+        "screenSize": "1.4 inch",
+        "sensors": "Heart rate, Step counter",
+        "waterResistance": "IP68",
+        "expressDelivery": "Not Available",
+        "modelYear": 2021
+      },
+      "reviewIds": [
+        "rev_1053",
+        "rev_1089",
+        "rev_1025",
+        "rev_1041"
+      ]
+    },
+    "metadata": {
+      "lastUpdated": "2025-07-29T03:36:31.203939",
+      "source": "inventorySystem"
+    }
+  },
+  {
+    "id": "123415",
+    "category": "vr-headset",
+    "name": "SoundPro 5",
+    "pricing": {
+      "originalPrice": 7900,
+      "currentPrice": 6200
+    },
+    "inventory": {
+      "stockQuantity": 22,
+      "inStock": true
+    },
+    "isFeatured": false,
+    "createdAt": "2025-07-29T03:36:31.203939",
+    "variants": {
+      "hasColorOptions": true,
+      "availableColors": [
+        "Red",
+        "Blue",
+        "Yellow"
+      ]
+    },
+    "media": {
+      "imageUrls": [
+        "/api/images/img1.jpeg",
+        "/api/images/img7.jpeg",
+        "/api/images/img8.jpeg",
+        "/api/images/img12.jpeg"
+      ],
+      "primaryImage": "/api/images/img1.jpeg"
+    },
+    "specifications": {
+      "packageContents": "1 x Smartwatch, 1 x Magnetic Charger, 1 x Strap (Extra)",
+      "description": "Experience cutting-edge technology with our premium product.",
+      "keyFeatures": [
+        "Sleek design",
+        "Multiple ports",
+        "Compact size",
+        "Fast data transfer"
+      ],
+      "technicalSpecs": {
+        "material": "Plastic",
+        "warranty": "1 year",
+        "dimensions": "5x3x1 inches",
+        "expressDelivery": "Not Available",
+        "modelYear": 2021
+      },
+      "reviewIds": [
+        "rev_1011",
+        "rev_1053",
+        "rev_1100"
+      ]
+    },
+    "metadata": {
+      "lastUpdated": "2025-07-29T03:36:31.203939",
+      "source": "inventorySystem"
+    }
+  },
+  {
+    "id": "123416",
+    "category": "wireless-charger",
+    "name": "SoundTitan 5",
+    "pricing": {
+      "originalPrice": 7600,
+      "currentPrice": 6100
+    },
+    "inventory": {
+      "stockQuantity": 0,
+      "inStock": false
+    },
+    "isFeatured": false,
+    "createdAt": "2025-07-29T03:36:31.203939",
+    "variants": {
+      "hasColorOptions": true,
+      "availableColors": [
+        "Red",
+        "Blue",
+        "Yellow"
+      ]
+    },
+    "media": {
+      "imageUrls": [
+        "/api/images/img5.jpeg",
+        "/api/images/img4.jpeg",
+        "/api/images/img12.jpeg",
+        "/api/images/img7.jpeg"
+      ],
+      "primaryImage": "/api/images/img5.jpeg"
+    },
+    "specifications": {
+      "packageContents": "1 x Headset, 1 x AUX Cable, 1 x Cleaning Cloth",
+      "description": "The ultimate solution for your everyday needs with advanced features.",
+      "keyFeatures": [
+        "Noise cancellation",
+        "Comfortable fit",
+        "Wireless freedom",
+        "Crystal clear sound"
+      ],
+      "technicalSpecs": {
+        "material": "Plastic",
+        "warranty": "1 year",
+        "dimensions": "5x3x1 inches",
+        "expressDelivery": "Not Available",
+        "modelYear": 2021
+      },
+      "reviewIds": [
+        "rev_1075",
+        "rev_1021",
+        "rev_1052"
+      ]
+    },
+    "metadata": {
+      "lastUpdated": "2025-07-29T03:36:31.203939",
+      "source": "inventorySystem"
+    }
+  },
+  {
+    "id": "123417",
+    "category": "gaming-headset",
+    "name": "ChargeBoost X2",
+    "pricing": {
+      "originalPrice": 7400,
+      "currentPrice": 3800
+    },
+    "inventory": {
+      "stockQuantity": 0,
+      "inStock": false
+    },
+    "isFeatured": true,
+    "createdAt": "2025-07-29T03:36:31.203939",
+    "variants": {
+      "hasColorOptions": true,
+      "availableColors": [
+        "Red",
+        "Blue",
+        "Yellow"
+      ]
+    },
+    "media": {
+      "imageUrls": [
+        "/api/images/img12.jpeg",
+        "/api/images/img6.jpeg",
+        "/api/images/img10.jpeg",
+        "/api/images/img11.jpeg"
+      ],
+      "primaryImage": "/api/images/img12.jpeg"
+    },
+    "specifications": {
+      "packageContents": "1 x VR Headset, 2 x Controllers, 1 x Lens Cleaning Kit",
+      "description": "Experience cutting-edge technology with our premium product.",
+      "keyFeatures": [
+        "Noise cancellation",
+        "Comfortable fit",
+        "Wireless freedom",
+        "Crystal clear sound"
+      ],
+      "technicalSpecs": {
+        "weight": "150g",
+        "compatibility": "iOS/Android",
+        "chargingTime": "2 hours",
+        "expressDelivery": "Not Available",
+        "modelYear": 2022
+      },
+      "reviewIds": [
+        "rev_1037",
+        "rev_1072",
+        "rev_1031",
+        "rev_1021"
+      ]
+    },
+    "metadata": {
+      "lastUpdated": "2025-07-29T03:36:31.203939",
+      "source": "inventorySystem"
+    }
+  },
+  {
+    "id": "123418",
+    "category": "wireless-charger",
+    "name": "ImmersaSync Air",
+    "pricing": {
+      "originalPrice": 7200,
+      "currentPrice": 6100
+    },
+    "inventory": {
+      "stockQuantity": 0,
+      "inStock": false
+    },
+    "isFeatured": false,
+    "createdAt": "2025-07-29T03:36:31.203939",
+    "variants": {
+      "hasColorOptions": true,
+      "availableColors": [
+        "Green",
+        "LimeGreen",
+        "Olive"
+      ]
+    },
+    "media": {
+      "imageUrls": [
+        "/api/images/img9.jpeg",
+        "/api/images/img13.jpeg",
+        "/api/images/img10.jpeg",
+        "/api/images/img2.jpeg"
+      ],
+      "primaryImage": "/api/images/img9.jpeg"
+    },
+    "specifications": {
+      "packageContents": "1 x Speaker, 1 x Power Adapter, 1 x 3.5mm Audio Cable",
+      "description": "Designed for performance and style, this product exceeds expectations.",
+      "keyFeatures": [
+        "Sleek design",
+        "Multiple ports",
+        "Compact size",
+        "Fast data transfer"
+      ],
+      "technicalSpecs": {
+        "weight": "150g",
+        "compatibility": "iOS/Android",
+        "chargingTime": "2 hours",
+        "expressDelivery": "Not Available",
+        "modelYear": 2022
+      },
+      "reviewIds": [
+        "rev_1054",
+        "rev_1093",
+        "rev_1078"
+      ]
+    },
+    "metadata": {
+      "lastUpdated": "2025-07-29T03:36:31.203939",
+      "source": "inventorySystem"
+    }
+  },
+  {
+    "id": "123419",
+    "category": "wireless-charger",
+    "name": "SoundX Ultra",
+    "pricing": {
+      "originalPrice": 7800,
+      "currentPrice": 5100
+    },
+    "inventory": {
+      "stockQuantity": 31,
+      "inStock": true
+    },
+    "isFeatured": false,
+    "createdAt": "2025-07-29T03:36:31.203939",
+    "variants": {
+      "hasColorOptions": true,
+      "availableColors": [
+        "Black",
+        "White",
+        "Silver",
+        "Gray"
+      ]
+    },
+    "media": {
+      "imageUrls": [
+        "/api/images/img5.jpeg",
+        "/api/images/img12.jpeg",
+        "/api/images/img6.jpeg",
+        "/api/images/img2.jpeg"
+      ],
+      "primaryImage": "/api/images/img5.jpeg"
+    },
+    "specifications": {
+      "packageContents": "1 x Main Unit, 1 x Charging Cable, 1 x User Manual, 1 x Warranty Card",
+      "description": "Designed for performance and style, this product exceeds expectations.",
+      "keyFeatures": [
+        "High-resolution display",
+        "Multiple color options",
+        "Lightweight design",
+        "Voice assistant"
+      ],
+      "technicalSpecs": {
+        "screenSize": "1.4 inch",
+        "sensors": "Heart rate, Step counter",
+        "waterResistance": "IP68",
+        "expressDelivery": "Not Available",
+        "modelYear": 2021
+      },
+      "reviewIds": [
+        "rev_1082",
+        "rev_1027",
+        "rev_1060"
+      ]
+    },
+    "metadata": {
+      "lastUpdated": "2025-07-29T03:36:31.203939",
+      "source": "inventorySystem"
+    }
+  },
+  {
+    "id": "123420",
+    "category": "wireless-charger",
+    "name": "QiBoost 360",
+    "pricing": {
+      "originalPrice": 6700,
+      "currentPrice": 5400
+    },
+    "inventory": {
+      "stockQuantity": 0,
+      "inStock": false
+    },
+    "isFeatured": false,
+    "createdAt": "2025-07-29T03:36:31.203939",
+    "variants": {
+      "hasColorOptions": true,
+      "availableColors": [
+        "Black",
+        "White",
+        "Silver",
+        "Gray"
+      ]
+    },
+    "media": {
+      "imageUrls": [
+        "/api/images/img8.jpeg",
+        "/api/images/img10.jpeg",
+        "/api/images/img1.jpeg",
+        "/api/images/img4.jpeg"
+      ],
+      "primaryImage": "/api/images/img8.jpeg"
+    },
+    "specifications": {
+      "packageContents": "1 x Speaker, 1 x Power Adapter, 1 x 3.5mm Audio Cable",
+      "description": "Designed for performance and style, this product exceeds expectations.",
+      "keyFeatures": [
+        "Immersive experience",
+        "Adjustable straps",
+        "High refresh rate",
+        "Wide compatibility"
+      ],
+      "technicalSpecs": {
+        "weight": "150g",
+        "compatibility": "iOS/Android",
+        "chargingTime": "2 hours",
+        "expressDelivery": "Not Available",
+        "modelYear": 2022
+      },
+      "reviewIds": [
+        "rev_1053",
+        "rev_1016",
+        "rev_1077"
+      ]
+    },
+    "metadata": {
+      "lastUpdated": "2025-07-29T03:36:31.203939",
+      "source": "inventorySystem"
+    }
+  },
+  {
+    "id": "123421",
+    "category": "gaming-headset",
+    "name": "ImmersaSync X2",
+    "pricing": {
+      "originalPrice": 6300,
+      "currentPrice": 3700
+    },
+    "inventory": {
+      "stockQuantity": 0,
+      "inStock": false
+    },
+    "isFeatured": false,
+    "createdAt": "2025-07-29T03:36:31.203939",
+    "variants": {
+      "hasColorOptions": true,
+      "availableColors": [
+        "Red",
+        "Blue",
+        "Yellow"
+      ]
+    },
+    "media": {
+      "imageUrls": [
+        "/api/images/img7.jpeg",
+        "/api/images/img8.jpeg",
+        "/api/images/img13.jpeg",
+        "/api/images/img10.jpeg"
+      ],
+      "primaryImage": "/api/images/img7.jpeg"
+    },
+    "specifications": {
+      "packageContents": "1 x Device, 1 x USB-C Cable, 1 x Ear Tips (S/M/L), 1 x Storage Pouch",
+      "description": "The ultimate solution for your everyday needs with advanced features.",
+      "keyFeatures": [
+        "Immersive experience",
+        "Adjustable straps",
+        "High refresh rate",
+        "Wide compatibility"
+      ],
+      "technicalSpecs": {
+        "screenSize": "1.4 inch",
+        "sensors": "Heart rate, Step counter",
+        "waterResistance": "IP68",
+        "expressDelivery": "Not Available",
+        "modelYear": 2021
+      },
+      "reviewIds": [
+        "rev_1035",
+        "rev_1050",
+        "rev_1031",
+        "rev_1095"
+      ]
+    },
+    "metadata": {
+      "lastUpdated": "2025-07-29T03:36:31.203939",
+      "source": "inventorySystem"
+    }
+  },
+  {
+    "id": "123422",
+    "category": "bluetooth-speaker",
+    "name": "HyperSync 360",
+    "pricing": {
+      "originalPrice": 5300,
+      "currentPrice": 3400
+    },
+    "inventory": {
+      "stockQuantity": 50,
+      "inStock": true
+    },
+    "isFeatured": false,
+    "createdAt": "2025-07-29T03:36:31.203939",
+    "variants": {
+      "hasColorOptions": true,
+      "availableColors": [
+        "Red",
+        "Blue",
+        "Yellow"
+      ]
+    },
+    "media": {
+      "imageUrls": [
+        "/api/images/img2.jpeg",
+        "/api/images/img3.jpeg",
+        "/api/images/img5.jpeg",
+        "/api/images/img7.jpeg"
+      ],
+      "primaryImage": "/api/images/img2.jpeg"
+    },
+    "specifications": {
+      "packageContents": "1 x VR Headset, 2 x Controllers, 1 x Lens Cleaning Kit",
+      "description": "Experience cutting-edge technology with our premium product.",
+      "keyFeatures": [
+        "Long battery life",
+        "Fast charging",
+        "Water resistant",
+        "Bluetooth connectivity"
+      ],
+      "technicalSpecs": {
+        "material": "Plastic",
+        "warranty": "1 year",
+        "dimensions": "5x3x1 inches",
+        "expressDelivery": "Not Available",
+        "modelYear": 2021
+      },
+      "reviewIds": [
+        "rev_1072",
+        "rev_1048",
+        "rev_1013",
+        "rev_1010",
+        "rev_1009",
+        "rev_1002"
+      ]
+    },
+    "metadata": {
+      "lastUpdated": "2025-07-29T03:36:31.203939",
+      "source": "inventorySystem"
+    }
+  },
+  {
+    "id": "123423",
+    "category": "gaming-headset",
+    "name": "ChargeBoost Ultra",
+    "pricing": {
+      "originalPrice": 8100,
+      "currentPrice": 5200
+    },
+    "inventory": {
+      "stockQuantity": 0,
+      "inStock": false
+    },
+    "isFeatured": false,
+    "createdAt": "2025-07-29T03:36:31.203939",
+    "variants": {
+      "hasColorOptions": true,
+      "availableColors": [
+        "Black",
+        "White",
+        "Silver",
+        "Gray"
+      ]
+    },
+    "media": {
+      "imageUrls": [
+        "/api/images/img9.jpeg",
+        "/api/images/img6.jpeg",
+        "/api/images/img7.jpeg",
+        "/api/images/img10.jpeg"
+      ],
+      "primaryImage": "/api/images/img9.jpeg"
+    },
+    "specifications": {
+      "packageContents": "1 x Speaker, 1 x Power Adapter, 1 x 3.5mm Audio Cable",
+      "description": "Transform your experience with this high-quality, feature-rich product.",
+      "keyFeatures": [
+        "Noise cancellation",
+        "Comfortable fit",
+        "Wireless freedom",
+        "Crystal clear sound"
+      ],
+      "technicalSpecs": {
+        "driverSize": "40mm",
+        "frequencyResponse": "20Hz-20kHz",
+        "impedance": "32 ohms",
+        "expressDelivery": "Not Available",
+        "modelYear": 2020
+      },
+      "reviewIds": [
+        "rev_1061",
+        "rev_1029",
+        "rev_1075"
+      ]
+    },
+    "metadata": {
+      "lastUpdated": "2025-07-29T03:36:31.203939",
+      "source": "inventorySystem"
+    }
+  },
+  {
+    "id": "123424",
+    "category": "powerbank",
+    "name": "FitPro 5",
+    "pricing": {
+      "originalPrice": 8400,
+      "currentPrice": 5100
+    },
+    "inventory": {
+      "stockQuantity": 0,
+      "inStock": false
+    },
+    "isFeatured": true,
+    "createdAt": "2025-07-29T03:36:31.203939",
+    "variants": {
+      "hasColorOptions": true,
+      "availableColors": [
+        "Red",
+        "Blue",
+        "Yellow"
+      ]
+    },
+    "media": {
+      "imageUrls": [
+        "/api/images/img9.jpeg",
+        "/api/images/img3.jpeg",
+        "/api/images/img13.jpeg",
+        "/api/images/img6.jpeg"
+      ],
+      "primaryImage": "/api/images/img9.jpeg"
+    },
+    "specifications": {
+      "packageContents": "1 x Smartwatch, 1 x Magnetic Charger, 1 x Strap (Extra)",
+      "description": "Innovative design meets superior functionality in this amazing product.",
+      "keyFeatures": [
+        "Sleek design",
+        "Multiple ports",
+        "Compact size",
+        "Fast data transfer"
+      ],
+      "technicalSpecs": {
+        "driverSize": "40mm",
+        "frequencyResponse": "20Hz-20kHz",
+        "impedance": "32 ohms",
+        "expressDelivery": "Not Available",
+        "modelYear": 2020
+      },
+      "reviewIds": [
+        "rev_1028",
+        "rev_1043",
+        "rev_1024",
+        "rev_1078",
+        "rev_1070"
+      ]
+    },
+    "metadata": {
+      "lastUpdated": "2025-07-29T03:36:31.203939",
+      "source": "inventorySystem"
+    }
+  },
+  {
+    "id": "123425",
+    "category": "bluetooth-speaker",
+    "name": "ImmersaX X2",
+    "pricing": {
+      "originalPrice": 6500,
+      "currentPrice": 4100
+    },
+    "inventory": {
+      "stockQuantity": 0,
+      "inStock": false
+    },
+    "isFeatured": true,
+    "createdAt": "2025-07-29T03:36:31.203939",
+    "variants": {
+      "hasColorOptions": true,
+      "availableColors": [
+        "Red",
+        "Blue",
+        "Yellow"
+      ]
+    },
+    "media": {
+      "imageUrls": [
+        "/api/images/img4.jpeg",
+        "/api/images/img5.jpeg",
+        "/api/images/img2.jpeg",
+        "/api/images/img8.jpeg"
+      ],
+      "primaryImage": "/api/images/img4.jpeg"
+    },
+    "specifications": {
+      "packageContents": "1 x Main Unit, 1 x Charging Cable, 1 x User Manual, 1 x Warranty Card",
+      "description": "Designed for performance and style, this product exceeds expectations.",
+      "keyFeatures": [
+        "Noise cancellation",
+        "Comfortable fit",
+        "Wireless freedom",
+        "Crystal clear sound"
+      ],
+      "technicalSpecs": {
+        "material": "Plastic",
+        "warranty": "1 year",
+        "dimensions": "5x3x1 inches",
+        "expressDelivery": "Not Available",
+        "modelYear": 2021
+      },
+      "reviewIds": [
+        "rev_1007",
+        "rev_1091",
+        "rev_1022",
+        "rev_1066",
+        "rev_1030"
+      ]
+    },
+    "metadata": {
+      "lastUpdated": "2025-07-29T03:36:31.203939",
+      "source": "inventorySystem"
+    }
+  },
+  {
+    "id": "123426",
+    "category": "airbuds",
+    "name": "PulseTitan Ultra",
+    "pricing": {
+      "originalPrice": 8000,
+      "currentPrice": 4200
+    },
+    "inventory": {
+      "stockQuantity": 32,
+      "inStock": true
+    },
+    "isFeatured": false,
+    "createdAt": "2025-07-29T03:36:31.203939",
+    "variants": {
+      "hasColorOptions": true,
+      "availableColors": [
+        "Black",
+        "White",
+        "Silver",
+        "Gray"
+      ]
+    },
+    "media": {
+      "imageUrls": [
+        "/api/images/img1.jpeg",
+        "/api/images/img6.jpeg",
+        "/api/images/img3.jpeg",
+        "/api/images/img7.jpeg"
+      ],
+      "primaryImage": "/api/images/img1.jpeg"
+    },
+    "specifications": {
+      "packageContents": "1 x Device, 1 x USB-C Cable, 1 x Ear Tips (S/M/L), 1 x Storage Pouch",
+      "description": "Transform your experience with this high-quality, feature-rich product.",
+      "keyFeatures": [
+        "Immersive experience",
+        "Adjustable straps",
+        "High refresh rate",
+        "Wide compatibility"
+      ],
+      "technicalSpecs": {
+        "driverSize": "40mm",
+        "frequencyResponse": "20Hz-20kHz",
+        "impedance": "32 ohms",
+        "expressDelivery": "Not Available",
+        "modelYear": 2020
+      },
+      "reviewIds": [
+        "rev_1066",
+        "rev_1005",
+        "rev_1021"
+      ]
+    },
+    "metadata": {
+      "lastUpdated": "2025-07-29T03:36:31.203939",
+      "source": "inventorySystem"
+    }
+  },
+  {
+    "id": "123427",
+    "category": "smartwatch",
+    "name": "ChargeMate Elite",
+    "pricing": {
+      "originalPrice": 8600,
+      "currentPrice": 6000
+    },
+    "inventory": {
+      "stockQuantity": 24,
+      "inStock": true
+    },
+    "isFeatured": false,
+    "createdAt": "2025-07-29T03:36:31.203939",
+    "variants": {
+      "hasColorOptions": true,
+      "availableColors": [
+        "Green",
+        "LimeGreen",
+        "Olive"
+      ]
+    },
+    "media": {
+      "imageUrls": [
+        "/api/images/img11.jpeg",
+        "/api/images/img6.jpeg",
+        "/api/images/img13.jpeg",
+        "/api/images/img1.jpeg"
+      ],
+      "primaryImage": "/api/images/img11.jpeg"
+    },
+    "specifications": {
+      "packageContents": "1 x Main Unit, 1 x Charging Cable, 1 x User Manual, 1 x Warranty Card",
+      "description": "Experience cutting-edge technology with our premium product.",
+      "keyFeatures": [
+        "Long battery life",
+        "Fast charging",
+        "Water resistant",
+        "Bluetooth connectivity"
+      ],
+      "technicalSpecs": {
+        "material": "Plastic",
+        "warranty": "1 year",
+        "dimensions": "5x3x1 inches",
+        "expressDelivery": "Not Available",
+        "modelYear": 2021
+      },
+      "reviewIds": [
+        "rev_1083",
+        "rev_1080",
+        "rev_1020",
+        "rev_1090"
+      ]
+    },
+    "metadata": {
+      "lastUpdated": "2025-07-29T03:36:31.203939",
+      "source": "inventorySystem"
+    }
+  },
+  {
+    "id": "123428",
+    "category": "bluetooth-speaker",
+    "name": "PulseX Air",
+    "pricing": {
+      "originalPrice": 5900,
+      "currentPrice": 2500
+    },
+    "inventory": {
+      "stockQuantity": 0,
+      "inStock": false
+    },
+    "isFeatured": false,
+    "createdAt": "2025-07-29T03:36:31.203939",
+    "variants": {
+      "hasColorOptions": true,
+      "availableColors": [
+        "Red",
+        "Blue",
+        "Yellow"
+      ]
+    },
+    "media": {
+      "imageUrls": [
+        "/api/images/img6.jpeg",
+        "/api/images/img1.jpeg",
+        "/api/images/img11.jpeg",
+        "/api/images/img8.jpeg"
+      ],
+      "primaryImage": "/api/images/img6.jpeg"
+    },
+    "specifications": {
+      "packageContents": "1 x Smartwatch, 1 x Magnetic Charger, 1 x Strap (Extra)",
+      "description": "Experience cutting-edge technology with our premium product.",
+      "keyFeatures": [
+        "Long battery life",
+        "Fast charging",
+        "Water resistant",
+        "Bluetooth connectivity"
+      ],
+      "technicalSpecs": {
+        "screenSize": "1.4 inch",
+        "sensors": "Heart rate, Step counter",
+        "waterResistance": "IP68",
+        "expressDelivery": "Not Available",
+        "modelYear": 2021
+      },
+      "reviewIds": [
+        "rev_1032",
+        "rev_1019",
+        "rev_1056"
+      ]
+    },
+    "metadata": {
+      "lastUpdated": "2025-07-29T03:36:31.203939",
+      "source": "inventorySystem"
+    }
+  },
+  {
+    "id": "123429",
+    "category": "vr-headset",
+    "name": "SoundTitan Elite",
+    "pricing": {
+      "originalPrice": 5700,
+      "currentPrice": 1700
+    },
+    "inventory": {
+      "stockQuantity": 39,
+      "inStock": true
+    },
+    "isFeatured": false,
+    "createdAt": "2025-07-29T03:36:31.203939",
+    "variants": {
+      "hasColorOptions": true,
+      "availableColors": [
+        "Green",
+        "LimeGreen",
+        "Olive"
+      ]
+    },
+    "media": {
+      "imageUrls": [
+        "/api/images/img4.jpeg",
+        "/api/images/img10.jpeg",
+        "/api/images/img1.jpeg",
+        "/api/images/img12.jpeg"
+      ],
+      "primaryImage": "/api/images/img4.jpeg"
+    },
+    "specifications": {
+      "packageContents": "1 x Smartwatch, 1 x Magnetic Charger, 1 x Strap (Extra)",
+      "description": "Designed for performance and style, this product exceeds expectations.",
+      "keyFeatures": [
+        "Sleek design",
+        "Multiple ports",
+        "Compact size",
+        "Fast data transfer"
+      ],
+      "technicalSpecs": {
+        "screenSize": "1.4 inch",
+        "sensors": "Heart rate, Step counter",
+        "waterResistance": "IP68",
+        "expressDelivery": "Not Available",
+        "modelYear": 2021
+      },
+      "reviewIds": [
+        "rev_1039",
+        "rev_1033",
+        "rev_1065",
+        "rev_1088",
+        "rev_1001",
+        "rev_1020"
+      ]
+    },
+    "metadata": {
+      "lastUpdated": "2025-07-29T03:36:31.203939",
+      "source": "inventorySystem"
+    }
+  },
+  {
+    "id": "123430",
+    "category": "gaming-headset",
+    "name": "SoundSync Elite",
+    "pricing": {
+      "originalPrice": 7400,
+      "currentPrice": 3400
+    },
+    "inventory": {
+      "stockQuantity": 0,
+      "inStock": false
+    },
+    "isFeatured": false,
+    "createdAt": "2025-07-29T03:36:31.203939",
+    "variants": {
+      "hasColorOptions": true,
+      "availableColors": [
+        "Black",
+        "White",
+        "Silver",
+        "Gray"
+      ]
+    },
+    "media": {
+      "imageUrls": [
+        "/api/images/img11.jpeg",
+        "/api/images/img7.jpeg",
+        "/api/images/img10.jpeg",
+        "/api/images/img8.jpeg"
+      ],
+      "primaryImage": "/api/images/img11.jpeg"
+    },
+    "specifications": {
+      "packageContents": "1 x Product, 2 x AAA Batteries, Quick Start Guide",
+      "description": "Transform your experience with this high-quality, feature-rich product.",
+      "keyFeatures": [
+        "Noise cancellation",
+        "Comfortable fit",
+        "Wireless freedom",
+        "Crystal clear sound"
+      ],
+      "technicalSpecs": {
+        "driverSize": "40mm",
+        "frequencyResponse": "20Hz-20kHz",
+        "impedance": "32 ohms",
+        "expressDelivery": "Not Available",
+        "modelYear": 2020
+      },
+      "reviewIds": [
+        "rev_1079",
+        "rev_1087",
+        "rev_1031",
+        "rev_1004"
+      ]
+    },
+    "metadata": {
+      "lastUpdated": "2025-07-29T03:36:31.203939",
+      "source": "inventorySystem"
+    }
+  },
+  {
+    "id": "123431",
+    "category": "bluetooth-speaker",
+    "name": "ImmersaBoost Elite",
+    "pricing": {
+      "originalPrice": 8200,
+      "currentPrice": 5100
+    },
+    "inventory": {
+      "stockQuantity": 31,
+      "inStock": true
+    },
+    "isFeatured": false,
+    "createdAt": "2025-07-29T03:36:31.203939",
+    "variants": {
+      "hasColorOptions": true,
+      "availableColors": [
+        "Green",
+        "LimeGreen",
+        "Olive"
+      ]
+    },
+    "media": {
+      "imageUrls": [
+        "/api/images/img8.jpeg",
+        "/api/images/img9.jpeg",
+        "/api/images/img13.jpeg",
+        "/api/images/img11.jpeg"
+      ],
+      "primaryImage": "/api/images/img8.jpeg"
+    },
+    "specifications": {
+      "packageContents": "1 x Main Unit, 1 x Charging Cable, 1 x User Manual, 1 x Warranty Card",
+      "description": "The ultimate solution for your everyday needs with advanced features.",
+      "keyFeatures": [
+        "Immersive experience",
+        "Adjustable straps",
+        "High refresh rate",
+        "Wide compatibility"
+      ],
+      "technicalSpecs": {
+        "screenSize": "1.4 inch",
+        "sensors": "Heart rate, Step counter",
+        "waterResistance": "IP68",
+        "expressDelivery": "Not Available",
+        "modelYear": 2021
+      },
+      "reviewIds": [
+        "rev_1032",
+        "rev_1085",
+        "rev_1077",
+        "rev_1006",
+        "rev_1083",
+        "rev_1088"
+      ]
+    },
+    "metadata": {
+      "lastUpdated": "2025-07-29T03:36:31.203939",
+      "source": "inventorySystem"
+    }
+  },
+  {
+    "id": "123432",
+    "category": "gaming-headset",
+    "name": "PulseMax Plus",
+    "pricing": {
+      "originalPrice": 5600,
+      "currentPrice": 2200
+    },
+    "inventory": {
+      "stockQuantity": 23,
+      "inStock": true
+    },
+    "isFeatured": false,
+    "createdAt": "2025-07-29T03:36:31.203939",
+    "variants": {
+      "hasColorOptions": true,
+      "availableColors": [
+        "Black",
+        "White",
+        "Silver",
+        "Gray"
+      ]
+    },
+    "media": {
+      "imageUrls": [
+        "/api/images/img7.jpeg",
+        "/api/images/img1.jpeg",
+        "/api/images/img13.jpeg",
+        "/api/images/img11.jpeg"
+      ],
+      "primaryImage": "/api/images/img7.jpeg"
+    },
+    "specifications": {
+      "packageContents": "1 x Headset, 1 x AUX Cable, 1 x Cleaning Cloth",
+      "description": "Transform your experience with this high-quality, feature-rich product.",
+      "keyFeatures": [
+        "Long battery life",
+        "Fast charging",
+        "Water resistant",
+        "Bluetooth connectivity"
+      ],
+      "technicalSpecs": {
+        "driverSize": "40mm",
+        "frequencyResponse": "20Hz-20kHz",
+        "impedance": "32 ohms",
+        "expressDelivery": "Not Available",
+        "modelYear": 2020
+      },
+      "reviewIds": [
+        "rev_1078",
+        "rev_1088",
+        "rev_1037",
+        "rev_1064",
+        "rev_1010",
+        "rev_1016"
+      ]
+    },
+    "metadata": {
+      "lastUpdated": "2025-07-29T03:36:31.203939",
+      "source": "inventorySystem"
+    }
+  },
+  {
+    "id": "123433",
+    "category": "bluetooth-speaker",
+    "name": "SoundSync 360",
+    "pricing": {
+      "originalPrice": 5000,
+      "currentPrice": 2800
+    },
+    "inventory": {
+      "stockQuantity": 0,
+      "inStock": false
+    },
+    "isFeatured": true,
+    "createdAt": "2025-07-29T03:36:31.203939",
+    "variants": {
+      "hasColorOptions": true,
+      "availableColors": [
+        "Green",
+        "LimeGreen",
+        "Olive"
+      ]
+    },
+    "media": {
+      "imageUrls": [
+        "/api/images/img6.jpeg",
+        "/api/images/img11.jpeg",
+        "/api/images/img7.jpeg",
+        "/api/images/img2.jpeg"
+      ],
+      "primaryImage": "/api/images/img6.jpeg"
+    },
+    "specifications": {
+      "packageContents": "1 x Device, 1 x USB-C Cable, 1 x Ear Tips (S/M/L), 1 x Storage Pouch",
+      "description": "Innovative design meets superior functionality in this amazing product.",
+      "keyFeatures": [
+        "Immersive experience",
+        "Adjustable straps",
+        "High refresh rate",
+        "Wide compatibility"
+      ],
+      "technicalSpecs": {
+        "material": "Plastic",
+        "warranty": "1 year",
+        "dimensions": "5x3x1 inches",
+        "expressDelivery": "Not Available",
+        "modelYear": 2021
+      },
+      "reviewIds": [
+        "rev_1023",
+        "rev_1067",
+        "rev_1088"
+      ]
+    },
+    "metadata": {
+      "lastUpdated": "2025-07-29T03:36:31.203939",
+      "source": "inventorySystem"
+    }
+  },
+  {
+    "id": "123434",
+    "category": "smartwatch",
+    "name": "QiMate X2",
+    "pricing": {
+      "originalPrice": 8600,
+      "currentPrice": 5500
+    },
+    "inventory": {
+      "stockQuantity": 0,
+      "inStock": false
+    },
+    "isFeatured": true,
+    "createdAt": "2025-07-29T03:36:31.203939",
+    "variants": {
+      "hasColorOptions": true,
+      "availableColors": [
+        "Red",
+        "Blue",
+        "Yellow"
+      ]
+    },
+    "media": {
+      "imageUrls": [
+        "/api/images/img6.jpeg",
+        "/api/images/img12.jpeg",
+        "/api/images/img10.jpeg",
+        "/api/images/img1.jpeg"
+      ],
+      "primaryImage": "/api/images/img6.jpeg"
+    },
+    "specifications": {
+      "packageContents": "1 x Smartwatch, 1 x Magnetic Charger, 1 x Strap (Extra)",
+      "description": "Experience cutting-edge technology with our premium product.",
+      "keyFeatures": [
+        "High-resolution display",
+        "Multiple color options",
+        "Lightweight design",
+        "Voice assistant"
+      ],
+      "technicalSpecs": {
+        "weight": "150g",
+        "compatibility": "iOS/Android",
+        "chargingTime": "2 hours",
+        "expressDelivery": "Not Available",
+        "modelYear": 2022
+      },
+      "reviewIds": [
+        "rev_1044",
+        "rev_1025",
+        "rev_1083",
+        "rev_1074",
+        "rev_1032"
+      ]
+    },
+    "metadata": {
+      "lastUpdated": "2025-07-29T03:36:31.203939",
+      "source": "inventorySystem"
+    }
+  },
+  {
+    "id": "123435",
+    "category": "vr-headset",
+    "name": "PulseX X2",
+    "pricing": {
+      "originalPrice": 8400,
+      "currentPrice": 5400
+    },
+    "inventory": {
+      "stockQuantity": 19,
+      "inStock": true
+    },
+    "isFeatured": false,
+    "createdAt": "2025-07-29T03:36:31.203939",
+    "variants": {
+      "hasColorOptions": true,
+      "availableColors": [
+        "Green",
+        "LimeGreen",
+        "Olive"
+      ]
+    },
+    "media": {
+      "imageUrls": [
+        "/api/images/img6.jpeg",
+        "/api/images/img9.jpeg",
+        "/api/images/img1.jpeg",
+        "/api/images/img11.jpeg"
+      ],
+      "primaryImage": "/api/images/img6.jpeg"
+    },
+    "specifications": {
+      "packageContents": "1 x VR Headset, 2 x Controllers, 1 x Lens Cleaning Kit",
+      "description": "Experience cutting-edge technology with our premium product.",
+      "keyFeatures": [
+        "Immersive experience",
+        "Adjustable straps",
+        "High refresh rate",
+        "Wide compatibility"
+      ],
+      "technicalSpecs": {
+        "screenSize": "1.4 inch",
+        "sensors": "Heart rate, Step counter",
+        "waterResistance": "IP68",
+        "expressDelivery": "Not Available",
+        "modelYear": 2021
+      },
+      "reviewIds": [
+        "rev_1025",
+        "rev_1081",
+        "rev_1001"
+      ]
+    },
+    "metadata": {
+      "lastUpdated": "2025-07-29T03:36:31.203939",
+      "source": "inventorySystem"
+    }
+  },
+  {
+    "id": "123436",
+    "category": "airbuds",
+    "name": "FitSync Plus",
+    "pricing": {
+      "originalPrice": 7600,
+      "currentPrice": 4600
+    },
+    "inventory": {
+      "stockQuantity": 0,
+      "inStock": false
+    },
+    "isFeatured": false,
+    "createdAt": "2025-07-29T03:36:31.203939",
+    "variants": {
+      "hasColorOptions": true,
+      "availableColors": [
+        "Green",
+        "LimeGreen",
+        "Olive"
+      ]
+    },
+    "media": {
+      "imageUrls": [
+        "/api/images/img9.jpeg",
+        "/api/images/img2.jpeg",
+        "/api/images/img5.jpeg",
+        "/api/images/img10.jpeg"
+      ],
+      "primaryImage": "/api/images/img9.jpeg"
+    },
+    "specifications": {
+      "packageContents": "1 x Main Unit, 1 x Charging Cable, 1 x User Manual, 1 x Warranty Card",
+      "description": "Designed for performance and style, this product exceeds expectations.",
+      "keyFeatures": [
+        "High-resolution display",
+        "Multiple color options",
+        "Lightweight design",
+        "Voice assistant"
+      ],
+      "technicalSpecs": {
+        "screenSize": "1.4 inch",
+        "sensors": "Heart rate, Step counter",
+        "waterResistance": "IP68",
+        "expressDelivery": "Not Available",
+        "modelYear": 2021
+      },
+      "reviewIds": [
+        "rev_1046",
+        "rev_1077",
+        "rev_1068"
+      ]
+    },
+    "metadata": {
+      "lastUpdated": "2025-07-29T03:36:31.203939",
+      "source": "inventorySystem"
+    }
+  },
+  {
+    "id": "123437",
+    "category": "wireless-charger",
+    "name": "FitTitan Air",
+    "pricing": {
+      "originalPrice": 8300,
+      "currentPrice": 6800
+    },
+    "inventory": {
+      "stockQuantity": 0,
+      "inStock": false
+    },
+    "isFeatured": false,
+    "createdAt": "2025-07-29T03:36:31.203939",
+    "variants": {
+      "hasColorOptions": true,
+      "availableColors": [
+        "Red",
+        "Blue",
+        "Yellow"
+      ]
+    },
+    "media": {
+      "imageUrls": [
+        "/api/images/img1.jpeg",
+        "/api/images/img2.jpeg",
+        "/api/images/img7.jpeg",
+        "/api/images/img12.jpeg"
+      ],
+      "primaryImage": "/api/images/img1.jpeg"
+    },
+    "specifications": {
+      "packageContents": "1 x Headset, 1 x AUX Cable, 1 x Cleaning Cloth",
+      "description": "Designed for performance and style, this product exceeds expectations.",
+      "keyFeatures": [
+        "Immersive experience",
+        "Adjustable straps",
+        "High refresh rate",
+        "Wide compatibility"
+      ],
+      "technicalSpecs": {
+        "weight": "150g",
+        "compatibility": "iOS/Android",
+        "chargingTime": "2 hours",
+        "expressDelivery": "Not Available",
+        "modelYear": 2022
+      },
+      "reviewIds": [
+        "rev_1018",
+        "rev_1057",
+        "rev_1054",
+        "rev_1100",
+        "rev_1026"
+      ]
+    },
+    "metadata": {
+      "lastUpdated": "2025-07-29T03:36:31.203939",
+      "source": "inventorySystem"
+    }
+  },
+  {
+    "id": "123438",
+    "category": "vr-headset",
+    "name": "PulseTitan Elite",
+    "pricing": {
+      "originalPrice": 6100,
+      "currentPrice": 4700
+    },
+    "inventory": {
+      "stockQuantity": 0,
+      "inStock": false
+    },
+    "isFeatured": true,
+    "createdAt": "2025-07-29T03:36:31.203939",
+    "variants": {
+      "hasColorOptions": true,
+      "availableColors": [
+        "Black",
+        "White",
+        "Silver",
+        "Gray"
+      ]
+    },
+    "media": {
+      "imageUrls": [
+        "/api/images/img10.jpeg",
+        "/api/images/img4.jpeg",
+        "/api/images/img8.jpeg",
+        "/api/images/img9.jpeg"
+      ],
+      "primaryImage": "/api/images/img10.jpeg"
+    },
+    "specifications": {
+      "packageContents": "1 x Smartwatch, 1 x Magnetic Charger, 1 x Strap (Extra)",
+      "description": "The ultimate solution for your everyday needs with advanced features.",
+      "keyFeatures": [
+        "High-resolution display",
+        "Multiple color options",
+        "Lightweight design",
+        "Voice assistant"
+      ],
+      "technicalSpecs": {
+        "batteryCapacity": "4000mAh",
+        "connectivity": "Bluetooth 5.0",
+        "colorOptions": "3",
+        "expressDelivery": "Not Available",
+        "modelYear": 2020
+      },
+      "reviewIds": [
+        "rev_1057",
+        "rev_1074",
+        "rev_1090"
+      ]
+    },
+    "metadata": {
+      "lastUpdated": "2025-07-29T03:36:31.203939",
+      "source": "inventorySystem"
+    }
+  },
+  {
+    "id": "123439",
+    "category": "wireless-charger",
+    "name": "ImmersaTitan Air",
+    "pricing": {
+      "originalPrice": 8900,
+      "currentPrice": 7800
+    },
+    "inventory": {
+      "stockQuantity": 0,
+      "inStock": false
+    },
+    "isFeatured": false,
+    "createdAt": "2025-07-29T03:36:31.203939",
+    "variants": {
+      "hasColorOptions": true,
+      "availableColors": [
+        "Red",
+        "Blue",
+        "Yellow"
+      ]
+    },
+    "media": {
+      "imageUrls": [
+        "/api/images/img1.jpeg",
+        "/api/images/img2.jpeg",
+        "/api/images/img7.jpeg",
+        "/api/images/img6.jpeg"
+      ],
+      "primaryImage": "/api/images/img1.jpeg"
+    },
+    "specifications": {
+      "packageContents": "1 x Product, 2 x AAA Batteries, Quick Start Guide",
+      "description": "Transform your experience with this high-quality, feature-rich product.",
+      "keyFeatures": [
+        "High-resolution display",
+        "Multiple color options",
+        "Lightweight design",
+        "Voice assistant"
+      ],
+      "technicalSpecs": {
+        "weight": "150g",
+        "compatibility": "iOS/Android",
+        "chargingTime": "2 hours",
+        "expressDelivery": "Not Available",
+        "modelYear": 2022
+      },
+      "reviewIds": [
+        "rev_1072",
+        "rev_1002",
+        "rev_1031",
+        "rev_1073",
+        "rev_1001",
+        "rev_1057"
+      ]
+    },
+    "metadata": {
+      "lastUpdated": "2025-07-29T03:36:31.203939",
+      "source": "inventorySystem"
+    }
+  },
+  {
+    "id": "123440",
+    "category": "gaming-headset",
+    "name": "SoundX Elite",
+    "pricing": {
+      "originalPrice": 5500,
+      "currentPrice": 3600
+    },
+    "inventory": {
+      "stockQuantity": 0,
+      "inStock": false
+    },
+    "isFeatured": false,
+    "createdAt": "2025-07-29T03:36:31.203939",
+    "variants": {
+      "hasColorOptions": true,
+      "availableColors": [
+        "Black",
+        "White",
+        "Silver",
+        "Gray"
+      ]
+    },
+    "media": {
+      "imageUrls": [
+        "/api/images/img2.jpeg",
+        "/api/images/img11.jpeg",
+        "/api/images/img8.jpeg",
+        "/api/images/img13.jpeg"
+      ],
+      "primaryImage": "/api/images/img2.jpeg"
+    },
+    "specifications": {
+      "packageContents": "1 x Main Unit, 1 x Charging Cable, 1 x User Manual, 1 x Warranty Card",
+      "description": "The ultimate solution for your everyday needs with advanced features.",
+      "keyFeatures": [
+        "Sleek design",
+        "Multiple ports",
+        "Compact size",
+        "Fast data transfer"
+      ],
+      "technicalSpecs": {
+        "driverSize": "40mm",
+        "frequencyResponse": "20Hz-20kHz",
+        "impedance": "32 ohms",
+        "expressDelivery": "Not Available",
+        "modelYear": 2020
+      },
+      "reviewIds": [
+        "rev_1044",
+        "rev_1037",
+        "rev_1082",
+        "rev_1098"
+      ]
+    },
+    "metadata": {
+      "lastUpdated": "2025-07-29T03:36:31.203939",
+      "source": "inventorySystem"
+    }
+  },
+  {
+    "id": "123441",
+    "category": "bluetooth-speaker",
+    "name": "QiMate 5",
+    "pricing": {
+      "originalPrice": 5800,
+      "currentPrice": 2800
+    },
+    "inventory": {
+      "stockQuantity": 40,
+      "inStock": true
+    },
+    "isFeatured": false,
+    "createdAt": "2025-07-29T03:36:31.203939",
+    "variants": {
+      "hasColorOptions": true,
+      "availableColors": [
+        "Green",
+        "LimeGreen",
+        "Olive"
+      ]
+    },
+    "media": {
+      "imageUrls": [
+        "/api/images/img11.jpeg",
+        "/api/images/img4.jpeg",
+        "/api/images/img2.jpeg",
+        "/api/images/img8.jpeg"
+      ],
+      "primaryImage": "/api/images/img11.jpeg"
+    },
+    "specifications": {
+      "packageContents": "1 x Main Unit, 1 x Charging Cable, 1 x User Manual, 1 x Warranty Card",
+      "description": "Experience cutting-edge technology with our premium product.",
+      "keyFeatures": [
+        "High-resolution display",
+        "Multiple color options",
+        "Lightweight design",
+        "Voice assistant"
+      ],
+      "technicalSpecs": {
+        "batteryCapacity": "4000mAh",
+        "connectivity": "Bluetooth 5.0",
+        "colorOptions": "3",
+        "expressDelivery": "Not Available",
+        "modelYear": 2020
+      },
+      "reviewIds": [
+        "rev_1002",
+        "rev_1100",
+        "rev_1090"
+      ]
+    },
+    "metadata": {
+      "lastUpdated": "2025-07-29T03:36:31.203939",
+      "source": "inventorySystem"
+    }
+  },
+  {
+    "id": "123442",
+    "category": "wireless-charger",
+    "name": "SoundMate 360",
+    "pricing": {
+      "originalPrice": 6500,
+      "currentPrice": 5500
+    },
+    "inventory": {
+      "stockQuantity": 36,
+      "inStock": true
+    },
+    "isFeatured": false,
+    "createdAt": "2025-07-29T03:36:31.203939",
+    "variants": {
+      "hasColorOptions": true,
+      "availableColors": [
+        "Green",
+        "LimeGreen",
+        "Olive"
+      ]
+    },
+    "media": {
+      "imageUrls": [
+        "/api/images/img11.jpeg",
+        "/api/images/img9.jpeg",
+        "/api/images/img7.jpeg",
+        "/api/images/img5.jpeg"
+      ],
+      "primaryImage": "/api/images/img11.jpeg"
+    },
+    "specifications": {
+      "packageContents": "1 x Smartwatch, 1 x Magnetic Charger, 1 x Strap (Extra)",
+      "description": "Designed for performance and style, this product exceeds expectations.",
+      "keyFeatures": [
+        "Sleek design",
+        "Multiple ports",
+        "Compact size",
+        "Fast data transfer"
+      ],
+      "technicalSpecs": {
+        "material": "Plastic",
+        "warranty": "1 year",
+        "dimensions": "5x3x1 inches",
+        "expressDelivery": "Not Available",
+        "modelYear": 2021
+      },
+      "reviewIds": [
+        "rev_1073",
+        "rev_1005",
+        "rev_1094",
+        "rev_1021"
+      ]
+    },
+    "metadata": {
+      "lastUpdated": "2025-07-29T03:36:31.203939",
+      "source": "inventorySystem"
+    }
+  },
+  {
+    "id": "123443",
+    "category": "bluetooth-speaker",
+    "name": "FitTitan Ultra",
+    "pricing": {
+      "originalPrice": 5700,
+      "currentPrice": 3100
+    },
+    "inventory": {
+      "stockQuantity": 0,
+      "inStock": false
+    },
+    "isFeatured": false,
+    "createdAt": "2025-07-29T03:36:31.203939",
+    "variants": {
+      "hasColorOptions": true,
+      "availableColors": [
+        "Black",
+        "White",
+        "Silver",
+        "Gray"
+      ]
+    },
+    "media": {
+      "imageUrls": [
+        "/api/images/img8.jpeg",
+        "/api/images/img3.jpeg",
+        "/api/images/img4.jpeg",
+        "/api/images/img9.jpeg"
+      ],
+      "primaryImage": "/api/images/img8.jpeg"
+    },
+    "specifications": {
+      "packageContents": "1 x Speaker, 1 x Power Adapter, 1 x 3.5mm Audio Cable",
+      "description": "Innovative design meets superior functionality in this amazing product.",
+      "keyFeatures": [
+        "Sleek design",
+        "Multiple ports",
+        "Compact size",
+        "Fast data transfer"
+      ],
+      "technicalSpecs": {
+        "screenSize": "1.4 inch",
+        "sensors": "Heart rate, Step counter",
+        "waterResistance": "IP68",
+        "expressDelivery": "Not Available",
+        "modelYear": 2021
+      },
+      "reviewIds": [
+        "rev_1014",
+        "rev_1042",
+        "rev_1006",
+        "rev_1088"
+      ]
+    },
+    "metadata": {
+      "lastUpdated": "2025-07-29T03:36:31.203939",
+      "source": "inventorySystem"
+    }
+  },
+  {
+    "id": "123444",
+    "category": "gaming-headset",
+    "name": "FitBoost Elite",
+    "pricing": {
+      "originalPrice": 6000,
+      "currentPrice": 3500
+    },
+    "inventory": {
+      "stockQuantity": 0,
+      "inStock": false
+    },
+    "isFeatured": false,
+    "createdAt": "2025-07-29T03:36:31.203939",
+    "variants": {
+      "hasColorOptions": true,
+      "availableColors": [
+        "Green",
+        "LimeGreen",
+        "Olive"
+      ]
+    },
+    "media": {
+      "imageUrls": [
+        "/api/images/img11.jpeg",
+        "/api/images/img8.jpeg",
+        "/api/images/img7.jpeg",
+        "/api/images/img6.jpeg"
+      ],
+      "primaryImage": "/api/images/img11.jpeg"
+    },
+    "specifications": {
+      "packageContents": "1 x Main Unit, 1 x Charging Cable, 1 x User Manual, 1 x Warranty Card",
+      "description": "Designed for performance and style, this product exceeds expectations.",
+      "keyFeatures": [
+        "Long battery life",
+        "Fast charging",
+        "Water resistant",
+        "Bluetooth connectivity"
+      ],
+      "technicalSpecs": {
+        "material": "Plastic",
+        "warranty": "1 year",
+        "dimensions": "5x3x1 inches",
+        "expressDelivery": "Not Available",
+        "modelYear": 2021
+      },
+      "reviewIds": [
+        "rev_1034",
+        "rev_1091",
+        "rev_1046",
+        "rev_1044",
+        "rev_1036",
+        "rev_1016"
+      ]
+    },
+    "metadata": {
+      "lastUpdated": "2025-07-29T03:36:31.203939",
+      "source": "inventorySystem"
+    }
+  },
+  {
+    "id": "123445",
+    "category": "wireless-charger",
+    "name": "SoundBoost Plus",
+    "pricing": {
+      "originalPrice": 6100,
+      "currentPrice": 2400
+    },
+    "inventory": {
+      "stockQuantity": 0,
+      "inStock": false
+    },
+    "isFeatured": true,
+    "createdAt": "2025-07-29T03:36:31.203939",
+    "variants": {
+      "hasColorOptions": true,
+      "availableColors": [
+        "Red",
+        "Blue",
+        "Yellow"
+      ]
+    },
+    "media": {
+      "imageUrls": [
+        "/api/images/img9.jpeg",
+        "/api/images/img3.jpeg",
+        "/api/images/img6.jpeg",
+        "/api/images/img2.jpeg"
+      ],
+      "primaryImage": "/api/images/img9.jpeg"
+    },
+    "specifications": {
+      "packageContents": "1 x VR Headset, 2 x Controllers, 1 x Lens Cleaning Kit",
+      "description": "Transform your experience with this high-quality, feature-rich product.",
+      "keyFeatures": [
+        "Long battery life",
+        "Fast charging",
+        "Water resistant",
+        "Bluetooth connectivity"
+      ],
+      "technicalSpecs": {
+        "driverSize": "40mm",
+        "frequencyResponse": "20Hz-20kHz",
+        "impedance": "32 ohms",
+        "expressDelivery": "Not Available",
+        "modelYear": 2020
+      },
+      "reviewIds": [
+        "rev_1020",
+        "rev_1055",
+        "rev_1081"
+      ]
+    },
+    "metadata": {
+      "lastUpdated": "2025-07-29T03:36:31.203939",
+      "source": "inventorySystem"
+    }
+  },
+  {
+    "id": "123446",
+    "category": "airbuds",
+    "name": "ImmersaBoost 5",
+    "pricing": {
+      "originalPrice": 8000,
+      "currentPrice": 5000
+    },
+    "inventory": {
+      "stockQuantity": 12,
+      "inStock": true
+    },
+    "isFeatured": false,
+    "createdAt": "2025-07-29T03:36:31.203939",
+    "variants": {
+      "hasColorOptions": true,
+      "availableColors": [
+        "Green",
+        "LimeGreen",
+        "Olive"
+      ]
+    },
+    "media": {
+      "imageUrls": [
+        "/api/images/img3.jpeg",
+        "/api/images/img1.jpeg",
+        "/api/images/img8.jpeg",
+        "/api/images/img6.jpeg"
+      ],
+      "primaryImage": "/api/images/img3.jpeg"
+    },
+    "specifications": {
+      "packageContents": "1 x Smartwatch, 1 x Magnetic Charger, 1 x Strap (Extra)",
+      "description": "Designed for performance and style, this product exceeds expectations.",
+      "keyFeatures": [
+        "Immersive experience",
+        "Adjustable straps",
+        "High refresh rate",
+        "Wide compatibility"
+      ],
+      "technicalSpecs": {
+        "weight": "150g",
+        "compatibility": "iOS/Android",
+        "chargingTime": "2 hours",
+        "expressDelivery": "Not Available",
+        "modelYear": 2022
+      },
+      "reviewIds": [
+        "rev_1088",
+        "rev_1060",
+        "rev_1048",
+        "rev_1018",
+        "rev_1079",
+        "rev_1003"
+      ]
+    },
+    "metadata": {
+      "lastUpdated": "2025-07-29T03:36:31.203939",
+      "source": "inventorySystem"
+    }
+  },
+  {
+    "id": "123447",
+    "category": "bluetooth-speaker",
+    "name": "HyperPro X2",
+    "pricing": {
+      "originalPrice": 5100,
+      "currentPrice": 3000
+    },
+    "inventory": {
+      "stockQuantity": 13,
+      "inStock": true
+    },
+    "isFeatured": false,
+    "createdAt": "2025-07-29T03:36:31.203939",
+    "variants": {
+      "hasColorOptions": true,
+      "availableColors": [
+        "Black",
+        "White",
+        "Silver",
+        "Gray"
+      ]
+    },
+    "media": {
+      "imageUrls": [
+        "/api/images/img6.jpeg",
+        "/api/images/img3.jpeg",
+        "/api/images/img2.jpeg",
+        "/api/images/img10.jpeg"
+      ],
+      "primaryImage": "/api/images/img6.jpeg"
+    },
+    "specifications": {
+      "packageContents": "1 x Product, 2 x AAA Batteries, Quick Start Guide",
+      "description": "Designed for performance and style, this product exceeds expectations.",
+      "keyFeatures": [
+        "High-resolution display",
+        "Multiple color options",
+        "Lightweight design",
+        "Voice assistant"
+      ],
+      "technicalSpecs": {
+        "material": "Plastic",
+        "warranty": "1 year",
+        "dimensions": "5x3x1 inches",
+        "expressDelivery": "Not Available",
+        "modelYear": 2021
+      },
+      "reviewIds": [
+        "rev_1047",
+        "rev_1002",
+        "rev_1046"
+      ]
+    },
+    "metadata": {
+      "lastUpdated": "2025-07-29T03:36:31.203939",
+      "source": "inventorySystem"
+    }
+  },
+  {
+    "id": "123448",
+    "category": "wireless-charger",
+    "name": "HyperTitan Elite",
+    "pricing": {
+      "originalPrice": 9000,
+      "currentPrice": 6100
+    },
+    "inventory": {
+      "stockQuantity": 0,
+      "inStock": false
+    },
+    "isFeatured": false,
+    "createdAt": "2025-07-29T03:36:31.203939",
+    "variants": {
+      "hasColorOptions": true,
+      "availableColors": [
+        "Green",
+        "LimeGreen",
+        "Olive"
+      ]
+    },
+    "media": {
+      "imageUrls": [
+        "/api/images/img10.jpeg",
+        "/api/images/img2.jpeg",
+        "/api/images/img1.jpeg",
+        "/api/images/img5.jpeg"
+      ],
+      "primaryImage": "/api/images/img10.jpeg"
+    },
+    "specifications": {
+      "packageContents": "1 x Speaker, 1 x Power Adapter, 1 x 3.5mm Audio Cable",
+      "description": "Innovative design meets superior functionality in this amazing product.",
+      "keyFeatures": [
+        "Immersive experience",
+        "Adjustable straps",
+        "High refresh rate",
+        "Wide compatibility"
+      ],
+      "technicalSpecs": {
+        "weight": "150g",
+        "compatibility": "iOS/Android",
+        "chargingTime": "2 hours",
+        "expressDelivery": "Not Available",
+        "modelYear": 2022
+      },
+      "reviewIds": [
+        "rev_1009",
+        "rev_1055",
+        "rev_1024",
+        "rev_1019"
+      ]
+    },
+    "metadata": {
+      "lastUpdated": "2025-07-29T03:36:31.203939",
+      "source": "inventorySystem"
+    }
+  },
+  {
+    "id": "123449",
+    "category": "smartwatch",
+    "name": "QiPro X2",
+    "pricing": {
+      "originalPrice": 8500,
+      "currentPrice": 7400
+    },
+    "inventory": {
+      "stockQuantity": 0,
+      "inStock": false
+    },
+    "isFeatured": false,
+    "createdAt": "2025-07-29T03:36:31.203939",
+    "variants": {
+      "hasColorOptions": true,
+      "availableColors": [
+        "Red",
+        "Blue",
+        "Yellow"
+      ]
+    },
+    "media": {
+      "imageUrls": [
+        "/api/images/img4.jpeg",
+        "/api/images/img5.jpeg",
+        "/api/images/img10.jpeg",
+        "/api/images/img8.jpeg"
+      ],
+      "primaryImage": "/api/images/img4.jpeg"
+    },
+    "specifications": {
+      "packageContents": "1 x Product, 2 x AAA Batteries, Quick Start Guide",
+      "description": "Experience cutting-edge technology with our premium product.",
+      "keyFeatures": [
+        "Noise cancellation",
+        "Comfortable fit",
+        "Wireless freedom",
+        "Crystal clear sound"
+      ],
+      "technicalSpecs": {
+        "weight": "150g",
+        "compatibility": "iOS/Android",
+        "chargingTime": "2 hours",
+        "expressDelivery": "Not Available",
+        "modelYear": 2022
+      },
+      "reviewIds": [
+        "rev_1065",
+        "rev_1099",
+        "rev_1056",
+        "rev_1070",
+        "rev_1008"
+      ]
+    },
+    "metadata": {
+      "lastUpdated": "2025-07-29T03:36:31.203939",
+      "source": "inventorySystem"
+    }
+  },
+  {
+    "id": "123450",
+    "category": "gaming-headset",
+    "name": "HyperBoost 360",
+    "pricing": {
+      "originalPrice": 6400,
+      "currentPrice": 3400
+    },
+    "inventory": {
+      "stockQuantity": 0,
+      "inStock": false
+    },
+    "isFeatured": false,
+    "createdAt": "2025-07-29T03:36:31.203939",
+    "variants": {
+      "hasColorOptions": true,
+      "availableColors": [
+        "Green",
+        "LimeGreen",
+        "Olive"
+      ]
+    },
+    "media": {
+      "imageUrls": [
+        "/api/images/img8.jpeg",
+        "/api/images/img9.jpeg",
+        "/api/images/img4.jpeg",
+        "/api/images/img2.jpeg"
+      ],
+      "primaryImage": "/api/images/img8.jpeg"
+    },
+    "specifications": {
+      "packageContents": "1 x Product, 2 x AAA Batteries, Quick Start Guide",
+      "description": "Experience cutting-edge technology with our premium product.",
+      "keyFeatures": [
+        "Immersive experience",
+        "Adjustable straps",
+        "High refresh rate",
+        "Wide compatibility"
+      ],
+      "technicalSpecs": {
+        "screenSize": "1.4 inch",
+        "sensors": "Heart rate, Step counter",
+        "waterResistance": "IP68",
+        "expressDelivery": "Not Available",
+        "modelYear": 2021
+      },
+      "reviewIds": [
+        "rev_1018",
+        "rev_1081",
+        "rev_1099",
+        "rev_1075",
+        "rev_1030",
+        "rev_1096"
+      ]
+    },
+    "metadata": {
+      "lastUpdated": "2025-07-29T03:36:31.203939",
+      "source": "inventorySystem"
+    }
+  },
+  {
+    "id": "123451",
+    "category": "vr-headset",
+    "name": "ChargeTitan Plus",
+    "pricing": {
+      "originalPrice": 5400,
+      "currentPrice": 1800
+    },
+    "inventory": {
+      "stockQuantity": 5,
+      "inStock": true
+    },
+    "isFeatured": false,
+    "createdAt": "2025-07-29T03:36:31.203939",
+    "variants": {
+      "hasColorOptions": true,
+      "availableColors": [
+        "Black",
+        "White",
+        "Silver",
+        "Gray"
+      ]
+    },
+    "media": {
+      "imageUrls": [
+        "/api/images/img5.jpeg",
+        "/api/images/img8.jpeg",
+        "/api/images/img10.jpeg",
+        "/api/images/img12.jpeg"
+      ],
+      "primaryImage": "/api/images/img5.jpeg"
+    },
+    "specifications": {
+      "packageContents": "1 x Speaker, 1 x Power Adapter, 1 x 3.5mm Audio Cable",
+      "description": "Designed for performance and style, this product exceeds expectations.",
+      "keyFeatures": [
+        "Immersive experience",
+        "Adjustable straps",
+        "High refresh rate",
+        "Wide compatibility"
+      ],
+      "technicalSpecs": {
+        "weight": "150g",
+        "compatibility": "iOS/Android",
+        "chargingTime": "2 hours",
+        "expressDelivery": "Not Available",
+        "modelYear": 2022
+      },
+      "reviewIds": [
+        "rev_1004",
+        "rev_1064",
+        "rev_1096"
+      ]
+    },
+    "metadata": {
+      "lastUpdated": "2025-07-29T03:36:31.203939",
+      "source": "inventorySystem"
+    }
+  },
+  {
+    "id": "123452",
+    "category": "airbuds",
+    "name": "ImmersaX Ultra",
+    "pricing": {
+      "originalPrice": 7500,
+      "currentPrice": 5200
+    },
+    "inventory": {
+      "stockQuantity": 13,
+      "inStock": true
+    },
+    "isFeatured": false,
+    "createdAt": "2025-07-29T03:36:31.203939",
+    "variants": {
+      "hasColorOptions": true,
+      "availableColors": [
+        "Red",
+        "Blue",
+        "Yellow"
+      ]
+    },
+    "media": {
+      "imageUrls": [
+        "/api/images/img2.jpeg",
+        "/api/images/img7.jpeg",
+        "/api/images/img8.jpeg",
+        "/api/images/img11.jpeg"
+      ],
+      "primaryImage": "/api/images/img2.jpeg"
+    },
+    "specifications": {
+      "packageContents": "1 x Smartwatch, 1 x Magnetic Charger, 1 x Strap (Extra)",
+      "description": "Transform your experience with this high-quality, feature-rich product.",
+      "keyFeatures": [
+        "Long battery life",
+        "Fast charging",
+        "Water resistant",
+        "Bluetooth connectivity"
+      ],
+      "technicalSpecs": {
+        "driverSize": "40mm",
+        "frequencyResponse": "20Hz-20kHz",
+        "impedance": "32 ohms",
+        "expressDelivery": "Not Available",
+        "modelYear": 2020
+      },
+      "reviewIds": [
+        "rev_1028",
+        "rev_1051",
+        "rev_1027"
+      ]
+    },
+    "metadata": {
+      "lastUpdated": "2025-07-29T03:36:31.203939",
+      "source": "inventorySystem"
+    }
+  },
+  {
+    "id": "123453",
+    "category": "powerbank",
+    "name": "HyperTitan Air",
+    "pricing": {
+      "originalPrice": 6100,
+      "currentPrice": 3800
+    },
+    "inventory": {
+      "stockQuantity": 0,
+      "inStock": false
+    },
+    "isFeatured": false,
+    "createdAt": "2025-07-29T03:36:31.203939",
+    "variants": {
+      "hasColorOptions": true,
+      "availableColors": [
+        "Green",
+        "LimeGreen",
+        "Olive"
+      ]
+    },
+    "media": {
+      "imageUrls": [
+        "/api/images/img3.jpeg",
+        "/api/images/img7.jpeg",
+        "/api/images/img4.jpeg",
+        "/api/images/img9.jpeg"
+      ],
+      "primaryImage": "/api/images/img3.jpeg"
+    },
+    "specifications": {
+      "packageContents": "1 x Headset, 1 x AUX Cable, 1 x Cleaning Cloth",
+      "description": "The ultimate solution for your everyday needs with advanced features.",
+      "keyFeatures": [
+        "Sleek design",
+        "Multiple ports",
+        "Compact size",
+        "Fast data transfer"
+      ],
+      "technicalSpecs": {
+        "batteryCapacity": "4000mAh",
+        "connectivity": "Bluetooth 5.0",
+        "colorOptions": "3",
+        "expressDelivery": "Not Available",
+        "modelYear": 2020
+      },
+      "reviewIds": [
+        "rev_1011",
+        "rev_1037",
+        "rev_1029",
+        "rev_1003",
+        "rev_1091"
+      ]
+    },
+    "metadata": {
+      "lastUpdated": "2025-07-29T03:36:31.203939",
+      "source": "inventorySystem"
+    }
+  },
+  {
+    "id": "123454",
+    "category": "airbuds",
+    "name": "HyperX 5",
+    "pricing": {
+      "originalPrice": 6600,
+      "currentPrice": 4700
+    },
+    "inventory": {
+      "stockQuantity": 0,
+      "inStock": false
+    },
+    "isFeatured": true,
+    "createdAt": "2025-07-29T03:36:31.203939",
+    "variants": {
+      "hasColorOptions": true,
+      "availableColors": [
+        "Black",
+        "White",
+        "Silver",
+        "Gray"
+      ]
+    },
+    "media": {
+      "imageUrls": [
+        "/api/images/img12.jpeg",
+        "/api/images/img13.jpeg",
+        "/api/images/img9.jpeg",
+        "/api/images/img6.jpeg"
+      ],
+      "primaryImage": "/api/images/img12.jpeg"
+    },
+    "specifications": {
+      "packageContents": "1 x Speaker, 1 x Power Adapter, 1 x 3.5mm Audio Cable",
+      "description": "Experience cutting-edge technology with our premium product.",
+      "keyFeatures": [
+        "Long battery life",
+        "Fast charging",
+        "Water resistant",
+        "Bluetooth connectivity"
+      ],
+      "technicalSpecs": {
+        "weight": "150g",
+        "compatibility": "iOS/Android",
+        "chargingTime": "2 hours",
+        "expressDelivery": "Not Available",
+        "modelYear": 2022
+      },
+      "reviewIds": [
+        "rev_1026",
+        "rev_1069",
+        "rev_1051",
+        "rev_1096",
+        "rev_1020",
+        "rev_1045"
+      ]
+    },
+    "metadata": {
+      "lastUpdated": "2025-07-29T03:36:31.203939",
+      "source": "inventorySystem"
+    }
+  },
+  {
+    "id": "123455",
+    "category": "wireless-charger",
+    "name": "ChargeMax Plus",
+    "pricing": {
+      "originalPrice": 5300,
+      "currentPrice": 3800
+    },
+    "inventory": {
+      "stockQuantity": 31,
+      "inStock": true
+    },
+    "isFeatured": false,
+    "createdAt": "2025-07-29T03:36:31.203939",
+    "variants": {
+      "hasColorOptions": true,
+      "availableColors": [
+        "Red",
+        "Blue",
+        "Yellow"
+      ]
+    },
+    "media": {
+      "imageUrls": [
+        "/api/images/img8.jpeg",
+        "/api/images/img2.jpeg",
+        "/api/images/img6.jpeg",
+        "/api/images/img13.jpeg"
+      ],
+      "primaryImage": "/api/images/img8.jpeg"
+    },
+    "specifications": {
+      "packageContents": "1 x Speaker, 1 x Power Adapter, 1 x 3.5mm Audio Cable",
+      "description": "Innovative design meets superior functionality in this amazing product.",
+      "keyFeatures": [
+        "Noise cancellation",
+        "Comfortable fit",
+        "Wireless freedom",
+        "Crystal clear sound"
+      ],
+      "technicalSpecs": {
+        "weight": "150g",
+        "compatibility": "iOS/Android",
+        "chargingTime": "2 hours",
+        "expressDelivery": "Not Available",
+        "modelYear": 2022
+      },
+      "reviewIds": [
+        "rev_1100",
+        "rev_1001",
+        "rev_1077",
+        "rev_1012",
+        "rev_1048"
+      ]
+    },
+    "metadata": {
+      "lastUpdated": "2025-07-29T03:36:31.203939",
+      "source": "inventorySystem"
+    }
+  },
+  {
+    "id": "123456",
+    "category": "smartwatch",
+    "name": "ChargePro 360",
+    "pricing": {
+      "originalPrice": 5900,
+      "currentPrice": 3700
+    },
+    "inventory": {
+      "stockQuantity": 0,
+      "inStock": false
+    },
+    "isFeatured": false,
+    "createdAt": "2025-07-29T03:36:31.203939",
+    "variants": {
+      "hasColorOptions": true,
+      "availableColors": [
+        "Black",
+        "White",
+        "Silver",
+        "Gray"
+      ]
+    },
+    "media": {
+      "imageUrls": [
+        "/api/images/img5.jpeg",
+        "/api/images/img10.jpeg",
+        "/api/images/img3.jpeg",
+        "/api/images/img7.jpeg"
+      ],
+      "primaryImage": "/api/images/img5.jpeg"
+    },
+    "specifications": {
+      "packageContents": "1 x Main Unit, 1 x Charging Cable, 1 x User Manual, 1 x Warranty Card",
+      "description": "Innovative design meets superior functionality in this amazing product.",
+      "keyFeatures": [
+        "Long battery life",
+        "Fast charging",
+        "Water resistant",
+        "Bluetooth connectivity"
+      ],
+      "technicalSpecs": {
+        "material": "Plastic",
+        "warranty": "1 year",
+        "dimensions": "5x3x1 inches",
+        "expressDelivery": "Not Available",
+        "modelYear": 2021
+      },
+      "reviewIds": [
+        "rev_1097",
+        "rev_1001",
+        "rev_1016",
+        "rev_1057",
+        "rev_1087",
+        "rev_1028"
+      ]
+    },
+    "metadata": {
+      "lastUpdated": "2025-07-29T03:36:31.203939",
+      "source": "inventorySystem"
+    }
+  },
+  {
+    "id": "123457",
+    "category": "wireless-charger",
+    "name": "QiBoost Plus",
+    "pricing": {
+      "originalPrice": 7300,
+      "currentPrice": 4300
+    },
+    "inventory": {
+      "stockQuantity": 5,
+      "inStock": true
+    },
+    "isFeatured": false,
+    "createdAt": "2025-07-29T03:36:31.203939",
+    "variants": {
+      "hasColorOptions": true,
+      "availableColors": [
+        "Red",
+        "Blue",
+        "Yellow"
+      ]
+    },
+    "media": {
+      "imageUrls": [
+        "/api/images/img10.jpeg",
+        "/api/images/img8.jpeg",
+        "/api/images/img13.jpeg",
+        "/api/images/img2.jpeg"
+      ],
+      "primaryImage": "/api/images/img10.jpeg"
+    },
+    "specifications": {
+      "packageContents": "1 x VR Headset, 2 x Controllers, 1 x Lens Cleaning Kit",
+      "description": "The ultimate solution for your everyday needs with advanced features.",
+      "keyFeatures": [
+        "High-resolution display",
+        "Multiple color options",
+        "Lightweight design",
+        "Voice assistant"
+      ],
+      "technicalSpecs": {
+        "driverSize": "40mm",
+        "frequencyResponse": "20Hz-20kHz",
+        "impedance": "32 ohms",
+        "expressDelivery": "Not Available",
+        "modelYear": 2020
+      },
+      "reviewIds": [
+        "rev_1060",
+        "rev_1077",
+        "rev_1033"
+      ]
+    },
+    "metadata": {
+      "lastUpdated": "2025-07-29T03:36:31.203939",
+      "source": "inventorySystem"
+    }
+  },
+  {
+    "id": "123458",
+    "category": "airbuds",
+    "name": "ImmersaMax 5",
+    "pricing": {
+      "originalPrice": 8600,
+      "currentPrice": 7000
+    },
+    "inventory": {
+      "stockQuantity": 0,
+      "inStock": false
+    },
+    "isFeatured": false,
+    "createdAt": "2025-07-29T03:36:31.203939",
+    "variants": {
+      "hasColorOptions": true,
+      "availableColors": [
+        "Black",
+        "White",
+        "Silver",
+        "Gray"
+      ]
+    },
+    "media": {
+      "imageUrls": [
+        "/api/images/img9.jpeg",
+        "/api/images/img3.jpeg",
+        "/api/images/img10.jpeg",
+        "/api/images/img7.jpeg"
+      ],
+      "primaryImage": "/api/images/img9.jpeg"
+    },
+    "specifications": {
+      "packageContents": "1 x Product, 2 x AAA Batteries, Quick Start Guide",
+      "description": "Innovative design meets superior functionality in this amazing product.",
+      "keyFeatures": [
+        "High-resolution display",
+        "Multiple color options",
+        "Lightweight design",
+        "Voice assistant"
+      ],
+      "technicalSpecs": {
+        "screenSize": "1.4 inch",
+        "sensors": "Heart rate, Step counter",
+        "waterResistance": "IP68",
+        "expressDelivery": "Not Available",
+        "modelYear": 2021
+      },
+      "reviewIds": [
+        "rev_1049",
+        "rev_1029",
+        "rev_1063"
+      ]
+    },
+    "metadata": {
+      "lastUpdated": "2025-07-29T03:36:31.203939",
+      "source": "inventorySystem"
+    }
+  },
+  {
+    "id": "123459",
+    "category": "smartwatch",
+    "name": "QiMax X2",
+    "pricing": {
+      "originalPrice": 5000,
+      "currentPrice": 3300
+    },
+    "inventory": {
+      "stockQuantity": 23,
+      "inStock": true
+    },
+    "isFeatured": false,
+    "createdAt": "2025-07-29T03:36:31.203939",
+    "variants": {
+      "hasColorOptions": true,
+      "availableColors": [
+        "Black",
+        "White",
+        "Silver",
+        "Gray"
+      ]
+    },
+    "media": {
+      "imageUrls": [
+        "/api/images/img1.jpeg",
+        "/api/images/img10.jpeg",
+        "/api/images/img5.jpeg",
+        "/api/images/img9.jpeg"
+      ],
+      "primaryImage": "/api/images/img1.jpeg"
+    },
+    "specifications": {
+      "packageContents": "1 x Device, 1 x USB-C Cable, 1 x Ear Tips (S/M/L), 1 x Storage Pouch",
+      "description": "Innovative design meets superior functionality in this amazing product.",
+      "keyFeatures": [
+        "High-resolution display",
+        "Multiple color options",
+        "Lightweight design",
+        "Voice assistant"
+      ],
+      "technicalSpecs": {
+        "weight": "150g",
+        "compatibility": "iOS/Android",
+        "chargingTime": "2 hours",
+        "expressDelivery": "Not Available",
+        "modelYear": 2022
+      },
+      "reviewIds": [
+        "rev_1073",
+        "rev_1071",
+        "rev_1021",
+        "rev_1083"
+      ]
+    },
+    "metadata": {
+      "lastUpdated": "2025-07-29T03:36:31.203939",
+      "source": "inventorySystem"
+    }
+  },
+  {
+    "id": "123460",
+    "category": "powerbank",
+    "name": "SoundMate Elite",
+    "pricing": {
+      "originalPrice": 5000,
+      "currentPrice": 2300
+    },
+    "inventory": {
+      "stockQuantity": 0,
+      "inStock": false
+    },
+    "isFeatured": true,
+    "createdAt": "2025-07-29T03:36:31.203939",
+    "variants": {
+      "hasColorOptions": true,
+      "availableColors": [
+        "Green",
+        "LimeGreen",
+        "Olive"
+      ]
+    },
+    "media": {
+      "imageUrls": [
+        "/api/images/img10.jpeg",
+        "/api/images/img6.jpeg",
+        "/api/images/img12.jpeg",
+        "/api/images/img13.jpeg"
+      ],
+      "primaryImage": "/api/images/img10.jpeg"
+    },
+    "specifications": {
+      "packageContents": "1 x Main Unit, 1 x Charging Cable, 1 x User Manual, 1 x Warranty Card",
+      "description": "Transform your experience with this high-quality, feature-rich product.",
+      "keyFeatures": [
+        "Long battery life",
+        "Fast charging",
+        "Water resistant",
+        "Bluetooth connectivity"
+      ],
+      "technicalSpecs": {
+        "material": "Plastic",
+        "warranty": "1 year",
+        "dimensions": "5x3x1 inches",
+        "expressDelivery": "Not Available",
+        "modelYear": 2021
+      },
+      "reviewIds": [
+        "rev_1058",
+        "rev_1060",
+        "rev_1066"
+      ]
+    },
+    "metadata": {
+      "lastUpdated": "2025-07-29T03:36:31.203939",
+      "source": "inventorySystem"
+    }
+  },
+  {
+    "id": "123461",
+    "category": "powerbank",
+    "name": "HyperTitan X2",
+    "pricing": {
+      "originalPrice": 8700,
+      "currentPrice": 5400
+    },
+    "inventory": {
+      "stockQuantity": 11,
+      "inStock": true
+    },
+    "isFeatured": false,
+    "createdAt": "2025-07-29T03:36:31.203939",
+    "variants": {
+      "hasColorOptions": true,
+      "availableColors": [
+        "Black",
+        "White",
+        "Silver",
+        "Gray"
+      ]
+    },
+    "media": {
+      "imageUrls": [
+        "/api/images/img6.jpeg",
+        "/api/images/img1.jpeg",
+        "/api/images/img9.jpeg",
+        "/api/images/img5.jpeg"
+      ],
+      "primaryImage": "/api/images/img6.jpeg"
+    },
+    "specifications": {
+      "packageContents": "1 x Main Unit, 1 x Charging Cable, 1 x User Manual, 1 x Warranty Card",
+      "description": "The ultimate solution for your everyday needs with advanced features.",
+      "keyFeatures": [
+        "Noise cancellation",
+        "Comfortable fit",
+        "Wireless freedom",
+        "Crystal clear sound"
+      ],
+      "technicalSpecs": {
+        "material": "Plastic",
+        "warranty": "1 year",
+        "dimensions": "5x3x1 inches",
+        "expressDelivery": "Not Available",
+        "modelYear": 2021
+      },
+      "reviewIds": [
+        "rev_1078",
+        "rev_1046",
+        "rev_1086",
+        "rev_1047"
+      ]
+    },
+    "metadata": {
+      "lastUpdated": "2025-07-29T03:36:31.203939",
+      "source": "inventorySystem"
+    }
+  },
+  {
+    "id": "123462",
+    "category": "wireless-charger",
+    "name": "FitBoost 5",
+    "pricing": {
+      "originalPrice": 8800,
+      "currentPrice": 6400
+    },
+    "inventory": {
+      "stockQuantity": 0,
+      "inStock": false
+    },
+    "isFeatured": false,
+    "createdAt": "2025-07-29T03:36:31.203939",
+    "variants": {
+      "hasColorOptions": true,
+      "availableColors": [
+        "Black",
+        "White",
+        "Silver",
+        "Gray"
+      ]
+    },
+    "media": {
+      "imageUrls": [
+        "/api/images/img11.jpeg",
+        "/api/images/img9.jpeg",
+        "/api/images/img8.jpeg",
+        "/api/images/img7.jpeg"
+      ],
+      "primaryImage": "/api/images/img11.jpeg"
+    },
+    "specifications": {
+      "packageContents": "1 x Speaker, 1 x Power Adapter, 1 x 3.5mm Audio Cable",
+      "description": "Transform your experience with this high-quality, feature-rich product.",
+      "keyFeatures": [
+        "Sleek design",
+        "Multiple ports",
+        "Compact size",
+        "Fast data transfer"
+      ],
+      "technicalSpecs": {
+        "driverSize": "40mm",
+        "frequencyResponse": "20Hz-20kHz",
+        "impedance": "32 ohms",
+        "expressDelivery": "Not Available",
+        "modelYear": 2020
+      },
+      "reviewIds": [
+        "rev_1081",
+        "rev_1095",
+        "rev_1093",
+        "rev_1063",
+        "rev_1097"
+      ]
+    },
+    "metadata": {
+      "lastUpdated": "2025-07-29T03:36:31.203939",
+      "source": "inventorySystem"
+    }
+  },
+  {
+    "id": "123463",
+    "category": "airbuds",
+    "name": "PulseSync Plus",
+    "pricing": {
+      "originalPrice": 6400,
+      "currentPrice": 2500
+    },
+    "inventory": {
+      "stockQuantity": 3,
+      "inStock": true
+    },
+    "isFeatured": false,
+    "createdAt": "2025-07-29T03:36:31.203939",
+    "variants": {
+      "hasColorOptions": true,
+      "availableColors": [
+        "Red",
+        "Blue",
+        "Yellow"
+      ]
+    },
+    "media": {
+      "imageUrls": [
+        "/api/images/img3.jpeg",
+        "/api/images/img11.jpeg",
+        "/api/images/img4.jpeg",
+        "/api/images/img1.jpeg"
+      ],
+      "primaryImage": "/api/images/img3.jpeg"
+    },
+    "specifications": {
+      "packageContents": "1 x Smartwatch, 1 x Magnetic Charger, 1 x Strap (Extra)",
+      "description": "Designed for performance and style, this product exceeds expectations.",
+      "keyFeatures": [
+        "Long battery life",
+        "Fast charging",
+        "Water resistant",
+        "Bluetooth connectivity"
+      ],
+      "technicalSpecs": {
+        "material": "Plastic",
+        "warranty": "1 year",
+        "dimensions": "5x3x1 inches",
+        "expressDelivery": "Not Available",
+        "modelYear": 2021
+      },
+      "reviewIds": [
+        "rev_1036",
+        "rev_1038",
+        "rev_1089",
+        "rev_1044"
+      ]
+    },
+    "metadata": {
+      "lastUpdated": "2025-07-29T03:36:31.203939",
+      "source": "inventorySystem"
+    }
+  },
+  {
+    "id": "123464",
+    "category": "airbuds",
+    "name": "FitX Ultra",
+    "pricing": {
+      "originalPrice": 5900,
+      "currentPrice": 4400
+    },
+    "inventory": {
+      "stockQuantity": 0,
+      "inStock": false
+    },
+    "isFeatured": false,
+    "createdAt": "2025-07-29T03:36:31.203939",
+    "variants": {
+      "hasColorOptions": true,
+      "availableColors": [
+        "Green",
+        "LimeGreen",
+        "Olive"
+      ]
+    },
+    "media": {
+      "imageUrls": [
+        "/api/images/img13.jpeg",
+        "/api/images/img5.jpeg",
+        "/api/images/img11.jpeg",
+        "/api/images/img3.jpeg"
+      ],
+      "primaryImage": "/api/images/img13.jpeg"
+    },
+    "specifications": {
+      "packageContents": "1 x VR Headset, 2 x Controllers, 1 x Lens Cleaning Kit",
+      "description": "Transform your experience with this high-quality, feature-rich product.",
+      "keyFeatures": [
+        "Sleek design",
+        "Multiple ports",
+        "Compact size",
+        "Fast data transfer"
+      ],
+      "technicalSpecs": {
+        "screenSize": "1.4 inch",
+        "sensors": "Heart rate, Step counter",
+        "waterResistance": "IP68",
+        "expressDelivery": "Not Available",
+        "modelYear": 2021
+      },
+      "reviewIds": [
+        "rev_1069",
+        "rev_1095",
+        "rev_1055",
+        "rev_1046",
+        "rev_1033",
+        "rev_1097"
+      ]
+    },
+    "metadata": {
+      "lastUpdated": "2025-07-29T03:36:31.203939",
+      "source": "inventorySystem"
+    }
+  },
+  {
+    "id": "123465",
+    "category": "bluetooth-speaker",
+    "name": "SoundMate 5",
+    "pricing": {
+      "originalPrice": 8600,
+      "currentPrice": 7400
+    },
+    "inventory": {
+      "stockQuantity": 0,
+      "inStock": false
+    },
+    "isFeatured": false,
+    "createdAt": "2025-07-29T03:36:31.203939",
+    "variants": {
+      "hasColorOptions": true,
+      "availableColors": [
+        "Black",
+        "White",
+        "Silver",
+        "Gray"
+      ]
+    },
+    "media": {
+      "imageUrls": [
+        "/api/images/img12.jpeg",
+        "/api/images/img4.jpeg",
+        "/api/images/img13.jpeg",
+        "/api/images/img7.jpeg"
+      ],
+      "primaryImage": "/api/images/img12.jpeg"
+    },
+    "specifications": {
+      "packageContents": "1 x Main Unit, 1 x Charging Cable, 1 x User Manual, 1 x Warranty Card",
+      "description": "Transform your experience with this high-quality, feature-rich product.",
+      "keyFeatures": [
+        "Sleek design",
+        "Multiple ports",
+        "Compact size",
+        "Fast data transfer"
+      ],
+      "technicalSpecs": {
+        "screenSize": "1.4 inch",
+        "sensors": "Heart rate, Step counter",
+        "waterResistance": "IP68",
+        "expressDelivery": "Not Available",
+        "modelYear": 2021
+      },
+      "reviewIds": [
+        "rev_1085",
+        "rev_1064",
+        "rev_1062",
+        "rev_1016",
+        "rev_1003"
+      ]
+    },
+    "metadata": {
+      "lastUpdated": "2025-07-29T03:36:31.203939",
+      "source": "inventorySystem"
+    }
+  },
+  {
+    "id": "123466",
+    "category": "smartwatch",
+    "name": "ImmersaPro Ultra",
+    "pricing": {
+      "originalPrice": 5900,
+      "currentPrice": 4200
+    },
+    "inventory": {
+      "stockQuantity": 0,
+      "inStock": false
+    },
+    "isFeatured": false,
+    "createdAt": "2025-07-29T03:36:31.203939",
+    "variants": {
+      "hasColorOptions": true,
+      "availableColors": [
+        "Black",
+        "White",
+        "Silver",
+        "Gray"
+      ]
+    },
+    "media": {
+      "imageUrls": [
+        "/api/images/img12.jpeg",
+        "/api/images/img8.jpeg",
+        "/api/images/img7.jpeg",
+        "/api/images/img1.jpeg"
+      ],
+      "primaryImage": "/api/images/img12.jpeg"
+    },
+    "specifications": {
+      "packageContents": "1 x Device, 1 x USB-C Cable, 1 x Ear Tips (S/M/L), 1 x Storage Pouch",
+      "description": "The ultimate solution for your everyday needs with advanced features.",
+      "keyFeatures": [
+        "Sleek design",
+        "Multiple ports",
+        "Compact size",
+        "Fast data transfer"
+      ],
+      "technicalSpecs": {
+        "batteryCapacity": "4000mAh",
+        "connectivity": "Bluetooth 5.0",
+        "colorOptions": "3",
+        "expressDelivery": "Not Available",
+        "modelYear": 2020
+      },
+      "reviewIds": [
+        "rev_1072",
+        "rev_1095",
+        "rev_1060",
+        "rev_1004"
+      ]
+    },
+    "metadata": {
+      "lastUpdated": "2025-07-29T03:36:31.203939",
+      "source": "inventorySystem"
+    }
+  },
+  {
+    "id": "123467",
+    "category": "gaming-headset",
+    "name": "PulseMax Elite",
+    "pricing": {
+      "originalPrice": 5000,
+      "currentPrice": 3000
+    },
+    "inventory": {
+      "stockQuantity": 0,
+      "inStock": false
+    },
+    "isFeatured": false,
+    "createdAt": "2025-07-29T03:36:31.203939",
+    "variants": {
+      "hasColorOptions": true,
+      "availableColors": [
+        "Green",
+        "LimeGreen",
+        "Olive"
+      ]
+    },
+    "media": {
+      "imageUrls": [
+        "/api/images/img2.jpeg",
+        "/api/images/img5.jpeg",
+        "/api/images/img11.jpeg",
+        "/api/images/img3.jpeg"
+      ],
+      "primaryImage": "/api/images/img2.jpeg"
+    },
+    "specifications": {
+      "packageContents": "1 x Headset, 1 x AUX Cable, 1 x Cleaning Cloth",
+      "description": "Transform your experience with this high-quality, feature-rich product.",
+      "keyFeatures": [
+        "Sleek design",
+        "Multiple ports",
+        "Compact size",
+        "Fast data transfer"
+      ],
+      "technicalSpecs": {
+        "driverSize": "40mm",
+        "frequencyResponse": "20Hz-20kHz",
+        "impedance": "32 ohms",
+        "expressDelivery": "Not Available",
+        "modelYear": 2020
+      },
+      "reviewIds": [
+        "rev_1076",
+        "rev_1071",
+        "rev_1026"
+      ]
+    },
+    "metadata": {
+      "lastUpdated": "2025-07-29T03:36:31.203939",
+      "source": "inventorySystem"
+    }
+  },
+  {
+    "id": "123468",
+    "category": "airbuds",
+    "name": "ImmersaBoost Air",
+    "pricing": {
+      "originalPrice": 7900,
+      "currentPrice": 5300
+    },
+    "inventory": {
+      "stockQuantity": 0,
+      "inStock": false
+    },
+    "isFeatured": false,
+    "createdAt": "2025-07-29T03:36:31.203939",
+    "variants": {
+      "hasColorOptions": true,
+      "availableColors": [
+        "Black",
+        "White",
+        "Silver",
+        "Gray"
+      ]
+    },
+    "media": {
+      "imageUrls": [
+        "/api/images/img12.jpeg",
+        "/api/images/img8.jpeg",
+        "/api/images/img7.jpeg",
+        "/api/images/img5.jpeg"
+      ],
+      "primaryImage": "/api/images/img12.jpeg"
+    },
+    "specifications": {
+      "packageContents": "1 x Speaker, 1 x Power Adapter, 1 x 3.5mm Audio Cable",
+      "description": "Designed for performance and style, this product exceeds expectations.",
+      "keyFeatures": [
+        "Noise cancellation",
+        "Comfortable fit",
+        "Wireless freedom",
+        "Crystal clear sound"
+      ],
+      "technicalSpecs": {
+        "batteryCapacity": "4000mAh",
+        "connectivity": "Bluetooth 5.0",
+        "colorOptions": "3",
+        "expressDelivery": "Not Available",
+        "modelYear": 2020
+      },
+      "reviewIds": [
+        "rev_1031",
+        "rev_1060",
+        "rev_1040",
+        "rev_1079"
+      ]
+    },
+    "metadata": {
+      "lastUpdated": "2025-07-29T03:36:31.203939",
+      "source": "inventorySystem"
+    }
+  },
+  {
+    "id": "123469",
+    "category": "wireless-charger",
+    "name": "HyperBoost Ultra",
+    "pricing": {
+      "originalPrice": 6600,
+      "currentPrice": 4900
+    },
+    "inventory": {
+      "stockQuantity": 0,
+      "inStock": false
+    },
+    "isFeatured": false,
+    "createdAt": "2025-07-29T03:36:31.203939",
+    "variants": {
+      "hasColorOptions": true,
+      "availableColors": [
+        "Black",
+        "White",
+        "Silver",
+        "Gray"
+      ]
+    },
+    "media": {
+      "imageUrls": [
+        "/api/images/img11.jpeg",
+        "/api/images/img8.jpeg",
+        "/api/images/img12.jpeg",
+        "/api/images/img7.jpeg"
+      ],
+      "primaryImage": "/api/images/img11.jpeg"
+    },
+    "specifications": {
+      "packageContents": "1 x Smartwatch, 1 x Magnetic Charger, 1 x Strap (Extra)",
+      "description": "Experience cutting-edge technology with our premium product.",
+      "keyFeatures": [
+        "Noise cancellation",
+        "Comfortable fit",
+        "Wireless freedom",
+        "Crystal clear sound"
+      ],
+      "technicalSpecs": {
+        "driverSize": "40mm",
+        "frequencyResponse": "20Hz-20kHz",
+        "impedance": "32 ohms",
+        "expressDelivery": "Not Available",
+        "modelYear": 2020
+      },
+      "reviewIds": [
+        "rev_1090",
+        "rev_1006",
+        "rev_1080",
+        "rev_1007",
+        "rev_1010"
+      ]
+    },
+    "metadata": {
+      "lastUpdated": "2025-07-29T03:36:31.203939",
+      "source": "inventorySystem"
+    }
+  },
+  {
+    "id": "123470",
+    "category": "bluetooth-speaker",
+    "name": "FitMate Plus",
+    "pricing": {
+      "originalPrice": 6600,
+      "currentPrice": 4600
+    },
+    "inventory": {
+      "stockQuantity": 44,
+      "inStock": true
+    },
+    "isFeatured": false,
+    "createdAt": "2025-07-29T03:36:31.203939",
+    "variants": {
+      "hasColorOptions": true,
+      "availableColors": [
+        "Green",
+        "LimeGreen",
+        "Olive"
+      ]
+    },
+    "media": {
+      "imageUrls": [
+        "/api/images/img9.jpeg",
+        "/api/images/img8.jpeg",
+        "/api/images/img7.jpeg",
+        "/api/images/img5.jpeg"
+      ],
+      "primaryImage": "/api/images/img9.jpeg"
+    },
+    "specifications": {
+      "packageContents": "1 x Device, 1 x USB-C Cable, 1 x Ear Tips (S/M/L), 1 x Storage Pouch",
+      "description": "Experience cutting-edge technology with our premium product.",
+      "keyFeatures": [
+        "Long battery life",
+        "Fast charging",
+        "Water resistant",
+        "Bluetooth connectivity"
+      ],
+      "technicalSpecs": {
+        "weight": "150g",
+        "compatibility": "iOS/Android",
+        "chargingTime": "2 hours",
+        "expressDelivery": "Not Available",
+        "modelYear": 2022
+      },
+      "reviewIds": [
+        "rev_1090",
+        "rev_1014",
+        "rev_1042",
+        "rev_1044",
+        "rev_1047"
+      ]
+    },
+    "metadata": {
+      "lastUpdated": "2025-07-29T03:36:31.203939",
+      "source": "inventorySystem"
+    }
+  },
+  {
+    "id": "123471",
+    "category": "smartwatch",
+    "name": "PulseMax X2",
+    "pricing": {
+      "originalPrice": 6700,
+      "currentPrice": 5300
+    },
+    "inventory": {
+      "stockQuantity": 49,
+      "inStock": true
+    },
+    "isFeatured": false,
+    "createdAt": "2025-07-29T03:36:31.203939",
+    "variants": {
+      "hasColorOptions": true,
+      "availableColors": [
+        "Green",
+        "LimeGreen",
+        "Olive"
+      ]
+    },
+    "media": {
+      "imageUrls": [
+        "/api/images/img4.jpeg",
+        "/api/images/img13.jpeg",
+        "/api/images/img6.jpeg",
+        "/api/images/img10.jpeg"
+      ],
+      "primaryImage": "/api/images/img4.jpeg"
+    },
+    "specifications": {
+      "packageContents": "1 x Smartwatch, 1 x Magnetic Charger, 1 x Strap (Extra)",
+      "description": "The ultimate solution for your everyday needs with advanced features.",
+      "keyFeatures": [
+        "Sleek design",
+        "Multiple ports",
+        "Compact size",
+        "Fast data transfer"
+      ],
+      "technicalSpecs": {
+        "material": "Plastic",
+        "warranty": "1 year",
+        "dimensions": "5x3x1 inches",
+        "expressDelivery": "Not Available",
+        "modelYear": 2021
+      },
+      "reviewIds": [
+        "rev_1086",
+        "rev_1066",
+        "rev_1088"
+      ]
+    },
+    "metadata": {
+      "lastUpdated": "2025-07-29T03:36:31.203939",
+      "source": "inventorySystem"
+    }
+  },
+  {
+    "id": "123472",
+    "category": "vr-headset",
+    "name": "ChargeSync 5",
+    "pricing": {
+      "originalPrice": 7600,
+      "currentPrice": 5800
+    },
+    "inventory": {
+      "stockQuantity": 26,
+      "inStock": true
+    },
+    "isFeatured": false,
+    "createdAt": "2025-07-29T03:36:31.203939",
+    "variants": {
+      "hasColorOptions": true,
+      "availableColors": [
+        "Green",
+        "LimeGreen",
+        "Olive"
+      ]
+    },
+    "media": {
+      "imageUrls": [
+        "/api/images/img10.jpeg",
+        "/api/images/img1.jpeg",
+        "/api/images/img11.jpeg",
+        "/api/images/img6.jpeg"
+      ],
+      "primaryImage": "/api/images/img10.jpeg"
+    },
+    "specifications": {
+      "packageContents": "1 x Device, 1 x USB-C Cable, 1 x Ear Tips (S/M/L), 1 x Storage Pouch",
+      "description": "Designed for performance and style, this product exceeds expectations.",
+      "keyFeatures": [
+        "Long battery life",
+        "Fast charging",
+        "Water resistant",
+        "Bluetooth connectivity"
+      ],
+      "technicalSpecs": {
+        "weight": "150g",
+        "compatibility": "iOS/Android",
+        "chargingTime": "2 hours",
+        "expressDelivery": "Not Available",
+        "modelYear": 2022
+      },
+      "reviewIds": [
+        "rev_1011",
+        "rev_1004",
+        "rev_1047",
+        "rev_1012",
+        "rev_1056",
+        "rev_1060"
+      ]
+    },
+    "metadata": {
+      "lastUpdated": "2025-07-29T03:36:31.203939",
+      "source": "inventorySystem"
+    }
+  },
+  {
+    "id": "123473",
+    "category": "wireless-charger",
+    "name": "ChargeX Plus",
+    "pricing": {
+      "originalPrice": 5400,
+      "currentPrice": 3400
+    },
+    "inventory": {
+      "stockQuantity": 0,
+      "inStock": false
+    },
+    "isFeatured": false,
+    "createdAt": "2025-07-29T03:36:31.203939",
+    "variants": {
+      "hasColorOptions": true,
+      "availableColors": [
+        "Red",
+        "Blue",
+        "Yellow"
+      ]
+    },
+    "media": {
+      "imageUrls": [
+        "/api/images/img3.jpeg",
+        "/api/images/img2.jpeg",
+        "/api/images/img7.jpeg",
+        "/api/images/img12.jpeg"
+      ],
+      "primaryImage": "/api/images/img3.jpeg"
+    },
+    "specifications": {
+      "packageContents": "1 x Product, 2 x AAA Batteries, Quick Start Guide",
+      "description": "Designed for performance and style, this product exceeds expectations.",
+      "keyFeatures": [
+        "Immersive experience",
+        "Adjustable straps",
+        "High refresh rate",
+        "Wide compatibility"
+      ],
+      "technicalSpecs": {
+        "weight": "150g",
+        "compatibility": "iOS/Android",
+        "chargingTime": "2 hours",
+        "expressDelivery": "Not Available",
+        "modelYear": 2022
+      },
+      "reviewIds": [
+        "rev_1031",
+        "rev_1075",
+        "rev_1071",
+        "rev_1095",
+        "rev_1056"
+      ]
+    },
+    "metadata": {
+      "lastUpdated": "2025-07-29T03:36:31.203939",
+      "source": "inventorySystem"
+    }
+  },
+  {
+    "id": "123474",
+    "category": "wireless-charger",
+    "name": "ImmersaSync 5",
+    "pricing": {
+      "originalPrice": 5300,
+      "currentPrice": 4100
+    },
+    "inventory": {
+      "stockQuantity": 15,
+      "inStock": true
+    },
+    "isFeatured": false,
+    "createdAt": "2025-07-29T03:36:31.203939",
+    "variants": {
+      "hasColorOptions": true,
+      "availableColors": [
+        "Black",
+        "White",
+        "Silver",
+        "Gray"
+      ]
+    },
+    "media": {
+      "imageUrls": [
+        "/api/images/img13.jpeg",
+        "/api/images/img8.jpeg",
+        "/api/images/img4.jpeg",
+        "/api/images/img5.jpeg"
+      ],
+      "primaryImage": "/api/images/img13.jpeg"
+    },
+    "specifications": {
+      "packageContents": "1 x Speaker, 1 x Power Adapter, 1 x 3.5mm Audio Cable",
+      "description": "The ultimate solution for your everyday needs with advanced features.",
+      "keyFeatures": [
+        "Noise cancellation",
+        "Comfortable fit",
+        "Wireless freedom",
+        "Crystal clear sound"
+      ],
+      "technicalSpecs": {
+        "weight": "150g",
+        "compatibility": "iOS/Android",
+        "chargingTime": "2 hours",
+        "expressDelivery": "Not Available",
+        "modelYear": 2022
+      },
+      "reviewIds": [
+        "rev_1070",
+        "rev_1001",
+        "rev_1085",
+        "rev_1014",
+        "rev_1040"
+      ]
+    },
+    "metadata": {
+      "lastUpdated": "2025-07-29T03:36:31.203939",
+      "source": "inventorySystem"
+    }
+  },
+  {
+    "id": "123475",
+    "category": "powerbank",
+    "name": "QiTitan Ultra",
+    "pricing": {
+      "originalPrice": 8600,
+      "currentPrice": 5200
+    },
+    "inventory": {
+      "stockQuantity": 41,
+      "inStock": true
+    },
+    "isFeatured": false,
+    "createdAt": "2025-07-29T03:36:31.203939",
+    "variants": {
+      "hasColorOptions": true,
+      "availableColors": [
+        "Black",
+        "White",
+        "Silver",
+        "Gray"
+      ]
+    },
+    "media": {
+      "imageUrls": [
+        "/api/images/img8.jpeg",
+        "/api/images/img1.jpeg",
+        "/api/images/img4.jpeg",
+        "/api/images/img2.jpeg"
+      ],
+      "primaryImage": "/api/images/img8.jpeg"
+    },
+    "specifications": {
+      "packageContents": "1 x Device, 1 x USB-C Cable, 1 x Ear Tips (S/M/L), 1 x Storage Pouch",
+      "description": "The ultimate solution for your everyday needs with advanced features.",
+      "keyFeatures": [
+        "High-resolution display",
+        "Multiple color options",
+        "Lightweight design",
+        "Voice assistant"
+      ],
+      "technicalSpecs": {
+        "weight": "150g",
+        "compatibility": "iOS/Android",
+        "chargingTime": "2 hours",
+        "expressDelivery": "Not Available",
+        "modelYear": 2022
+      },
+      "reviewIds": [
+        "rev_1047",
+        "rev_1028",
+        "rev_1046",
+        "rev_1033",
+        "rev_1010",
+        "rev_1030"
+      ]
+    },
+    "metadata": {
+      "lastUpdated": "2025-07-29T03:36:31.203939",
+      "source": "inventorySystem"
+    }
+  },
+  {
+    "id": "123476",
+    "category": "bluetooth-speaker",
+    "name": "ChargePro Air",
+    "pricing": {
+      "originalPrice": 5700,
+      "currentPrice": 2400
+    },
+    "inventory": {
+      "stockQuantity": 0,
+      "inStock": false
+    },
+    "isFeatured": false,
+    "createdAt": "2025-07-29T03:36:31.203939",
+    "variants": {
+      "hasColorOptions": true,
+      "availableColors": [
+        "Green",
+        "LimeGreen",
+        "Olive"
+      ]
+    },
+    "media": {
+      "imageUrls": [
+        "/api/images/img2.jpeg",
+        "/api/images/img5.jpeg",
+        "/api/images/img12.jpeg",
+        "/api/images/img9.jpeg"
+      ],
+      "primaryImage": "/api/images/img2.jpeg"
+    },
+    "specifications": {
+      "packageContents": "1 x Product, 2 x AAA Batteries, Quick Start Guide",
+      "description": "Experience cutting-edge technology with our premium product.",
+      "keyFeatures": [
+        "Noise cancellation",
+        "Comfortable fit",
+        "Wireless freedom",
+        "Crystal clear sound"
+      ],
+      "technicalSpecs": {
+        "material": "Plastic",
+        "warranty": "1 year",
+        "dimensions": "5x3x1 inches",
+        "expressDelivery": "Not Available",
+        "modelYear": 2021
+      },
+      "reviewIds": [
+        "rev_1092",
+        "rev_1011",
+        "rev_1082"
+      ]
+    },
+    "metadata": {
+      "lastUpdated": "2025-07-29T03:36:31.203939",
+      "source": "inventorySystem"
+    }
+  },
+  {
+    "id": "123477",
+    "category": "gaming-headset",
+    "name": "ImmersaPro Elite",
+    "pricing": {
+      "originalPrice": 7700,
+      "currentPrice": 6700
+    },
+    "inventory": {
+      "stockQuantity": 0,
+      "inStock": false
+    },
+    "isFeatured": false,
+    "createdAt": "2025-07-29T03:36:31.203939",
+    "variants": {
+      "hasColorOptions": true,
+      "availableColors": [
+        "Black",
+        "White",
+        "Silver",
+        "Gray"
+      ]
+    },
+    "media": {
+      "imageUrls": [
+        "/api/images/img7.jpeg",
+        "/api/images/img1.jpeg",
+        "/api/images/img2.jpeg",
+        "/api/images/img5.jpeg"
+      ],
+      "primaryImage": "/api/images/img7.jpeg"
+    },
+    "specifications": {
+      "packageContents": "1 x Smartwatch, 1 x Magnetic Charger, 1 x Strap (Extra)",
+      "description": "Innovative design meets superior functionality in this amazing product.",
+      "keyFeatures": [
+        "Immersive experience",
+        "Adjustable straps",
+        "High refresh rate",
+        "Wide compatibility"
+      ],
+      "technicalSpecs": {
+        "batteryCapacity": "4000mAh",
+        "connectivity": "Bluetooth 5.0",
+        "colorOptions": "3",
+        "expressDelivery": "Not Available",
+        "modelYear": 2020
+      },
+      "reviewIds": [
+        "rev_1039",
+        "rev_1072",
+        "rev_1057"
+      ]
+    },
+    "metadata": {
+      "lastUpdated": "2025-07-29T03:36:31.203939",
+      "source": "inventorySystem"
+    }
+  },
+  {
+    "id": "123478",
+    "category": "gaming-headset",
+    "name": "SoundTitan 360",
+    "pricing": {
+      "originalPrice": 7400,
+      "currentPrice": 3500
+    },
+    "inventory": {
+      "stockQuantity": 0,
+      "inStock": false
+    },
+    "isFeatured": false,
+    "createdAt": "2025-07-29T03:36:31.203939",
+    "variants": {
+      "hasColorOptions": true,
+      "availableColors": [
+        "Black",
+        "White",
+        "Silver",
+        "Gray"
+      ]
+    },
+    "media": {
+      "imageUrls": [
+        "/api/images/img9.jpeg",
+        "/api/images/img3.jpeg",
+        "/api/images/img10.jpeg",
+        "/api/images/img2.jpeg"
+      ],
+      "primaryImage": "/api/images/img9.jpeg"
+    },
+    "specifications": {
+      "packageContents": "1 x Product, 2 x AAA Batteries, Quick Start Guide",
+      "description": "Transform your experience with this high-quality, feature-rich product.",
+      "keyFeatures": [
+        "Long battery life",
+        "Fast charging",
+        "Water resistant",
+        "Bluetooth connectivity"
+      ],
+      "technicalSpecs": {
+        "screenSize": "1.4 inch",
+        "sensors": "Heart rate, Step counter",
+        "waterResistance": "IP68",
+        "expressDelivery": "Not Available",
+        "modelYear": 2021
+      },
+      "reviewIds": [
+        "rev_1085",
+        "rev_1040",
+        "rev_1044",
+        "rev_1036"
+      ]
+    },
+    "metadata": {
+      "lastUpdated": "2025-07-29T03:36:31.203939",
+      "source": "inventorySystem"
+    }
+  },
+  {
+    "id": "123479",
+    "category": "powerbank",
+    "name": "FitTitan Plus",
+    "pricing": {
+      "originalPrice": 8400,
+      "currentPrice": 5700
+    },
+    "inventory": {
+      "stockQuantity": 0,
+      "inStock": false
+    },
+    "isFeatured": false,
+    "createdAt": "2025-07-29T03:36:31.203939",
+    "variants": {
+      "hasColorOptions": true,
+      "availableColors": [
+        "Black",
+        "White",
+        "Silver",
+        "Gray"
+      ]
+    },
+    "media": {
+      "imageUrls": [
+        "/api/images/img1.jpeg",
+        "/api/images/img13.jpeg",
+        "/api/images/img5.jpeg",
+        "/api/images/img10.jpeg"
+      ],
+      "primaryImage": "/api/images/img1.jpeg"
+    },
+    "specifications": {
+      "packageContents": "1 x Product, 2 x AAA Batteries, Quick Start Guide",
+      "description": "The ultimate solution for your everyday needs with advanced features.",
+      "keyFeatures": [
+        "High-resolution display",
+        "Multiple color options",
+        "Lightweight design",
+        "Voice assistant"
+      ],
+      "technicalSpecs": {
+        "batteryCapacity": "4000mAh",
+        "connectivity": "Bluetooth 5.0",
+        "colorOptions": "3",
+        "expressDelivery": "Not Available",
+        "modelYear": 2020
+      },
+      "reviewIds": [
+        "rev_1076",
+        "rev_1085",
+        "rev_1064"
+      ]
+    },
+    "metadata": {
+      "lastUpdated": "2025-07-29T03:36:31.203939",
+      "source": "inventorySystem"
+    }
+  },
+  {
+    "id": "123480",
+    "category": "smartwatch",
+    "name": "PulseSync X2",
+    "pricing": {
+      "originalPrice": 5900,
+      "currentPrice": 4000
+    },
+    "inventory": {
+      "stockQuantity": 0,
+      "inStock": false
+    },
+    "isFeatured": false,
+    "createdAt": "2025-07-29T03:36:31.203939",
+    "variants": {
+      "hasColorOptions": true,
+      "availableColors": [
+        "Black",
+        "White",
+        "Silver",
+        "Gray"
+      ]
+    },
+    "media": {
+      "imageUrls": [
+        "/api/images/img7.jpeg",
+        "/api/images/img5.jpeg",
+        "/api/images/img1.jpeg",
+        "/api/images/img6.jpeg"
+      ],
+      "primaryImage": "/api/images/img7.jpeg"
+    },
+    "specifications": {
+      "packageContents": "1 x Device, 1 x USB-C Cable, 1 x Ear Tips (S/M/L), 1 x Storage Pouch",
+      "description": "Designed for performance and style, this product exceeds expectations.",
+      "keyFeatures": [
+        "Long battery life",
+        "Fast charging",
+        "Water resistant",
+        "Bluetooth connectivity"
+      ],
+      "technicalSpecs": {
+        "driverSize": "40mm",
+        "frequencyResponse": "20Hz-20kHz",
+        "impedance": "32 ohms",
+        "expressDelivery": "Not Available",
+        "modelYear": 2020
+      },
+      "reviewIds": [
+        "rev_1092",
+        "rev_1024",
+        "rev_1022"
+      ]
+    },
+    "metadata": {
+      "lastUpdated": "2025-07-29T03:36:31.203939",
+      "source": "inventorySystem"
+    }
+  },
+  {
+    "id": "123481",
+    "category": "gaming-headset",
+    "name": "HyperMax 5",
+    "pricing": {
+      "originalPrice": 8900,
+      "currentPrice": 6600
+    },
+    "inventory": {
+      "stockQuantity": 0,
+      "inStock": false
+    },
+    "isFeatured": false,
+    "createdAt": "2025-07-29T03:36:31.203939",
+    "variants": {
+      "hasColorOptions": true,
+      "availableColors": [
+        "Black",
+        "White",
+        "Silver",
+        "Gray"
+      ]
+    },
+    "media": {
+      "imageUrls": [
+        "/api/images/img1.jpeg",
+        "/api/images/img4.jpeg",
+        "/api/images/img8.jpeg",
+        "/api/images/img11.jpeg"
+      ],
+      "primaryImage": "/api/images/img1.jpeg"
+    },
+    "specifications": {
+      "packageContents": "1 x Device, 1 x USB-C Cable, 1 x Ear Tips (S/M/L), 1 x Storage Pouch",
+      "description": "Experience cutting-edge technology with our premium product.",
+      "keyFeatures": [
+        "Immersive experience",
+        "Adjustable straps",
+        "High refresh rate",
+        "Wide compatibility"
+      ],
+      "technicalSpecs": {
+        "material": "Plastic",
+        "warranty": "1 year",
+        "dimensions": "5x3x1 inches",
+        "expressDelivery": "Not Available",
+        "modelYear": 2021
+      },
+      "reviewIds": [
+        "rev_1054",
+        "rev_1030",
+        "rev_1080",
+        "rev_1093"
+      ]
+    },
+    "metadata": {
+      "lastUpdated": "2025-07-29T03:36:31.203939",
+      "source": "inventorySystem"
+    }
+  },
+  {
+    "id": "123482",
+    "category": "gaming-headset",
+    "name": "HyperMax Air",
+    "pricing": {
+      "originalPrice": 7100,
+      "currentPrice": 6100
+    },
+    "inventory": {
+      "stockQuantity": 12,
+      "inStock": true
+    },
+    "isFeatured": false,
+    "createdAt": "2025-07-29T03:36:31.203939",
+    "variants": {
+      "hasColorOptions": true,
+      "availableColors": [
+        "Red",
+        "Blue",
+        "Yellow"
+      ]
+    },
+    "media": {
+      "imageUrls": [
+        "/api/images/img6.jpeg",
+        "/api/images/img2.jpeg",
+        "/api/images/img10.jpeg",
+        "/api/images/img4.jpeg"
+      ],
+      "primaryImage": "/api/images/img6.jpeg"
+    },
+    "specifications": {
+      "packageContents": "1 x Headset, 1 x AUX Cable, 1 x Cleaning Cloth",
+      "description": "Transform your experience with this high-quality, feature-rich product.",
+      "keyFeatures": [
+        "Noise cancellation",
+        "Comfortable fit",
+        "Wireless freedom",
+        "Crystal clear sound"
+      ],
+      "technicalSpecs": {
+        "weight": "150g",
+        "compatibility": "iOS/Android",
+        "chargingTime": "2 hours",
+        "expressDelivery": "Not Available",
+        "modelYear": 2022
+      },
+      "reviewIds": [
+        "rev_1010",
+        "rev_1033",
+        "rev_1011"
+      ]
+    },
+    "metadata": {
+      "lastUpdated": "2025-07-29T03:36:31.203939",
+      "source": "inventorySystem"
+    }
+  },
+  {
+    "id": "123483",
+    "category": "airbuds",
+    "name": "ChargeBoost Air",
+    "pricing": {
+      "originalPrice": 9000,
+      "currentPrice": 7400
+    },
+    "inventory": {
+      "stockQuantity": 0,
+      "inStock": false
+    },
+    "isFeatured": false,
+    "createdAt": "2025-07-29T03:36:31.203939",
+    "variants": {
+      "hasColorOptions": true,
+      "availableColors": [
+        "Black",
+        "White",
+        "Silver",
+        "Gray"
+      ]
+    },
+    "media": {
+      "imageUrls": [
+        "/api/images/img5.jpeg",
+        "/api/images/img11.jpeg",
+        "/api/images/img9.jpeg",
+        "/api/images/img8.jpeg"
+      ],
+      "primaryImage": "/api/images/img5.jpeg"
+    },
+    "specifications": {
+      "packageContents": "1 x Smartwatch, 1 x Magnetic Charger, 1 x Strap (Extra)",
+      "description": "Designed for performance and style, this product exceeds expectations.",
+      "keyFeatures": [
+        "Long battery life",
+        "Fast charging",
+        "Water resistant",
+        "Bluetooth connectivity"
+      ],
+      "technicalSpecs": {
+        "screenSize": "1.4 inch",
+        "sensors": "Heart rate, Step counter",
+        "waterResistance": "IP68",
+        "expressDelivery": "Not Available",
+        "modelYear": 2021
+      },
+      "reviewIds": [
+        "rev_1084",
+        "rev_1052",
+        "rev_1095",
+        "rev_1088",
+        "rev_1035",
+        "rev_1027"
+      ]
+    },
+    "metadata": {
+      "lastUpdated": "2025-07-29T03:36:31.203939",
+      "source": "inventorySystem"
+    }
+  },
+  {
+    "id": "123484",
+    "category": "gaming-headset",
+    "name": "QiMax Plus",
+    "pricing": {
+      "originalPrice": 6100,
+      "currentPrice": 4400
+    },
+    "inventory": {
+      "stockQuantity": 21,
+      "inStock": true
+    },
+    "isFeatured": false,
+    "createdAt": "2025-07-29T03:36:31.203939",
+    "variants": {
+      "hasColorOptions": true,
+      "availableColors": [
+        "Red",
+        "Blue",
+        "Yellow"
+      ]
+    },
+    "media": {
+      "imageUrls": [
+        "/api/images/img4.jpeg",
+        "/api/images/img2.jpeg",
+        "/api/images/img3.jpeg",
+        "/api/images/img6.jpeg"
+      ],
+      "primaryImage": "/api/images/img4.jpeg"
+    },
+    "specifications": {
+      "packageContents": "1 x Smartwatch, 1 x Magnetic Charger, 1 x Strap (Extra)",
+      "description": "Innovative design meets superior functionality in this amazing product.",
+      "keyFeatures": [
+        "High-resolution display",
+        "Multiple color options",
+        "Lightweight design",
+        "Voice assistant"
+      ],
+      "technicalSpecs": {
+        "weight": "150g",
+        "compatibility": "iOS/Android",
+        "chargingTime": "2 hours",
+        "expressDelivery": "Not Available",
+        "modelYear": 2022
+      },
+      "reviewIds": [
+        "rev_1058",
+        "rev_1099",
+        "rev_1027",
+        "rev_1080",
+        "rev_1008",
+        "rev_1070"
+      ]
+    },
+    "metadata": {
+      "lastUpdated": "2025-07-29T03:36:31.203939",
+      "source": "inventorySystem"
+    }
+  },
+  {
+    "id": "123485",
+    "category": "gaming-headset",
+    "name": "FitMate Ultra",
+    "pricing": {
+      "originalPrice": 7100,
+      "currentPrice": 3800
+    },
+    "inventory": {
+      "stockQuantity": 0,
+      "inStock": false
+    },
+    "isFeatured": false,
+    "createdAt": "2025-07-29T03:36:31.203939",
+    "variants": {
+      "hasColorOptions": true,
+      "availableColors": [
+        "Green",
+        "LimeGreen",
+        "Olive"
+      ]
+    },
+    "media": {
+      "imageUrls": [
+        "/api/images/img9.jpeg",
+        "/api/images/img13.jpeg",
+        "/api/images/img8.jpeg",
+        "/api/images/img12.jpeg"
+      ],
+      "primaryImage": "/api/images/img9.jpeg"
+    },
+    "specifications": {
+      "packageContents": "1 x Speaker, 1 x Power Adapter, 1 x 3.5mm Audio Cable",
+      "description": "Transform your experience with this high-quality, feature-rich product.",
+      "keyFeatures": [
+        "High-resolution display",
+        "Multiple color options",
+        "Lightweight design",
+        "Voice assistant"
+      ],
+      "technicalSpecs": {
+        "batteryCapacity": "4000mAh",
+        "connectivity": "Bluetooth 5.0",
+        "colorOptions": "3",
+        "expressDelivery": "Not Available",
+        "modelYear": 2020
+      },
+      "reviewIds": [
+        "rev_1035",
+        "rev_1056",
+        "rev_1038"
+      ]
+    },
+    "metadata": {
+      "lastUpdated": "2025-07-29T03:36:31.203939",
+      "source": "inventorySystem"
+    }
+  },
+  {
+    "id": "123486",
+    "category": "smartwatch",
+    "name": "SoundMate X2",
+    "pricing": {
+      "originalPrice": 8400,
+      "currentPrice": 6800
+    },
+    "inventory": {
+      "stockQuantity": 7,
+      "inStock": true
+    },
+    "isFeatured": false,
+    "createdAt": "2025-07-29T03:36:31.203939",
+    "variants": {
+      "hasColorOptions": true,
+      "availableColors": [
+        "Green",
+        "LimeGreen",
+        "Olive"
+      ]
+    },
+    "media": {
+      "imageUrls": [
+        "/api/images/img1.jpeg",
+        "/api/images/img4.jpeg",
+        "/api/images/img8.jpeg",
+        "/api/images/img11.jpeg"
+      ],
+      "primaryImage": "/api/images/img1.jpeg"
+    },
+    "specifications": {
+      "packageContents": "1 x VR Headset, 2 x Controllers, 1 x Lens Cleaning Kit",
+      "description": "Experience cutting-edge technology with our premium product.",
+      "keyFeatures": [
+        "High-resolution display",
+        "Multiple color options",
+        "Lightweight design",
+        "Voice assistant"
+      ],
+      "technicalSpecs": {
+        "batteryCapacity": "4000mAh",
+        "connectivity": "Bluetooth 5.0",
+        "colorOptions": "3",
+        "expressDelivery": "Not Available",
+        "modelYear": 2020
+      },
+      "reviewIds": [
+        "rev_1030",
+        "rev_1048",
+        "rev_1051",
+        "rev_1028"
+      ]
+    },
+    "metadata": {
+      "lastUpdated": "2025-07-29T03:36:31.203939",
+      "source": "inventorySystem"
+    }
+  },
+  {
+    "id": "123487",
+    "category": "gaming-headset",
+    "name": "ImmersaX Air",
+    "pricing": {
+      "originalPrice": 5100,
+      "currentPrice": 2900
+    },
+    "inventory": {
+      "stockQuantity": 26,
+      "inStock": true
+    },
+    "isFeatured": true,
+    "createdAt": "2025-07-29T03:36:31.203939",
+    "variants": {
+      "hasColorOptions": true,
+      "availableColors": [
+        "Red",
+        "Blue",
+        "Yellow"
+      ]
+    },
+    "media": {
+      "imageUrls": [
+        "/api/images/img8.jpeg",
+        "/api/images/img5.jpeg",
+        "/api/images/img9.jpeg",
+        "/api/images/img6.jpeg"
+      ],
+      "primaryImage": "/api/images/img8.jpeg"
+    },
+    "specifications": {
+      "packageContents": "1 x Device, 1 x USB-C Cable, 1 x Ear Tips (S/M/L), 1 x Storage Pouch",
+      "description": "The ultimate solution for your everyday needs with advanced features.",
+      "keyFeatures": [
+        "High-resolution display",
+        "Multiple color options",
+        "Lightweight design",
+        "Voice assistant"
+      ],
+      "technicalSpecs": {
+        "driverSize": "40mm",
+        "frequencyResponse": "20Hz-20kHz",
+        "impedance": "32 ohms",
+        "expressDelivery": "Not Available",
+        "modelYear": 2020
+      },
+      "reviewIds": [
+        "rev_1006",
+        "rev_1059",
+        "rev_1015",
+        "rev_1077"
+      ]
+    },
+    "metadata": {
+      "lastUpdated": "2025-07-29T03:36:31.203939",
+      "source": "inventorySystem"
+    }
+  },
+  {
+    "id": "123488",
+    "category": "wireless-charger",
+    "name": "HyperX Ultra",
+    "pricing": {
+      "originalPrice": 7100,
+      "currentPrice": 5100
+    },
+    "inventory": {
+      "stockQuantity": 0,
+      "inStock": false
+    },
+    "isFeatured": true,
+    "createdAt": "2025-07-29T03:36:31.203939",
+    "variants": {
+      "hasColorOptions": true,
+      "availableColors": [
+        "Black",
+        "White",
+        "Silver",
+        "Gray"
+      ]
+    },
+    "media": {
+      "imageUrls": [
+        "/api/images/img11.jpeg",
+        "/api/images/img1.jpeg",
+        "/api/images/img13.jpeg",
+        "/api/images/img12.jpeg"
+      ],
+      "primaryImage": "/api/images/img11.jpeg"
+    },
+    "specifications": {
+      "packageContents": "1 x Headset, 1 x AUX Cable, 1 x Cleaning Cloth",
+      "description": "Designed for performance and style, this product exceeds expectations.",
+      "keyFeatures": [
+        "Noise cancellation",
+        "Comfortable fit",
+        "Wireless freedom",
+        "Crystal clear sound"
+      ],
+      "technicalSpecs": {
+        "batteryCapacity": "4000mAh",
+        "connectivity": "Bluetooth 5.0",
+        "colorOptions": "3",
+        "expressDelivery": "Not Available",
+        "modelYear": 2020
+      },
+      "reviewIds": [
+        "rev_1029",
+        "rev_1038",
+        "rev_1036",
+        "rev_1003",
+        "rev_1093",
+        "rev_1025"
+      ]
+    },
+    "metadata": {
+      "lastUpdated": "2025-07-29T03:36:31.203939",
+      "source": "inventorySystem"
+    }
+  },
+  {
+    "id": "123489",
+    "category": "smartwatch",
+    "name": "SoundSync Plus",
+    "pricing": {
+      "originalPrice": 7000,
+      "currentPrice": 5600
+    },
+    "inventory": {
+      "stockQuantity": 0,
+      "inStock": false
+    },
+    "isFeatured": true,
+    "createdAt": "2025-07-29T03:36:31.203939",
+    "variants": {
+      "hasColorOptions": true,
+      "availableColors": [
+        "Green",
+        "LimeGreen",
+        "Olive"
+      ]
+    },
+    "media": {
+      "imageUrls": [
+        "/api/images/img12.jpeg",
+        "/api/images/img11.jpeg",
+        "/api/images/img9.jpeg",
+        "/api/images/img7.jpeg"
+      ],
+      "primaryImage": "/api/images/img12.jpeg"
+    },
+    "specifications": {
+      "packageContents": "1 x Product, 2 x AAA Batteries, Quick Start Guide",
+      "description": "Experience cutting-edge technology with our premium product.",
+      "keyFeatures": [
+        "Sleek design",
+        "Multiple ports",
+        "Compact size",
+        "Fast data transfer"
+      ],
+      "technicalSpecs": {
+        "driverSize": "40mm",
+        "frequencyResponse": "20Hz-20kHz",
+        "impedance": "32 ohms",
+        "expressDelivery": "Not Available",
+        "modelYear": 2020
+      },
+      "reviewIds": [
+        "rev_1092",
+        "rev_1091",
+        "rev_1013"
+      ]
+    },
+    "metadata": {
+      "lastUpdated": "2025-07-29T03:36:31.203939",
+      "source": "inventorySystem"
+    }
+  },
+  {
+    "id": "123490",
+    "category": "bluetooth-speaker",
+    "name": "ChargePro X2",
+    "pricing": {
+      "originalPrice": 7300,
+      "currentPrice": 5700
+    },
+    "inventory": {
+      "stockQuantity": 0,
+      "inStock": false
+    },
+    "isFeatured": false,
+    "createdAt": "2025-07-29T03:36:31.203939",
+    "variants": {
+      "hasColorOptions": true,
+      "availableColors": [
+        "Red",
+        "Blue",
+        "Yellow"
+      ]
+    },
+    "media": {
+      "imageUrls": [
+        "/api/images/img5.jpeg",
+        "/api/images/img2.jpeg",
+        "/api/images/img9.jpeg",
+        "/api/images/img13.jpeg"
+      ],
+      "primaryImage": "/api/images/img5.jpeg"
+    },
+    "specifications": {
+      "packageContents": "1 x Product, 2 x AAA Batteries, Quick Start Guide",
+      "description": "Experience cutting-edge technology with our premium product.",
+      "keyFeatures": [
+        "Sleek design",
+        "Multiple ports",
+        "Compact size",
+        "Fast data transfer"
+      ],
+      "technicalSpecs": {
+        "material": "Plastic",
+        "warranty": "1 year",
+        "dimensions": "5x3x1 inches",
+        "expressDelivery": "Not Available",
+        "modelYear": 2021
+      },
+      "reviewIds": [
+        "rev_1072",
+        "rev_1055",
+        "rev_1057",
+        "rev_1100",
+        "rev_1078"
+      ]
+    },
+    "metadata": {
+      "lastUpdated": "2025-07-29T03:36:31.203939",
+      "source": "inventorySystem"
+    }
+  },
+  {
+    "id": "123491",
+    "category": "vr-headset",
+    "name": "FitSync 5",
+    "pricing": {
+      "originalPrice": 8700,
+      "currentPrice": 4700
+    },
+    "inventory": {
+      "stockQuantity": 0,
+      "inStock": false
+    },
+    "isFeatured": false,
+    "createdAt": "2025-07-29T03:36:31.203939",
+    "variants": {
+      "hasColorOptions": true,
+      "availableColors": [
+        "Red",
+        "Blue",
+        "Yellow"
+      ]
+    },
+    "media": {
+      "imageUrls": [
+        "/api/images/img12.jpeg",
+        "/api/images/img7.jpeg",
+        "/api/images/img4.jpeg",
+        "/api/images/img13.jpeg"
+      ],
+      "primaryImage": "/api/images/img12.jpeg"
+    },
+    "specifications": {
+      "packageContents": "1 x Product, 2 x AAA Batteries, Quick Start Guide",
+      "description": "Experience cutting-edge technology with our premium product.",
+      "keyFeatures": [
+        "Immersive experience",
+        "Adjustable straps",
+        "High refresh rate",
+        "Wide compatibility"
+      ],
+      "technicalSpecs": {
+        "batteryCapacity": "4000mAh",
+        "connectivity": "Bluetooth 5.0",
+        "colorOptions": "3",
+        "expressDelivery": "Not Available",
+        "modelYear": 2020
+      },
+      "reviewIds": [
+        "rev_1070",
+        "rev_1084",
+        "rev_1086",
+        "rev_1008",
+        "rev_1080"
+      ]
+    },
+    "metadata": {
+      "lastUpdated": "2025-07-29T03:36:31.203939",
+      "source": "inventorySystem"
+    }
+  },
+  {
+    "id": "123492",
+    "category": "wireless-charger",
+    "name": "ChargeTitan Ultra",
+    "pricing": {
+      "originalPrice": 8800,
+      "currentPrice": 6900
+    },
+    "inventory": {
+      "stockQuantity": 21,
+      "inStock": true
+    },
+    "isFeatured": false,
+    "createdAt": "2025-07-29T03:36:31.203939",
+    "variants": {
+      "hasColorOptions": true,
+      "availableColors": [
+        "Green",
+        "LimeGreen",
+        "Olive"
+      ]
+    },
+    "media": {
+      "imageUrls": [
+        "/api/images/img10.jpeg",
+        "/api/images/img7.jpeg",
+        "/api/images/img5.jpeg",
+        "/api/images/img8.jpeg"
+      ],
+      "primaryImage": "/api/images/img10.jpeg"
+    },
+    "specifications": {
+      "packageContents": "1 x Device, 1 x USB-C Cable, 1 x Ear Tips (S/M/L), 1 x Storage Pouch",
+      "description": "Innovative design meets superior functionality in this amazing product.",
+      "keyFeatures": [
+        "High-resolution display",
+        "Multiple color options",
+        "Lightweight design",
+        "Voice assistant"
+      ],
+      "technicalSpecs": {
+        "material": "Plastic",
+        "warranty": "1 year",
+        "dimensions": "5x3x1 inches",
+        "expressDelivery": "Not Available",
+        "modelYear": 2021
+      },
+      "reviewIds": [
+        "rev_1003",
+        "rev_1015",
+        "rev_1054",
+        "rev_1082"
+      ]
+    },
+    "metadata": {
+      "lastUpdated": "2025-07-29T03:36:31.203939",
+      "source": "inventorySystem"
+    }
+  },
+  {
+    "id": "123493",
+    "category": "powerbank",
+    "name": "ImmersaSync Plus",
+    "pricing": {
+      "originalPrice": 5200,
+      "currentPrice": 2000
+    },
+    "inventory": {
+      "stockQuantity": 37,
+      "inStock": true
+    },
+    "isFeatured": false,
+    "createdAt": "2025-07-29T03:36:31.203939",
+    "variants": {
+      "hasColorOptions": true,
+      "availableColors": [
+        "Black",
+        "White",
+        "Silver",
+        "Gray"
+      ]
+    },
+    "media": {
+      "imageUrls": [
+        "/api/images/img10.jpeg",
+        "/api/images/img8.jpeg",
+        "/api/images/img6.jpeg",
+        "/api/images/img1.jpeg"
+      ],
+      "primaryImage": "/api/images/img10.jpeg"
+    },
+    "specifications": {
+      "packageContents": "1 x Speaker, 1 x Power Adapter, 1 x 3.5mm Audio Cable",
+      "description": "Innovative design meets superior functionality in this amazing product.",
+      "keyFeatures": [
+        "High-resolution display",
+        "Multiple color options",
+        "Lightweight design",
+        "Voice assistant"
+      ],
+      "technicalSpecs": {
+        "screenSize": "1.4 inch",
+        "sensors": "Heart rate, Step counter",
+        "waterResistance": "IP68",
+        "expressDelivery": "Not Available",
+        "modelYear": 2021
+      },
+      "reviewIds": [
+        "rev_1043",
+        "rev_1045",
+        "rev_1051",
+        "rev_1073"
+      ]
+    },
+    "metadata": {
+      "lastUpdated": "2025-07-29T03:36:31.203939",
+      "source": "inventorySystem"
+    }
+  },
+  {
+    "id": "123494",
+    "category": "wireless-charger",
+    "name": "FitTitan 360",
+    "pricing": {
+      "originalPrice": 7200,
+      "currentPrice": 4100
+    },
+    "inventory": {
+      "stockQuantity": 0,
+      "inStock": false
+    },
+    "isFeatured": false,
+    "createdAt": "2025-07-29T03:36:31.203939",
+    "variants": {
+      "hasColorOptions": true,
+      "availableColors": [
+        "Black",
+        "White",
+        "Silver",
+        "Gray"
+      ]
+    },
+    "media": {
+      "imageUrls": [
+        "/api/images/img10.jpeg",
+        "/api/images/img6.jpeg",
+        "/api/images/img3.jpeg",
+        "/api/images/img2.jpeg"
+      ],
+      "primaryImage": "/api/images/img10.jpeg"
+    },
+    "specifications": {
+      "packageContents": "1 x Device, 1 x USB-C Cable, 1 x Ear Tips (S/M/L), 1 x Storage Pouch",
+      "description": "Experience cutting-edge technology with our premium product.",
+      "keyFeatures": [
+        "Sleek design",
+        "Multiple ports",
+        "Compact size",
+        "Fast data transfer"
+      ],
+      "technicalSpecs": {
+        "driverSize": "40mm",
+        "frequencyResponse": "20Hz-20kHz",
+        "impedance": "32 ohms",
+        "expressDelivery": "Not Available",
+        "modelYear": 2020
+      },
+      "reviewIds": [
+        "rev_1030",
+        "rev_1023",
+        "rev_1025",
+        "rev_1060"
+      ]
+    },
+    "metadata": {
+      "lastUpdated": "2025-07-29T03:36:31.203939",
+      "source": "inventorySystem"
+    }
+  },
+  {
+    "id": "123495",
+    "category": "gaming-headset",
+    "name": "PulseTitan 360",
+    "pricing": {
+      "originalPrice": 6300,
+      "currentPrice": 5000
+    },
+    "inventory": {
+      "stockQuantity": 0,
+      "inStock": false
+    },
+    "isFeatured": false,
+    "createdAt": "2025-07-29T03:36:31.203939",
+    "variants": {
+      "hasColorOptions": true,
+      "availableColors": [
+        "Green",
+        "LimeGreen",
+        "Olive"
+      ]
+    },
+    "media": {
+      "imageUrls": [
+        "/api/images/img8.jpeg",
+        "/api/images/img10.jpeg",
+        "/api/images/img7.jpeg",
+        "/api/images/img11.jpeg"
+      ],
+      "primaryImage": "/api/images/img8.jpeg"
+    },
+    "specifications": {
+      "packageContents": "1 x Product, 2 x AAA Batteries, Quick Start Guide",
+      "description": "Designed for performance and style, this product exceeds expectations.",
+      "keyFeatures": [
+        "Sleek design",
+        "Multiple ports",
+        "Compact size",
+        "Fast data transfer"
+      ],
+      "technicalSpecs": {
+        "weight": "150g",
+        "compatibility": "iOS/Android",
+        "chargingTime": "2 hours",
+        "expressDelivery": "Not Available",
+        "modelYear": 2022
+      },
+      "reviewIds": [
+        "rev_1054",
+        "rev_1015",
+        "rev_1078",
+        "rev_1071"
+      ]
+    },
+    "metadata": {
+      "lastUpdated": "2025-07-29T03:36:31.203939",
+      "source": "inventorySystem"
+    }
+  },
+  {
+    "id": "123496",
+    "category": "smartwatch",
+    "name": "FitPro 360",
+    "pricing": {
+      "originalPrice": 6200,
+      "currentPrice": 2200
+    },
+    "inventory": {
+      "stockQuantity": 0,
+      "inStock": false
+    },
+    "isFeatured": false,
+    "createdAt": "2025-07-29T03:36:31.203939",
+    "variants": {
+      "hasColorOptions": true,
+      "availableColors": [
+        "Red",
+        "Blue",
+        "Yellow"
+      ]
+    },
+    "media": {
+      "imageUrls": [
+        "/api/images/img3.jpeg",
+        "/api/images/img12.jpeg",
+        "/api/images/img4.jpeg",
+        "/api/images/img11.jpeg"
+      ],
+      "primaryImage": "/api/images/img3.jpeg"
+    },
+    "specifications": {
+      "packageContents": "1 x Speaker, 1 x Power Adapter, 1 x 3.5mm Audio Cable",
+      "description": "Experience cutting-edge technology with our premium product.",
+      "keyFeatures": [
+        "Noise cancellation",
+        "Comfortable fit",
+        "Wireless freedom",
+        "Crystal clear sound"
+      ],
+      "technicalSpecs": {
+        "weight": "150g",
+        "compatibility": "iOS/Android",
+        "chargingTime": "2 hours",
+        "expressDelivery": "Not Available",
+        "modelYear": 2022
+      },
+      "reviewIds": [
+        "rev_1041",
+        "rev_1051",
+        "rev_1083"
+      ]
+    },
+    "metadata": {
+      "lastUpdated": "2025-07-29T03:36:31.203939",
+      "source": "inventorySystem"
+    }
+  },
+  {
+    "id": "123497",
+    "category": "wireless-charger",
+    "name": "FitTitan X2",
+    "pricing": {
+      "originalPrice": 7800,
+      "currentPrice": 5200
+    },
+    "inventory": {
+      "stockQuantity": 0,
+      "inStock": false
+    },
+    "isFeatured": false,
+    "createdAt": "2025-07-29T03:36:31.203939",
+    "variants": {
+      "hasColorOptions": true,
+      "availableColors": [
+        "Red",
+        "Blue",
+        "Yellow"
+      ]
+    },
+    "media": {
+      "imageUrls": [
+        "/api/images/img13.jpeg",
+        "/api/images/img2.jpeg",
+        "/api/images/img7.jpeg",
+        "/api/images/img9.jpeg"
+      ],
+      "primaryImage": "/api/images/img13.jpeg"
+    },
+    "specifications": {
+      "packageContents": "1 x Main Unit, 1 x Charging Cable, 1 x User Manual, 1 x Warranty Card",
+      "description": "Designed for performance and style, this product exceeds expectations.",
+      "keyFeatures": [
+        "Immersive experience",
+        "Adjustable straps",
+        "High refresh rate",
+        "Wide compatibility"
+      ],
+      "technicalSpecs": {
+        "batteryCapacity": "4000mAh",
+        "connectivity": "Bluetooth 5.0",
+        "colorOptions": "3",
+        "expressDelivery": "Not Available",
+        "modelYear": 2020
+      },
+      "reviewIds": [
+        "rev_1074",
+        "rev_1044",
+        "rev_1050"
+      ]
+    },
+    "metadata": {
+      "lastUpdated": "2025-07-29T03:36:31.203939",
+      "source": "inventorySystem"
+    }
+  },
+  {
+    "id": "123498",
+    "category": "gaming-headset",
+    "name": "PulseSync Air",
+    "pricing": {
+      "originalPrice": 5000,
+      "currentPrice": 3600
+    },
+    "inventory": {
+      "stockQuantity": 0,
+      "inStock": false
+    },
+    "isFeatured": false,
+    "createdAt": "2025-07-29T03:36:31.203939",
+    "variants": {
+      "hasColorOptions": true,
+      "availableColors": [
+        "Red",
+        "Blue",
+        "Yellow"
+      ]
+    },
+    "media": {
+      "imageUrls": [
+        "/api/images/img12.jpeg",
+        "/api/images/img9.jpeg",
+        "/api/images/img10.jpeg",
+        "/api/images/img2.jpeg"
+      ],
+      "primaryImage": "/api/images/img12.jpeg"
+    },
+    "specifications": {
+      "packageContents": "1 x Headset, 1 x AUX Cable, 1 x Cleaning Cloth",
+      "description": "The ultimate solution for your everyday needs with advanced features.",
+      "keyFeatures": [
+        "Long battery life",
+        "Fast charging",
+        "Water resistant",
+        "Bluetooth connectivity"
+      ],
+      "technicalSpecs": {
+        "weight": "150g",
+        "compatibility": "iOS/Android",
+        "chargingTime": "2 hours",
+        "expressDelivery": "Not Available",
+        "modelYear": 2022
+      },
+      "reviewIds": [
+        "rev_1090",
+        "rev_1089",
+        "rev_1082",
+        "rev_1019"
+      ]
+    },
+    "metadata": {
+      "lastUpdated": "2025-07-29T03:36:31.203939",
+      "source": "inventorySystem"
+    }
+  },
+  {
+    "id": "123499",
+    "category": "airbuds",
+    "name": "ChargeTitan Elite",
+    "pricing": {
+      "originalPrice": 7500,
+      "currentPrice": 3800
+    },
+    "inventory": {
+      "stockQuantity": 0,
+      "inStock": false
+    },
+    "isFeatured": false,
+    "createdAt": "2025-07-29T03:36:31.203939",
+    "variants": {
+      "hasColorOptions": true,
+      "availableColors": [
+        "Green",
+        "LimeGreen",
+        "Olive"
+      ]
+    },
+    "media": {
+      "imageUrls": [
+        "/api/images/img9.jpeg",
+        "/api/images/img4.jpeg",
+        "/api/images/img3.jpeg",
+        "/api/images/img12.jpeg"
+      ],
+      "primaryImage": "/api/images/img9.jpeg"
+    },
+    "specifications": {
+      "packageContents": "1 x VR Headset, 2 x Controllers, 1 x Lens Cleaning Kit",
+      "description": "The ultimate solution for your everyday needs with advanced features.",
+      "keyFeatures": [
+        "Sleek design",
+        "Multiple ports",
+        "Compact size",
+        "Fast data transfer"
+      ],
+      "technicalSpecs": {
+        "material": "Plastic",
+        "warranty": "1 year",
+        "dimensions": "5x3x1 inches",
+        "expressDelivery": "Not Available",
+        "modelYear": 2021
+      },
+      "reviewIds": [
+        "rev_1039",
+        "rev_1008",
+        "rev_1084",
+        "rev_1002"
+      ]
+    },
+    "metadata": {
+      "lastUpdated": "2025-07-29T03:36:31.203939",
+      "source": "inventorySystem"
+    }
+  },
+  {
+    "id": "123500",
+    "category": "vr-headset",
+    "name": "QiX Plus",
+    "pricing": {
+      "originalPrice": 8200,
+      "currentPrice": 5300
+    },
+    "inventory": {
+      "stockQuantity": 38,
+      "inStock": true
+    },
+    "isFeatured": false,
+    "createdAt": "2025-07-29T03:36:31.203939",
+    "variants": {
+      "hasColorOptions": true,
+      "availableColors": [
+        "Red",
+        "Blue",
+        "Yellow"
+      ]
+    },
+    "media": {
+      "imageUrls": [
+        "/api/images/img10.jpeg",
+        "/api/images/img7.jpeg",
+        "/api/images/img11.jpeg",
+        "/api/images/img9.jpeg"
+      ],
+      "primaryImage": "/api/images/img10.jpeg"
+    },
+    "specifications": {
+      "packageContents": "1 x VR Headset, 2 x Controllers, 1 x Lens Cleaning Kit",
+      "description": "Designed for performance and style, this product exceeds expectations.",
+      "keyFeatures": [
+        "Immersive experience",
+        "Adjustable straps",
+        "High refresh rate",
+        "Wide compatibility"
+      ],
+      "technicalSpecs": {
+        "screenSize": "1.4 inch",
+        "sensors": "Heart rate, Step counter",
+        "waterResistance": "IP68",
+        "expressDelivery": "Not Available",
+        "modelYear": 2021
+      },
+      "reviewIds": [
+        "rev_1090",
+        "rev_1021",
+        "rev_1099"
+      ]
+    },
+    "metadata": {
+      "lastUpdated": "2025-07-29T03:36:31.203939",
+      "source": "inventorySystem"
+    }
+  },
+  {
+    "id": "123501",
+    "category": "vr-headset",
+    "name": "QiPro 5",
+    "pricing": {
+      "originalPrice": 5500,
+      "currentPrice": 3100
+    },
+    "inventory": {
+      "stockQuantity": 0,
+      "inStock": false
+    },
+    "isFeatured": true,
+    "createdAt": "2025-07-29T03:36:31.203939",
+    "variants": {
+      "hasColorOptions": true,
+      "availableColors": [
+        "Green",
+        "LimeGreen",
+        "Olive"
+      ]
+    },
+    "media": {
+      "imageUrls": [
+        "/api/images/img6.jpeg",
+        "/api/images/img4.jpeg",
+        "/api/images/img3.jpeg",
+        "/api/images/img9.jpeg"
+      ],
+      "primaryImage": "/api/images/img6.jpeg"
+    },
+    "specifications": {
+      "packageContents": "1 x Smartwatch, 1 x Magnetic Charger, 1 x Strap (Extra)",
+      "description": "Innovative design meets superior functionality in this amazing product.",
+      "keyFeatures": [
+        "Sleek design",
+        "Multiple ports",
+        "Compact size",
+        "Fast data transfer"
+      ],
+      "technicalSpecs": {
+        "batteryCapacity": "4000mAh",
+        "connectivity": "Bluetooth 5.0",
+        "colorOptions": "3",
+        "expressDelivery": "Not Available",
+        "modelYear": 2020
+      },
+      "reviewIds": [
+        "rev_1002",
+        "rev_1095",
+        "rev_1087"
+      ]
+    },
+    "metadata": {
+      "lastUpdated": "2025-07-29T03:36:31.203939",
+      "source": "inventorySystem"
+    }
+  },
+  {
+    "id": "123502",
+    "category": "smartwatch",
+    "name": "ChargeX Ultra",
+    "pricing": {
+      "originalPrice": 5800,
+      "currentPrice": 3200
+    },
+    "inventory": {
+      "stockQuantity": 0,
+      "inStock": false
+    },
+    "isFeatured": true,
+    "createdAt": "2025-07-29T03:36:31.203939",
+    "variants": {
+      "hasColorOptions": true,
+      "availableColors": [
+        "Green",
+        "LimeGreen",
+        "Olive"
+      ]
+    },
+    "media": {
+      "imageUrls": [
+        "/api/images/img1.jpeg",
+        "/api/images/img4.jpeg",
+        "/api/images/img7.jpeg",
+        "/api/images/img6.jpeg"
+      ],
+      "primaryImage": "/api/images/img1.jpeg"
+    },
+    "specifications": {
+      "packageContents": "1 x Device, 1 x USB-C Cable, 1 x Ear Tips (S/M/L), 1 x Storage Pouch",
+      "description": "The ultimate solution for your everyday needs with advanced features.",
+      "keyFeatures": [
+        "Long battery life",
+        "Fast charging",
+        "Water resistant",
+        "Bluetooth connectivity"
+      ],
+      "technicalSpecs": {
+        "batteryCapacity": "4000mAh",
+        "connectivity": "Bluetooth 5.0",
+        "colorOptions": "3",
+        "expressDelivery": "Not Available",
+        "modelYear": 2020
+      },
+      "reviewIds": [
+        "rev_1063",
+        "rev_1061",
+        "rev_1050"
+      ]
+    },
+    "metadata": {
+      "lastUpdated": "2025-07-29T03:36:31.203939",
+      "source": "inventorySystem"
+    }
+  },
+  {
+    "id": "123503",
+    "category": "powerbank",
+    "name": "PulseSync 360",
+    "pricing": {
+      "originalPrice": 8200,
+      "currentPrice": 6300
+    },
+    "inventory": {
+      "stockQuantity": 37,
+      "inStock": true
+    },
+    "isFeatured": false,
+    "createdAt": "2025-07-29T03:36:31.203939",
+    "variants": {
+      "hasColorOptions": true,
+      "availableColors": [
+        "Green",
+        "LimeGreen",
+        "Olive"
+      ]
+    },
+    "media": {
+      "imageUrls": [
+        "/api/images/img4.jpeg",
+        "/api/images/img11.jpeg",
+        "/api/images/img9.jpeg",
+        "/api/images/img3.jpeg"
+      ],
+      "primaryImage": "/api/images/img4.jpeg"
+    },
+    "specifications": {
+      "packageContents": "1 x Main Unit, 1 x Charging Cable, 1 x User Manual, 1 x Warranty Card",
+      "description": "The ultimate solution for your everyday needs with advanced features.",
+      "keyFeatures": [
+        "Sleek design",
+        "Multiple ports",
+        "Compact size",
+        "Fast data transfer"
+      ],
+      "technicalSpecs": {
+        "weight": "150g",
+        "compatibility": "iOS/Android",
+        "chargingTime": "2 hours",
+        "expressDelivery": "Not Available",
+        "modelYear": 2022
+      },
+      "reviewIds": [
+        "rev_1092",
+        "rev_1069",
+        "rev_1095",
+        "rev_1006"
+      ]
+    },
+    "metadata": {
+      "lastUpdated": "2025-07-29T03:36:31.203939",
+      "source": "inventorySystem"
+    }
+  },
+  {
+    "id": "123504",
+    "category": "airbuds",
+    "name": "QiPro 360",
+    "pricing": {
+      "originalPrice": 5700,
+      "currentPrice": 3900
+    },
+    "inventory": {
+      "stockQuantity": 0,
+      "inStock": false
+    },
+    "isFeatured": false,
+    "createdAt": "2025-07-29T03:36:31.203939",
+    "variants": {
+      "hasColorOptions": true,
+      "availableColors": [
+        "Black",
+        "White",
+        "Silver",
+        "Gray"
+      ]
+    },
+    "media": {
+      "imageUrls": [
+        "/api/images/img11.jpeg",
+        "/api/images/img3.jpeg",
+        "/api/images/img10.jpeg",
+        "/api/images/img1.jpeg"
+      ],
+      "primaryImage": "/api/images/img11.jpeg"
+    },
+    "specifications": {
+      "packageContents": "1 x Product, 2 x AAA Batteries, Quick Start Guide",
+      "description": "Experience cutting-edge technology with our premium product.",
+      "keyFeatures": [
+        "Long battery life",
+        "Fast charging",
+        "Water resistant",
+        "Bluetooth connectivity"
+      ],
+      "technicalSpecs": {
+        "batteryCapacity": "4000mAh",
+        "connectivity": "Bluetooth 5.0",
+        "colorOptions": "3",
+        "expressDelivery": "Not Available",
+        "modelYear": 2020
+      },
+      "reviewIds": [
+        "rev_1054",
+        "rev_1097",
+        "rev_1057"
+      ]
+    },
+    "metadata": {
+      "lastUpdated": "2025-07-29T03:36:31.203939",
+      "source": "inventorySystem"
+    }
+  },
+  {
+    "id": "123505",
+    "category": "smartwatch",
+    "name": "ChargeMax X2",
+    "pricing": {
+      "originalPrice": 7200,
+      "currentPrice": 5000
+    },
+    "inventory": {
+      "stockQuantity": 0,
+      "inStock": false
+    },
+    "isFeatured": false,
+    "createdAt": "2025-07-29T03:36:31.203939",
+    "variants": {
+      "hasColorOptions": true,
+      "availableColors": [
+        "Black",
+        "White",
+        "Silver",
+        "Gray"
+      ]
+    },
+    "media": {
+      "imageUrls": [
+        "/api/images/img11.jpeg",
+        "/api/images/img4.jpeg",
+        "/api/images/img10.jpeg",
+        "/api/images/img8.jpeg"
+      ],
+      "primaryImage": "/api/images/img11.jpeg"
+    },
+    "specifications": {
+      "packageContents": "1 x Headset, 1 x AUX Cable, 1 x Cleaning Cloth",
+      "description": "Transform your experience with this high-quality, feature-rich product.",
+      "keyFeatures": [
+        "High-resolution display",
+        "Multiple color options",
+        "Lightweight design",
+        "Voice assistant"
+      ],
+      "technicalSpecs": {
+        "weight": "150g",
+        "compatibility": "iOS/Android",
+        "chargingTime": "2 hours",
+        "expressDelivery": "Not Available",
+        "modelYear": 2022
+      },
+      "reviewIds": [
+        "rev_1059",
+        "rev_1099",
+        "rev_1083",
+        "rev_1073"
+      ]
+    },
+    "metadata": {
+      "lastUpdated": "2025-07-29T03:36:31.203939",
+      "source": "inventorySystem"
+    }
+  },
+  {
+    "id": "123506",
+    "category": "bluetooth-speaker",
+    "name": "PulseSync Ultra",
+    "pricing": {
+      "originalPrice": 8200,
+      "currentPrice": 7200
+    },
+    "inventory": {
+      "stockQuantity": 12,
+      "inStock": true
+    },
+    "isFeatured": false,
+    "createdAt": "2025-07-29T03:36:31.203939",
+    "variants": {
+      "hasColorOptions": true,
+      "availableColors": [
+        "Green",
+        "LimeGreen",
+        "Olive"
+      ]
+    },
+    "media": {
+      "imageUrls": [
+        "/api/images/img9.jpeg",
+        "/api/images/img11.jpeg",
+        "/api/images/img13.jpeg",
+        "/api/images/img3.jpeg"
+      ],
+      "primaryImage": "/api/images/img9.jpeg"
+    },
+    "specifications": {
+      "packageContents": "1 x Headset, 1 x AUX Cable, 1 x Cleaning Cloth",
+      "description": "Experience cutting-edge technology with our premium product.",
+      "keyFeatures": [
+        "Long battery life",
+        "Fast charging",
+        "Water resistant",
+        "Bluetooth connectivity"
+      ],
+      "technicalSpecs": {
+        "batteryCapacity": "4000mAh",
+        "connectivity": "Bluetooth 5.0",
+        "colorOptions": "3",
+        "expressDelivery": "Not Available",
+        "modelYear": 2020
+      },
+      "reviewIds": [
+        "rev_1098",
+        "rev_1067",
+        "rev_1060",
+        "rev_1064",
+        "rev_1026",
+        "rev_1036"
+      ]
+    },
+    "metadata": {
+      "lastUpdated": "2025-07-29T03:36:31.203939",
+      "source": "inventorySystem"
+    }
+  },
+  {
+    "id": "123507",
+    "category": "powerbank",
+    "name": "PulseMax Ultra",
+    "pricing": {
+      "originalPrice": 8900,
+      "currentPrice": 5400
+    },
+    "inventory": {
+      "stockQuantity": 0,
+      "inStock": false
+    },
+    "isFeatured": false,
+    "createdAt": "2025-07-29T03:36:31.203939",
+    "variants": {
+      "hasColorOptions": true,
+      "availableColors": [
+        "Red",
+        "Blue",
+        "Yellow"
+      ]
+    },
+    "media": {
+      "imageUrls": [
+        "/api/images/img10.jpeg",
+        "/api/images/img6.jpeg",
+        "/api/images/img3.jpeg",
+        "/api/images/img9.jpeg"
+      ],
+      "primaryImage": "/api/images/img10.jpeg"
+    },
+    "specifications": {
+      "packageContents": "1 x Main Unit, 1 x Charging Cable, 1 x User Manual, 1 x Warranty Card",
+      "description": "Designed for performance and style, this product exceeds expectations.",
+      "keyFeatures": [
+        "Long battery life",
+        "Fast charging",
+        "Water resistant",
+        "Bluetooth connectivity"
+      ],
+      "technicalSpecs": {
+        "material": "Plastic",
+        "warranty": "1 year",
+        "dimensions": "5x3x1 inches",
+        "expressDelivery": "Not Available",
+        "modelYear": 2021
+      },
+      "reviewIds": [
+        "rev_1052",
+        "rev_1070",
+        "rev_1084"
+      ]
+    },
+    "metadata": {
+      "lastUpdated": "2025-07-29T03:36:31.203939",
+      "source": "inventorySystem"
+    }
+  },
+  {
+    "id": "123508",
+    "category": "powerbank",
+    "name": "HyperBoost X2",
+    "pricing": {
+      "originalPrice": 5400,
+      "currentPrice": 4300
+    },
+    "inventory": {
+      "stockQuantity": 0,
+      "inStock": false
+    },
+    "isFeatured": false,
+    "createdAt": "2025-07-29T03:36:31.203939",
+    "variants": {
+      "hasColorOptions": true,
+      "availableColors": [
+        "Red",
+        "Blue",
+        "Yellow"
+      ]
+    },
+    "media": {
+      "imageUrls": [
+        "/api/images/img10.jpeg",
+        "/api/images/img9.jpeg",
+        "/api/images/img12.jpeg",
+        "/api/images/img7.jpeg"
+      ],
+      "primaryImage": "/api/images/img10.jpeg"
+    },
+    "specifications": {
+      "packageContents": "1 x Product, 2 x AAA Batteries, Quick Start Guide",
+      "description": "Experience cutting-edge technology with our premium product.",
+      "keyFeatures": [
+        "Immersive experience",
+        "Adjustable straps",
+        "High refresh rate",
+        "Wide compatibility"
+      ],
+      "technicalSpecs": {
+        "screenSize": "1.4 inch",
+        "sensors": "Heart rate, Step counter",
+        "waterResistance": "IP68",
+        "expressDelivery": "Not Available",
+        "modelYear": 2021
+      },
+      "reviewIds": [
+        "rev_1017",
+        "rev_1009",
+        "rev_1059",
+        "rev_1052",
+        "rev_1055"
+      ]
+    },
+    "metadata": {
+      "lastUpdated": "2025-07-29T03:36:31.203939",
+      "source": "inventorySystem"
+    }
+  },
+  {
+    "id": "123509",
+    "category": "smartwatch",
+    "name": "PulseX 360",
+    "pricing": {
+      "originalPrice": 6200,
+      "currentPrice": 2600
+    },
+    "inventory": {
+      "stockQuantity": 0,
+      "inStock": false
+    },
+    "isFeatured": false,
+    "createdAt": "2025-07-29T03:36:31.203939",
+    "variants": {
+      "hasColorOptions": true,
+      "availableColors": [
+        "Red",
+        "Blue",
+        "Yellow"
+      ]
+    },
+    "media": {
+      "imageUrls": [
+        "/api/images/img11.jpeg",
+        "/api/images/img13.jpeg",
+        "/api/images/img3.jpeg",
+        "/api/images/img8.jpeg"
+      ],
+      "primaryImage": "/api/images/img11.jpeg"
+    },
+    "specifications": {
+      "packageContents": "1 x Speaker, 1 x Power Adapter, 1 x 3.5mm Audio Cable",
+      "description": "Transform your experience with this high-quality, feature-rich product.",
+      "keyFeatures": [
+        "Sleek design",
+        "Multiple ports",
+        "Compact size",
+        "Fast data transfer"
+      ],
+      "technicalSpecs": {
+        "material": "Plastic",
+        "warranty": "1 year",
+        "dimensions": "5x3x1 inches",
+        "expressDelivery": "Not Available",
+        "modelYear": 2021
+      },
+      "reviewIds": [
+        "rev_1089",
+        "rev_1080",
+        "rev_1012",
+        "rev_1041"
+      ]
+    },
+    "metadata": {
+      "lastUpdated": "2025-07-29T03:36:31.203939",
+      "source": "inventorySystem"
+    }
+  },
+  {
+    "id": "123510",
+    "category": "bluetooth-speaker",
+    "name": "PulsePro Elite",
+    "pricing": {
+      "originalPrice": 5500,
+      "currentPrice": 3700
+    },
+    "inventory": {
+      "stockQuantity": 0,
+      "inStock": false
+    },
+    "isFeatured": true,
+    "createdAt": "2025-07-29T03:36:31.203939",
+    "variants": {
+      "hasColorOptions": true,
+      "availableColors": [
+        "Black",
+        "White",
+        "Silver",
+        "Gray"
+      ]
+    },
+    "media": {
+      "imageUrls": [
+        "/api/images/img5.jpeg",
+        "/api/images/img7.jpeg",
+        "/api/images/img12.jpeg",
+        "/api/images/img2.jpeg"
+      ],
+      "primaryImage": "/api/images/img5.jpeg"
+    },
+    "specifications": {
+      "packageContents": "1 x Device, 1 x USB-C Cable, 1 x Ear Tips (S/M/L), 1 x Storage Pouch",
+      "description": "Transform your experience with this high-quality, feature-rich product.",
+      "keyFeatures": [
+        "Sleek design",
+        "Multiple ports",
+        "Compact size",
+        "Fast data transfer"
+      ],
+      "technicalSpecs": {
+        "material": "Plastic",
+        "warranty": "1 year",
+        "dimensions": "5x3x1 inches",
+        "expressDelivery": "Not Available",
+        "modelYear": 2021
+      },
+      "reviewIds": [
+        "rev_1096",
+        "rev_1056",
+        "rev_1025"
+      ]
+    },
+    "metadata": {
+      "lastUpdated": "2025-07-29T03:36:31.203939",
+      "source": "inventorySystem"
+    }
+  },
+  {
+    "id": "123511",
+    "category": "powerbank",
+    "name": "ImmersaMax X2",
+    "pricing": {
+      "originalPrice": 7000,
+      "currentPrice": 3500
+    },
+    "inventory": {
+      "stockQuantity": 0,
+      "inStock": false
+    },
+    "isFeatured": false,
+    "createdAt": "2025-07-29T03:36:31.203939",
+    "variants": {
+      "hasColorOptions": true,
+      "availableColors": [
+        "Black",
+        "White",
+        "Silver",
+        "Gray"
+      ]
+    },
+    "media": {
+      "imageUrls": [
+        "/api/images/img1.jpeg",
+        "/api/images/img2.jpeg",
+        "/api/images/img11.jpeg",
+        "/api/images/img6.jpeg"
+      ],
+      "primaryImage": "/api/images/img1.jpeg"
+    },
+    "specifications": {
+      "packageContents": "1 x Device, 1 x USB-C Cable, 1 x Ear Tips (S/M/L), 1 x Storage Pouch",
+      "description": "Experience cutting-edge technology with our premium product.",
+      "keyFeatures": [
+        "Noise cancellation",
+        "Comfortable fit",
+        "Wireless freedom",
+        "Crystal clear sound"
+      ],
+      "technicalSpecs": {
+        "material": "Plastic",
+        "warranty": "1 year",
+        "dimensions": "5x3x1 inches",
+        "expressDelivery": "Not Available",
+        "modelYear": 2021
+      },
+      "reviewIds": [
+        "rev_1005",
+        "rev_1055",
+        "rev_1028",
+        "rev_1032",
+        "rev_1044",
+        "rev_1100"
+      ]
+    },
+    "metadata": {
+      "lastUpdated": "2025-07-29T03:36:31.203939",
+      "source": "inventorySystem"
+    }
+  },
+  {
+    "id": "123512",
+    "category": "smartwatch",
+    "name": "FitMax Plus",
+    "pricing": {
+      "originalPrice": 8600,
+      "currentPrice": 5900
+    },
+    "inventory": {
+      "stockQuantity": 37,
+      "inStock": true
+    },
+    "isFeatured": false,
+    "createdAt": "2025-07-29T03:36:31.203939",
+    "variants": {
+      "hasColorOptions": true,
+      "availableColors": [
+        "Green",
+        "LimeGreen",
+        "Olive"
+      ]
+    },
+    "media": {
+      "imageUrls": [
+        "/api/images/img2.jpeg",
+        "/api/images/img7.jpeg",
+        "/api/images/img12.jpeg",
+        "/api/images/img6.jpeg"
+      ],
+      "primaryImage": "/api/images/img2.jpeg"
+    },
+    "specifications": {
+      "packageContents": "1 x Speaker, 1 x Power Adapter, 1 x 3.5mm Audio Cable",
+      "description": "Experience cutting-edge technology with our premium product.",
+      "keyFeatures": [
+        "High-resolution display",
+        "Multiple color options",
+        "Lightweight design",
+        "Voice assistant"
+      ],
+      "technicalSpecs": {
+        "batteryCapacity": "4000mAh",
+        "connectivity": "Bluetooth 5.0",
+        "colorOptions": "3",
+        "expressDelivery": "Not Available",
+        "modelYear": 2020
+      },
+      "reviewIds": [
+        "rev_1097",
+        "rev_1064",
+        "rev_1018",
+        "rev_1087",
+        "rev_1054"
+      ]
+    },
+    "metadata": {
+      "lastUpdated": "2025-07-29T03:36:31.203939",
+      "source": "inventorySystem"
+    }
+  },
+  {
+    "id": "123513",
+    "category": "vr-headset",
+    "name": "SoundTitan Air",
+    "pricing": {
+      "originalPrice": 6000,
+      "currentPrice": 3500
+    },
+    "inventory": {
+      "stockQuantity": 5,
+      "inStock": true
+    },
+    "isFeatured": false,
+    "createdAt": "2025-07-29T03:36:31.203939",
+    "variants": {
+      "hasColorOptions": true,
+      "availableColors": [
+        "Black",
+        "White",
+        "Silver",
+        "Gray"
+      ]
+    },
+    "media": {
+      "imageUrls": [
+        "/api/images/img10.jpeg",
+        "/api/images/img9.jpeg",
+        "/api/images/img12.jpeg",
+        "/api/images/img6.jpeg"
+      ],
+      "primaryImage": "/api/images/img10.jpeg"
+    },
+    "specifications": {
+      "packageContents": "1 x Smartwatch, 1 x Magnetic Charger, 1 x Strap (Extra)",
+      "description": "Experience cutting-edge technology with our premium product.",
+      "keyFeatures": [
+        "Long battery life",
+        "Fast charging",
+        "Water resistant",
+        "Bluetooth connectivity"
+      ],
+      "technicalSpecs": {
+        "driverSize": "40mm",
+        "frequencyResponse": "20Hz-20kHz",
+        "impedance": "32 ohms",
+        "expressDelivery": "Not Available",
+        "modelYear": 2020
+      },
+      "reviewIds": [
+        "rev_1038",
+        "rev_1002",
+        "rev_1033",
+        "rev_1097",
+        "rev_1053",
+        "rev_1020"
+      ]
+    },
+    "metadata": {
+      "lastUpdated": "2025-07-29T03:36:31.203939",
+      "source": "inventorySystem"
+    }
+  },
+  {
+    "id": "123514",
+    "category": "powerbank",
+    "name": "FitBoost X2",
+    "pricing": {
+      "originalPrice": 7000,
+      "currentPrice": 5900
+    },
+    "inventory": {
+      "stockQuantity": 0,
+      "inStock": false
+    },
+    "isFeatured": false,
+    "createdAt": "2025-07-29T03:36:31.203939",
+    "variants": {
+      "hasColorOptions": true,
+      "availableColors": [
+        "Red",
+        "Blue",
+        "Yellow"
+      ]
+    },
+    "media": {
+      "imageUrls": [
+        "/api/images/img6.jpeg",
+        "/api/images/img5.jpeg",
+        "/api/images/img9.jpeg",
+        "/api/images/img2.jpeg"
+      ],
+      "primaryImage": "/api/images/img6.jpeg"
+    },
+    "specifications": {
+      "packageContents": "1 x Product, 2 x AAA Batteries, Quick Start Guide",
+      "description": "The ultimate solution for your everyday needs with advanced features.",
+      "keyFeatures": [
+        "Noise cancellation",
+        "Comfortable fit",
+        "Wireless freedom",
+        "Crystal clear sound"
+      ],
+      "technicalSpecs": {
+        "screenSize": "1.4 inch",
+        "sensors": "Heart rate, Step counter",
+        "waterResistance": "IP68",
+        "expressDelivery": "Not Available",
+        "modelYear": 2021
+      },
+      "reviewIds": [
+        "rev_1090",
+        "rev_1062",
+        "rev_1004",
+        "rev_1058"
+      ]
+    },
+    "metadata": {
+      "lastUpdated": "2025-07-29T03:36:31.203939",
+      "source": "inventorySystem"
+    }
+  },
+  {
+    "id": "123515",
+    "category": "wireless-charger",
+    "name": "QiX Ultra",
+    "pricing": {
+      "originalPrice": 5100,
+      "currentPrice": 1600
+    },
+    "inventory": {
+      "stockQuantity": 0,
+      "inStock": false
+    },
+    "isFeatured": false,
+    "createdAt": "2025-07-29T03:36:31.203939",
+    "variants": {
+      "hasColorOptions": true,
+      "availableColors": [
+        "Black",
+        "White",
+        "Silver",
+        "Gray"
+      ]
+    },
+    "media": {
+      "imageUrls": [
+        "/api/images/img1.jpeg",
+        "/api/images/img9.jpeg",
+        "/api/images/img8.jpeg",
+        "/api/images/img2.jpeg"
+      ],
+      "primaryImage": "/api/images/img1.jpeg"
+    },
+    "specifications": {
+      "packageContents": "1 x Main Unit, 1 x Charging Cable, 1 x User Manual, 1 x Warranty Card",
+      "description": "Transform your experience with this high-quality, feature-rich product.",
+      "keyFeatures": [
+        "Immersive experience",
+        "Adjustable straps",
+        "High refresh rate",
+        "Wide compatibility"
+      ],
+      "technicalSpecs": {
+        "batteryCapacity": "4000mAh",
+        "connectivity": "Bluetooth 5.0",
+        "colorOptions": "3",
+        "expressDelivery": "Not Available",
+        "modelYear": 2020
+      },
+      "reviewIds": [
+        "rev_1038",
+        "rev_1056",
+        "rev_1080",
+        "rev_1030"
+      ]
+    },
+    "metadata": {
+      "lastUpdated": "2025-07-29T03:36:31.203939",
+      "source": "inventorySystem"
+    }
+  },
+  {
+    "id": "123516",
+    "category": "wireless-charger",
+    "name": "QiTitan 360",
+    "pricing": {
+      "originalPrice": 9000,
+      "currentPrice": 7100
+    },
+    "inventory": {
+      "stockQuantity": 0,
+      "inStock": false
+    },
+    "isFeatured": false,
+    "createdAt": "2025-07-29T03:36:31.203939",
+    "variants": {
+      "hasColorOptions": true,
+      "availableColors": [
+        "Black",
+        "White",
+        "Silver",
+        "Gray"
+      ]
+    },
+    "media": {
+      "imageUrls": [
+        "/api/images/img4.jpeg",
+        "/api/images/img10.jpeg",
+        "/api/images/img13.jpeg",
+        "/api/images/img2.jpeg"
+      ],
+      "primaryImage": "/api/images/img4.jpeg"
+    },
+    "specifications": {
+      "packageContents": "1 x VR Headset, 2 x Controllers, 1 x Lens Cleaning Kit",
+      "description": "Innovative design meets superior functionality in this amazing product.",
+      "keyFeatures": [
+        "Immersive experience",
+        "Adjustable straps",
+        "High refresh rate",
+        "Wide compatibility"
+      ],
+      "technicalSpecs": {
+        "screenSize": "1.4 inch",
+        "sensors": "Heart rate, Step counter",
+        "waterResistance": "IP68",
+        "expressDelivery": "Not Available",
+        "modelYear": 2021
+      },
+      "reviewIds": [
+        "rev_1002",
+        "rev_1088",
+        "rev_1098"
+      ]
+    },
+    "metadata": {
+      "lastUpdated": "2025-07-29T03:36:31.203939",
+      "source": "inventorySystem"
+    }
+  },
+  {
+    "id": "123517",
+    "category": "gaming-headset",
+    "name": "QiBoost Elite",
+    "pricing": {
+      "originalPrice": 7900,
+      "currentPrice": 6200
+    },
+    "inventory": {
+      "stockQuantity": 0,
+      "inStock": false
+    },
+    "isFeatured": false,
+    "createdAt": "2025-07-29T03:36:31.203939",
+    "variants": {
+      "hasColorOptions": true,
+      "availableColors": [
+        "Black",
+        "White",
+        "Silver",
+        "Gray"
+      ]
+    },
+    "media": {
+      "imageUrls": [
+        "/api/images/img4.jpeg",
+        "/api/images/img12.jpeg",
+        "/api/images/img1.jpeg",
+        "/api/images/img10.jpeg"
+      ],
+      "primaryImage": "/api/images/img4.jpeg"
+    },
+    "specifications": {
+      "packageContents": "1 x VR Headset, 2 x Controllers, 1 x Lens Cleaning Kit",
+      "description": "Experience cutting-edge technology with our premium product.",
+      "keyFeatures": [
+        "Long battery life",
+        "Fast charging",
+        "Water resistant",
+        "Bluetooth connectivity"
+      ],
+      "technicalSpecs": {
+        "batteryCapacity": "4000mAh",
+        "connectivity": "Bluetooth 5.0",
+        "colorOptions": "3",
+        "expressDelivery": "Not Available",
+        "modelYear": 2020
+      },
+      "reviewIds": [
+        "rev_1066",
+        "rev_1097",
+        "rev_1081",
+        "rev_1025",
+        "rev_1048",
+        "rev_1060"
+      ]
+    },
+    "metadata": {
+      "lastUpdated": "2025-07-29T03:36:31.203939",
+      "source": "inventorySystem"
+    }
+  },
+  {
+    "id": "123518",
+    "category": "bluetooth-speaker",
+    "name": "FitBoost Plus",
+    "pricing": {
+      "originalPrice": 5800,
+      "currentPrice": 4700
+    },
+    "inventory": {
+      "stockQuantity": 0,
+      "inStock": false
+    },
+    "isFeatured": false,
+    "createdAt": "2025-07-29T03:36:31.203939",
+    "variants": {
+      "hasColorOptions": true,
+      "availableColors": [
+        "Black",
+        "White",
+        "Silver",
+        "Gray"
+      ]
+    },
+    "media": {
+      "imageUrls": [
+        "/api/images/img7.jpeg",
+        "/api/images/img5.jpeg",
+        "/api/images/img6.jpeg",
+        "/api/images/img8.jpeg"
+      ],
+      "primaryImage": "/api/images/img7.jpeg"
+    },
+    "specifications": {
+      "packageContents": "1 x Product, 2 x AAA Batteries, Quick Start Guide",
+      "description": "Innovative design meets superior functionality in this amazing product.",
+      "keyFeatures": [
+        "Long battery life",
+        "Fast charging",
+        "Water resistant",
+        "Bluetooth connectivity"
+      ],
+      "technicalSpecs": {
+        "batteryCapacity": "4000mAh",
+        "connectivity": "Bluetooth 5.0",
+        "colorOptions": "3",
+        "expressDelivery": "Not Available",
+        "modelYear": 2020
+      },
+      "reviewIds": [
+        "rev_1064",
+        "rev_1097",
+        "rev_1017",
+        "rev_1029"
+      ]
+    },
+    "metadata": {
+      "lastUpdated": "2025-07-29T03:36:31.203939",
+      "source": "inventorySystem"
+    }
+  },
+  {
+    "id": "123519",
+    "category": "bluetooth-speaker",
+    "name": "ChargeSync 360",
+    "pricing": {
+      "originalPrice": 6200,
+      "currentPrice": 5000
+    },
+    "inventory": {
+      "stockQuantity": 0,
+      "inStock": false
+    },
+    "isFeatured": false,
+    "createdAt": "2025-07-29T03:36:31.203939",
+    "variants": {
+      "hasColorOptions": true,
+      "availableColors": [
+        "Red",
+        "Blue",
+        "Yellow"
+      ]
+    },
+    "media": {
+      "imageUrls": [
+        "/api/images/img6.jpeg",
+        "/api/images/img5.jpeg",
+        "/api/images/img4.jpeg",
+        "/api/images/img9.jpeg"
+      ],
+      "primaryImage": "/api/images/img6.jpeg"
+    },
+    "specifications": {
+      "packageContents": "1 x Smartwatch, 1 x Magnetic Charger, 1 x Strap (Extra)",
+      "description": "Transform your experience with this high-quality, feature-rich product.",
+      "keyFeatures": [
+        "High-resolution display",
+        "Multiple color options",
+        "Lightweight design",
+        "Voice assistant"
+      ],
+      "technicalSpecs": {
+        "weight": "150g",
+        "compatibility": "iOS/Android",
+        "chargingTime": "2 hours",
+        "expressDelivery": "Not Available",
+        "modelYear": 2022
+      },
+      "reviewIds": [
+        "rev_1072",
+        "rev_1035",
+        "rev_1060",
+        "rev_1100",
+        "rev_1058",
+        "rev_1081"
+      ]
+    },
+    "metadata": {
+      "lastUpdated": "2025-07-29T03:36:31.203939",
+      "source": "inventorySystem"
+    }
+  },
+  {
+    "id": "123520",
+    "category": "vr-headset",
+    "name": "SoundX 5",
+    "pricing": {
+      "originalPrice": 6200,
+      "currentPrice": 2300
+    },
+    "inventory": {
+      "stockQuantity": 0,
+      "inStock": false
+    },
+    "isFeatured": false,
+    "createdAt": "2025-07-29T03:36:31.203939",
+    "variants": {
+      "hasColorOptions": true,
+      "availableColors": [
+        "Black",
+        "White",
+        "Silver",
+        "Gray"
+      ]
+    },
+    "media": {
+      "imageUrls": [
+        "/api/images/img11.jpeg",
+        "/api/images/img8.jpeg",
+        "/api/images/img6.jpeg",
+        "/api/images/img3.jpeg"
+      ],
+      "primaryImage": "/api/images/img11.jpeg"
+    },
+    "specifications": {
+      "packageContents": "1 x Headset, 1 x AUX Cable, 1 x Cleaning Cloth",
+      "description": "Experience cutting-edge technology with our premium product.",
+      "keyFeatures": [
+        "Immersive experience",
+        "Adjustable straps",
+        "High refresh rate",
+        "Wide compatibility"
+      ],
+      "technicalSpecs": {
+        "screenSize": "1.4 inch",
+        "sensors": "Heart rate, Step counter",
+        "waterResistance": "IP68",
+        "expressDelivery": "Not Available",
+        "modelYear": 2021
+      },
+      "reviewIds": [
+        "rev_1037",
+        "rev_1093",
+        "rev_1066"
+      ]
+    },
+    "metadata": {
+      "lastUpdated": "2025-07-29T03:36:31.203939",
+      "source": "inventorySystem"
+    }
+  }
+]

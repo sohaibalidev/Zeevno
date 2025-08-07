@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+    "href": "/category/headphones",
+    "order": 1,
+    "createdAt": { "$date": "2025-08-01T00:00:00Z" },
+    "alt": "Premium headphones collection"
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+    "href": "/category/watches",
+    "order": 2,
+    "createdAt": { "$date": "2025-08-01T00:00:00Z" },
+    "alt": "Luxury watches showcase"
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+    "href": "/category/sneakers",
+    "order": 3,
+    "createdAt": { "$date": "2025-08-01T00:00:00Z" },
+    "alt": "Trending sneakers"
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1486401899868-0e435ed85128?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+    "href": "/category/electronics",
+    "order": 4,
+    "createdAt": { "$date": "2025-08-02T00:00:00Z" },
+    "alt": "Latest electronics"
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1555529669-e69e7aa0ba9a?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+    "href": "/category/camera",
+    "order": 5,
+    "createdAt": { "$date": "2025-08-02T00:00:00Z" },
+    "alt": "Photography equipment"
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1546868871-7041f2a55e12?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+    "href": "/category/kitchen",
+    "order": 6,
+    "createdAt": { "$date": "2025-08-03T00:00:00Z" },
+    "alt": "Kitchen appliances sale"
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1560343090-f0409e92791a?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+    "href": "/category/apparel",
+    "order": 7,
+    "createdAt": { "$date": "2025-08-03T00:00:00Z" },
+    "alt": "New clothing collection"
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1572635196237-14b3f281503f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+    "href": "/category/eyewear",
+    "order": 8,
+    "createdAt": { "$date": "2025-08-04T00:00:00Z" },
+    "alt": "Designer sunglasses"
+  }
+]

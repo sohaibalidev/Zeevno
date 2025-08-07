@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Basic Meta -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="NexaEase - Page not found. Discover the latest gadgets and tech across Pakistan.">
+    <meta name="keywords" content="NexaEase, 404, Page Not Found, Gadgets Pakistan, Tech Delivery">
+    <meta name="author" content="NexaEase Team">
+    <meta name="robots" content="noindex, follow">
+
+    <!-- Open Graph / Social Meta -->
+    <meta property="og:title" content="404 - Page Not Found - NexaEase">
+    <meta property="og:description"
+        content="Oops! The page you're looking for doesn't exist. Explore trending gadgets and offers on NexaEase.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://nexaease.com/404">
+    <meta property="og:image" content="https://nexaease.com/assets/nexaease-preview.png">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="404 - Page Not Found - NexaEase">
+    <meta name="twitter:description"
+        content="This page doesn't exist. But don't worry, we've got fresh tech waiting for you.">
+    <meta name="twitter:image" content="https://nexaease.com/assets/nexaease-preview.png">
+
+    <!-- Page Title -->
+    <title>404 - Page Not Found - NexaEase</title>
+
+    <!-- Canonical -->
+    <link rel="canonical" href="https://nexaease.com/404">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Icons & Favicon -->
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link rel="icon" href="/auth/assets/imgs/nexa-ease-symbol.png" type="image/png">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="/g/css/theme.css">
+    <link rel="stylesheet" href="/g/css/waveLoader.css">
+    <link rel="stylesheet" href="/g/css/404NotFound.css">
+
+    <!-- Structured Data for SEO -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "404 - Page Not Found - NexaEase",
+      "url": "https://nexaease.com/404",
+      "description": "The requested page could not be found. Shop tech and electronics easily on NexaEase.",
+      "publisher": {
+        "@type": "Organization",
+        "name": "NexaEase",
+        "url": "https://nexaease.com",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://nexaease.com/assets/logo.png"
+        }
+      }
+    }
+    </script>
+</head>
+
+<body id="body">
+    <div id="loading-overlay">
+        <span class="loader-text">
+            <span style="color: var(--primary)">Nexa</span><span style="color: var(--primary-dark)">Ease</span>
+        </span>
+        <div class="wave-loader">
+            <div class="wave"></div>
+            <div class="wave"></div>
+            <div class="wave"></div>
+            <div class="wave"></div>
+        </div>
+    </div>
+
+    <div class="container-404">
+        <div class="section">
+            <div class="error-graphic">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M9.172 16.172a4 4 0 015.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+            </div>
+            <h1 class="error">404</h1>
+            <div class="page">
+                Oops! The page <span id="requested-url"></span> you're looking for doesn't exist.
+            </div>
+            <div class="suggestions">
+                <p>Here are some helpful links instead:</p>
+                <ul>
+                    <li><a href="/">Home Page</a></li>
+                    <li><a href="/category">Category</a></li>
+                    <li><a href="/about">About</a></li>
+                </ul>
+            </div>
+            <a class="back-home" href="/">
+                <i class='bx bx-home'></i> Back to Homepage
+            </a>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const loadingOverlay = document.getElementById('loading-overlay');
+            const requestedUrlElement = document.getElementById('requested-url');
+
+            function displayRequestedUrl() {
+                try {
+                    const pathname = window.location.pathname.replace('/404', '');
+                    fetch(window.location.href, { method: 'HEAD' })
+                        .then(res => {
+                            const headerUrl = res.headers.get('X-Requested-URL') ||
+                                res.headers.get('Referer') ||
+                                pathname;
+
+                            let displayUrl = headerUrl;
+
+                            if (displayUrl) {
+                                displayUrl = displayUrl.replace(/^https?:\/\/[^\/]+/, '');
+                                if (displayUrl.length > 30) {
+                                    const parts = displayUrl.split('/');
+                                    displayUrl = '/' + parts[parts.length - 1];
+                                    if (displayUrl.length > 30) {
+                                        displayUrl = displayUrl.substring(0, 27) + '...';
+                                    }
+                                }
+                            } else {
+                                displayUrl = 'this';
+                            }
+
+                            requestedUrlElement.textContent = `"${displayUrl}"`;
+                            requestedUrlElement.style.color = 'var(--primary)';
+                            requestedUrlElement.style.fontWeight = '600';
+                        })
+                        .catch(() => {
+                            requestedUrlElement.textContent = 'this';
+                        })
+                        .finally(() => {
+                            if (loadingOverlay) {
+                                loadingOverlay.style.opacity = '0';
+                                setTimeout(() => {
+                                    loadingOverlay.style.display = 'none';
+                                }, 300);
+                            }
+                        });
+                } catch (error) {
+                    console.error('Error detecting requested URL:', error);
+                    if (loadingOverlay) loadingOverlay.style.display = 'none';
+                }
+            }
+
+            displayRequestedUrl();
+
+            setTimeout(() => {
+                if (loadingOverlay && loadingOverlay.style.display !== 'none') {
+                    loadingOverlay.style.display = 'none';
+                }
+            }, 3000);
+        });
+    </script>
+</body>
+
+</html>

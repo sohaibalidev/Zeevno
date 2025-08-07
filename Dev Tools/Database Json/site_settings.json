@@ -1,0 +1,48 @@
+[
+  {
+    "_id": { "$oid": "64f21aa1ebc0b955e4c12345" },
+    "type": "layout",
+    "navbar": {
+      "logo": {
+        "main": "Nexa",
+        "highlight": "Ease",
+        "href": "/"
+      },
+      "menuItems": [
+        { "text": "Home", "url": "/" },
+        { "text": "Categories", "url": "/category" },
+        { "text": "On Sale", "url": "#on-sale" },
+        { "text": "Contact", "url": "#contact" }
+      ],
+      "icons": [
+        { "icon": "bx bx-search", "href": "/search" },
+        { "icon": "bx bx-cart", "href": "/cart" },
+        { "icon": "bx bx-user", "href": "/user" }
+      ]
+    },
+    "footer": {
+      "logo": "NexaEase",
+      "description": "Your one-stop shop for all the latest tech gadgets and accessories at competitive prices.",
+      "quickLinks": [
+        { "text": "Home", "url": "/" },
+        { "text": "About Us", "url": "#about" },
+        { "text": "Products", "url": "/category" },
+        { "text": "Contact", "url": "#contact" }
+      ],
+      "customerService": [
+        { "text": "FAQs", "url": "#faqs" },
+        { "text": "Shipping Policy", "url": "#shipping-policy" },
+        { "text": "Return Policy", "url": "#return-policy" },
+        { "text": "Privacy Policy", "url": "#privacy-policy" }
+      ],
+      "contactInfo": {
+        "address": "Gulshan E Iqbal, Karachi",
+        "phone": "+92 300 1234567",
+        "email": "info@nexaease.com"
+      },
+      "copyright": "© 2023 NexaEase. All Rights Reserved."
+    },
+    "lastUpdated": { "$date": "2025-08-02T09:55:00Z" },
+    "updatedBy": "admin_001"
+  }
+]
