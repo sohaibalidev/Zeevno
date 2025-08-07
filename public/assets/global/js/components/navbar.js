@@ -1,7 +1,6 @@
 const navbarData = {
     logo: {
-        main: "Nexa",
-        highlight: "Ease",
+        main: "Zeevno",
         href: "/"
     },
     menuItems: [
@@ -35,8 +34,8 @@ function createNavbar(data) {
     nav.className = 'navbar';
 
     nav.innerHTML = `
-        <div class="container navbar-container">
-            <a href="${data.logo.href}" class="logo">${data.logo.main}<span>${data.logo.highlight}</span></a>
+        <div class="navbar-container">
+            <a href="${data.logo.href}" class="logo">${data.logo.main}</a>
 
             <button class="mobile-menu-btn" id="mobileMenuBtn">
                 <i class='bx bx-menu'></i>

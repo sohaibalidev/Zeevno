@@ -1,13 +1,12 @@
 const { MongoClient } = require('mongodb');
 const config = require('./appConfig');
 
-let db;
+let db, client;
 
-async function connectDB() {
+exports.connectDB = async () => {
     if (db) return db;
-
     try {
-        const client = await MongoClient.connect(config.MONGODB_URI);
+        client = await MongoClient.connect(config.MONGODB_URI);
         db = client.db(config.DB_NAME);
         console.log('Connected to MongoDB');
         return db;
@@ -17,9 +16,7 @@ async function connectDB() {
     }
 }
 
-function getDB() {
+exports.getDB = () => {
     if (!db) throw new Error('Database not initialized');
     return db;
 }
-
-module.exports = { connectDB, getDB };
