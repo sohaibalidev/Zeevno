@@ -87,12 +87,21 @@
         </div>
       </div>
 
+      <!-- Error State -->
+      <div id="error-state" class="error-state" style="display: none;">
+        <i class='bx bx-error-circle'></i>
+        <h2>Couldn't Load Your Cart</h2>
+        <p>We're having trouble loading your cart. Please try again.</p>
+        <button id="retry-button" class="retry-btn">Retry</button>
+      </div>
+
       <!-- Cart Content -->
-      <div class="cart-content">
+      <div class="cart-content" style="display: none;">
         <!-- Items Column (75%) -->
         <div class="cart-items">
           <!-- Cart items will be dynamically inserted here -->
           <div id="empty-cart-message" class="empty-cart">
+            <i class='bx bx-cart'></i>
             <h2>Your Tech Toolkit is Empty!</h2>
             <p>Looks like you haven't added anything yet. Start shopping now!</p>
             <a href="/" class="shop-now-btn">Shop Now</a>
@@ -101,6 +110,16 @@
 
         <!-- Summary Column (25%) -->
         <div class="cart-summary">
+
+          <!-- Promo Code Section -->
+          <div class="promo-code">
+            <h4>Have a promo code?</h4>
+            <div class="promo-input">
+              <input type="text" placeholder="Enter promo code">
+              <button class="apply-btn">Apply</button>
+            </div>
+          </div>
+
           <div class="summary-card">
             <h3>Order Summary</h3>
             <div class="summary-row">

@@ -17,7 +17,7 @@
 .dot {
   width: 15px;
   height: 15px;
-  background-color: #3498db;
+  background-color: #1e6adb;
   border-radius: 50%;
   transition: 0.1s;
   animation: wave 0.9s infinite ease-in-out;
@@ -51,7 +51,6 @@
 
 .loader-text {
   font-size: 24px;
-  color: #3498db;
   margin-bottom: 3px;
 }
 

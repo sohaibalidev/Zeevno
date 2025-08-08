@@ -1,8 +1,7 @@
 const loaderConfig = {
     cssPath: '/g/css/waveLoader.css',
     textParts: [
-        { text: 'Nexa', color: '#faa24a' },
-        { text: 'Ease', color: '#30a6d0' }
+        { text: 'Zeevno', color: '#0a369d' },
     ],
     dotCount: 4,
     fadeDuration: 200

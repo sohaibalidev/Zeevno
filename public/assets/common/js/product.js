@@ -1,5 +1,3 @@
-// ======================== PRODUCT PAGE RENDERING ========================
-
 function generateColorDivs(variants) {
     if (!variants.hasColorOptions) return '';
     const colors = variants.availableColors
@@ -114,8 +112,7 @@ function createPriceHTML(pricing) {
 }
 
 function createStockHTML(inventory, maxStock = 50) {
-    const { inStock, stockQuantity } = inventory
-    if (!inStock) return ''
+    const { stockQuantity } = inventory
     const percentage = Math.round((stockQuantity / maxStock) * 100);
 
     const [status, color, bgColor, borderColor] =
@@ -398,11 +395,12 @@ const createProductCard = (product) => {
     const { id, media, name, pricing, reviews = [] } = product;
     const { currentPrice, originalPrice } = pricing;
     const price = currentPrice ?? originalPrice;
-    const imageUrl = media?.primaryImage || '/fallback-image.jpg'; // fallback if needed
+    const imageUrl = media?.primaryImage
 
     return `
         <div class="modern-product-container" id="${id}" tabindex="0" 
-             aria-label="${name}, Price: Rs ${price}, Rating: ${reviews.length} reviews">
+             onclick="location.assign('/product/${id}')"
+             aria-label="${name}, Price: Rs ${price}, Rating: ${reviews.total} reviews">
             <div class="modern-product-image">
                 <img src="${imageUrl}" alt="${name}" loading="lazy">
                 <button class="modern-cart-btn" data-id=${id} aria-label="Add ${name} to cart">
@@ -430,7 +428,7 @@ function createRelatedProductsHTML(categoryData) {
 
     return `
     <section class="related-products-section">
-        <div class="section-header">
+        <div class="section-header-related">
             <h2>You May Also Like</h2>
             <a href="/category/${categoryData.data[0].category.toLowerCase()}" class="view-all">View All</a>
         </div>
@@ -440,7 +438,6 @@ function createRelatedProductsHTML(categoryData) {
         </div>
     </section>`;
 }
-// ======================== IMAGE GALLERY ========================
 
 function initImageGallery() {
     const thumbnails = document.querySelectorAll('.thumbnail');
@@ -546,8 +543,6 @@ function toggleSection() {
     else content.style.maxHeight = '0';
 }
 
-// ======================== CATEGORY PAGE RENDERING ========================
-
 function setupCartButtons() {
     const cartBtn = document.querySelectorAll('.modern-cart-btn');
     cartBtn.forEach(btn => {
@@ -561,8 +556,6 @@ function setupCartButtons() {
 function navigateToProduct(productId) {
     location.assign(`/product/${productId}`);
 }
-
-// ======================== MAIN INITIALIZATION ========================
 
 async function initializePage() {
     try {
@@ -612,8 +605,6 @@ function isElementInVerticalCenter(element) {
     return Math.abs(elementCenter - middleOfViewport) <= tolerance;
 }
 
-// ======================== API FUNCTIONS ========================
-
 async function fetchProduct(productId) {
     const response = await fetch(`/api/products/${productId}`, {
         method: "GET",
@@ -623,6 +614,7 @@ async function fetchProduct(productId) {
 
     if (!response.ok) {
         const data = await response.json();
+        if(!data.success && data.error === 'Product not found') location.assign('/')
         throw new Error(data.error || "Failed to fetch product");
     }
 
@@ -685,7 +677,5 @@ async function updateCartIcon() {
         console.error("Error updating cart quantity:", err);
     }
 }
-
-// ======================== INITIALIZE PAGE ========================
 
 window.addEventListener('DOMContentLoaded', initializePage);

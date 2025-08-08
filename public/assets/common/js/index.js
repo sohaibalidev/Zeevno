@@ -17,6 +17,7 @@ async function initApp() {
     try {
         initSpinner()
         await Promise.all([loadBanners(), loadProducts(), loadFeaturedProducts(), updateCartIcon()]);
+        renderCategories(await fetchCategories())
         setupEventListeners();
     } catch (err) {
         handleGlobalError(err);
@@ -363,7 +364,6 @@ function renderCategories(categories) {
     const categoriesGrid = document.getElementById('categoriesGrid');
     if (!categoriesGrid) return;
 
-    // Take only first 5 categories
     const categoriesToShow = categories.data.slice(0, 5);
 
     categoriesGrid.innerHTML = categoriesToShow.map(category => `
@@ -374,7 +374,6 @@ function renderCategories(categories) {
           alt="${category.category}" 
           class="category-image"
           loading="lazy"
-          onerror="this.src='https://via.placeholder.com/500x700?text=Category+Image'"
         />
       </div>
       <div class="category-info">
@@ -384,26 +383,6 @@ function renderCategories(categories) {
     </a>
   `).join('');
 }
-
-async function initCategories() {
-    //   const categories = await fetchCategories();
-    //   if (categories.success) {
-    //     renderCategories(categories);
-    //   } else {
-    //     const categoriesGrid = document.getElementById('categoriesGrid');
-    //     if (categoriesGrid) {
-    //       categoriesGrid.innerHTML = `
-    //         <div class="error-message" style="grid-column: 1/-1; text-align: center; padding: 2rem; color: var(--error)">
-    //           ${categories.error || 'Failed to load categories'}
-    //         </div>
-    //       `;
-    //     }
-    //   }
-
-    renderCategories(await fetchCategories())
-}
-
-initCategories()
 
 function renderFeaturedProducts(products) {
     const wrapper = document.querySelector('.featured-products');

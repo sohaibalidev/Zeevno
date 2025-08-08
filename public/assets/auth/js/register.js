@@ -5,7 +5,6 @@ document.addEventListener('DOMContentLoaded', () => {
         return;
     }
 
-    // Get form elements once instead of querying multiple times
     const btn = registerForm.querySelector('.btn-primary');
     const fullNameInput = document.getElementById('fullName');
     const emailInput = document.getElementById('email');
@@ -21,11 +20,9 @@ document.addEventListener('DOMContentLoaded', () => {
     registerForm.addEventListener('submit', handleSubmit);
 
     async function handleSubmit(e) {
-        // Prevent default first thing
         e.preventDefault();
-        e.stopPropagation(); // Additional protection
+        e.stopPropagation();
 
-        // Get trimmed values
         const formData = {
             fullName: fullNameInput.value.trim(),
             email: emailInput.value.trim(),
@@ -34,7 +31,6 @@ document.addEventListener('DOMContentLoaded', () => {
             address: addressInput.value.trim()
         };
 
-        // Validate inputs
         if (!validateInputs(formData)) {
             return;
         }

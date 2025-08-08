@@ -1,17 +1,9 @@
-// ====================================================================================================
-// Utility Functions
-// ====================================================================================================
-
 const fetchData = async (url, options = {}) => {
     try {
         const response = await fetch(url, options);
-        if (!response.ok) {
-            throw new Error(`HTTP error! status: ${response.status}`);
-        }
         return await response.json();
     } catch (error) {
         console.error('Fetch error:', error);
-        throw error;
     }
 };
 
@@ -28,10 +20,6 @@ const formatTitle = str => {
         .join(' ');
 };
 
-// ====================================================================================================
-// DOM Elements Manager
-// ====================================================================================================
-
 const getDomElements = () => ({
     productsContainer: document.querySelector('.products-container'),
     sortSelect: document.getElementById('sort'),
@@ -42,7 +30,7 @@ const getDomElements = () => ({
     pageNumbers: document.querySelector('.page-numbers'),
     categoryHeader: document.querySelector('.category-header h1'),
     categoryDescription: document.querySelector('.category-description'),
-    breadcrumbs: document.querySelector('.breadcrumbs span'),
+    breadcrumb: document.getElementById('category-breadcrumb'),
     searchInput: document.getElementById('searchQuery'),
     clearBtn: document.getElementById('clearSearch'),
     priceRange: document.getElementById('priceRange'),
@@ -50,10 +38,6 @@ const getDomElements = () => ({
     productsCount: document.getElementById('products-count'),
     categoriesFilterGroup: document.getElementById('filter-group-categories')
 });
-
-// ====================================================================================================
-// Application State Manager
-// ====================================================================================================
 
 const createAppState = () => {
     const urlParams = new URLSearchParams(window.location.search);
@@ -79,10 +63,6 @@ const createAppState = () => {
         searchQuery: queryParam
     };
 };
-
-// ====================================================================================================
-// Product Rendering
-// ====================================================================================================
 
 const renderProductCount = (count) => {
     const { productsCount } = getDomElements();
@@ -168,21 +148,18 @@ const setupProductCardEvents = (container) => {
     if (!container) return;
 
     container.querySelectorAll('.modern-product-container').forEach(card => {
-        // Product click handler
         card.addEventListener('click', (e) => {
             if (!e.target.closest('.modern-cart-btn')) {
                 window.location.assign(`/product/${card.id}`);
             }
         });
 
-        // Keyboard navigation
         card.addEventListener('keydown', (e) => {
             if (e.key === 'Enter') {
                 window.location.assign(`/product/${card.id}`);
             }
         });
 
-        // Cart button handler
         const cartBtn = card.querySelector('.modern-cart-btn');
         if (cartBtn) {
             cartBtn.addEventListener('click', async (e) => {
@@ -193,12 +170,14 @@ const setupProductCardEvents = (container) => {
     });
 };
 
-// ====================================================================================================
-// Filtering and Sorting
-// ====================================================================================================
-
 const filterProducts = (products, filters) => {
     if (!products || !Array.isArray(products)) return [];
+    const { breadcrumb } = getDomElements()
+
+    if (
+        appState.currentFilters.categories.length !== 1
+        && breadcrumb.textContent
+    ) breadcrumb.textContent = ''
 
     return products.filter(product => {
         const price = product.pricing.currentPrice ?? product.pricing.originalPrice;
@@ -258,10 +237,6 @@ const searchProducts = (products, query) => {
     return products.filter(product => product.name.toLowerCase().includes(searchTerm))
 };
 
-// ====================================================================================================
-// Pagination
-// ====================================================================================================
-
 const updatePagination = (totalItems, currentPage, itemsPerPage) => {
     const { pageNumbers, paginationButtons } = getDomElements();
     if (!pageNumbers || !paginationButtons) return;
@@ -272,11 +247,9 @@ const updatePagination = (totalItems, currentPage, itemsPerPage) => {
         return;
     }
 
-    // Update previous/next buttons
     paginationButtons[0].disabled = currentPage === 1;
     paginationButtons[paginationButtons.length - 1].disabled = currentPage === totalPages;
 
-    // Generate page numbers
     let pagesHTML = '';
     const maxVisiblePages = 5;
     let startPage, endPage;
@@ -300,7 +273,6 @@ const updatePagination = (totalItems, currentPage, itemsPerPage) => {
         }
     }
 
-    // Add first page and ellipsis if needed
     if (startPage > 1) {
         pagesHTML += `<button class="page-number" data-page="1">1</button>`;
         if (startPage > 2) {
@@ -308,13 +280,11 @@ const updatePagination = (totalItems, currentPage, itemsPerPage) => {
         }
     }
 
-    // Add page numbers
     for (let i = startPage; i <= endPage; i++) {
         const activeClass = i === currentPage ? 'active' : '';
         pagesHTML += `<button class="page-number ${activeClass}" data-page="${i}">${i}</button>`;
     }
 
-    // Add last page and ellipsis if needed
     if (endPage < totalPages) {
         if (endPage < totalPages - 1) {
             pagesHTML += `<span class="ellipsis">...</span>`;
@@ -324,10 +294,6 @@ const updatePagination = (totalItems, currentPage, itemsPerPage) => {
 
     pageNumbers.innerHTML = pagesHTML;
 };
-
-// ====================================================================================================
-// Event Handlers
-// ====================================================================================================
 
 const setupEventListeners = () => {
     const {
@@ -342,7 +308,6 @@ const setupEventListeners = () => {
         categoriesFilterGroup
     } = getDomElements();
 
-    // Sort select change
     if (sortSelect) {
         sortSelect.addEventListener('change', (e) => {
             appState.currentSort = e.target.value;
@@ -350,7 +315,6 @@ const setupEventListeners = () => {
         });
     }
 
-    // Filter group toggles
     filterGroups.forEach(group => {
         const header = group.querySelector('.filter-header');
         if (header) {
@@ -366,7 +330,6 @@ const setupEventListeners = () => {
         }
     });
 
-    // Price range filter
     if (priceRange && currentPriceDisplay) {
         priceRange.addEventListener('input', (e) => {
             const value = Math.floor(parseInt(e.target.value) / 100) * 100;
@@ -376,22 +339,23 @@ const setupEventListeners = () => {
         });
     }
 
-    // Category filter checkboxes
     if (categoriesFilterGroup) {
         categoriesFilterGroup.querySelectorAll('input[type="checkbox"]').forEach(checkbox => {
             checkbox.addEventListener('change', (e) => {
                 const value = e.target.id;
                 if (e.target.checked) {
-                    appState.currentFilters.categories.push(value);
+                    if (!appState.currentFilters.categories.includes(value))
+                        appState.currentFilters.categories.push(value);
                 } else {
                     appState.currentFilters.categories = appState.currentFilters.categories.filter(cat => cat !== value);
                 }
+                if (appState.currentFilters.categories.length === 1)
+                    getDomElements().breadcrumb.textContent = appState.currentFilters.categories[0]
                 updateAndRenderProducts();
             });
         });
     }
 
-    // Rating filter radios
     document.querySelectorAll('.filter-content input[type="radio"]').forEach(radio => {
         radio.addEventListener('change', (e) => {
             if (e.target.checked) {
@@ -401,12 +365,10 @@ const setupEventListeners = () => {
         });
     });
 
-    // Clear all filters
     if (clearAllBtn) {
         clearAllBtn.addEventListener('click', resetFilters);
     }
 
-    // View options
     if (viewOptions) {
         viewOptions.forEach(button => {
             button.addEventListener('click', () => {
@@ -417,7 +379,6 @@ const setupEventListeners = () => {
         });
     }
 
-    // Search input
     if (searchInput) {
         searchInput.addEventListener('input', (e) => {
             const query = e.target.value;
@@ -433,7 +394,6 @@ const setupEventListeners = () => {
             }, 300);
         });
 
-        // Enter key in search
         searchInput.addEventListener('keydown', (e) => {
             if (e.key === 'Enter') {
                 updateAndRenderProducts();
@@ -441,7 +401,6 @@ const setupEventListeners = () => {
         });
     }
 
-    // Clear search
     if (clearBtn) {
         clearBtn.addEventListener('click', () => {
             if (searchInput) {
@@ -454,7 +413,6 @@ const setupEventListeners = () => {
         });
     }
 
-    // Pagination
     document.querySelector('.pagination')?.addEventListener('click', (e) => {
         if (e.target.classList.contains('prev-page') && appState.currentPage > 1) {
             appState.currentPage--;
@@ -470,37 +428,11 @@ const setupEventListeners = () => {
     });
 };
 
-// ====================================================================================================
-// Data Loading
-// ====================================================================================================
-
 const loadCategory = async (categoryName) => {
-    try {
-        const { categoryHeader, breadcrumbs, categoryDescription, categoriesFilterGroup } = getDomElements();
+    const { categoryHeader, breadcrumb } = getDomElements();
 
-        if (categoryHeader) categoryHeader.textContent = formatTitle(categoryName);
-        if (breadcrumbs) breadcrumbs.textContent = formatTitle(categoryName);
-        if (categoryDescription) {
-            categoryDescription.textContent = `Explore our curated selection of premium ${formatTitle(categoryName)} to elevate your lifestyle.`;
-        }
-        // if (categoriesFilterGroup) categoriesFilterGroup.style.display = 'none';
-
-        const res = await fetchData(`/api/categories/${categoryName}`);
-        const { data } = res
-        appState.currentProducts = data || [];
-        appState.currentCategory = categoryName;
-        appState.currentFilters.categories = [categoryName];
-
-        updateAndRenderProducts();
-    } catch (error) {
-        console.error('Error loading category:', error);
-        const { productsContainer } = getDomElements();
-        if (productsContainer) {
-            productsContainer.innerHTML = `<p class="error">Error loading products. Please try again later.</p>`;
-        }
-    } finally {
-        toggleLoader(false);
-    }
+    if (categoryHeader) categoryHeader.textContent = formatTitle(categoryName);
+    if (breadcrumb) breadcrumb.textContent = formatTitle(categoryName);
 };
 
 const loadAllCategories = async () => {
@@ -525,7 +457,9 @@ const loadAllCategories = async () => {
             checkbox.addEventListener('change', (e) => {
                 const value = e.target.id;
                 if (e.target.checked) {
-                    appState.currentFilters.categories.push(value);
+                    if (!appState.currentFilters.categories.includes(value))
+                        appState.currentFilters.categories.push(value);
+
                     appState.currentPage = 1;
                     updateAndRenderProducts();
                 } else {
@@ -533,6 +467,8 @@ const loadAllCategories = async () => {
                     appState.currentPage = 1;
                     updateAndRenderProducts();
                 }
+                if (appState.currentFilters.categories.length === 1)
+                    getDomElements().breadcrumb.textContent = appState.currentFilters.categories[0]
                 updateAndRenderProducts();
             });
         });
@@ -560,10 +496,6 @@ const loadAllProducts = async () => {
     }
 };
 
-// ====================================================================================================
-// Cart Functions
-// ====================================================================================================
-
 const updateCartQty = async () => {
     try {
         const cart = await fetchData("/api/cart");
@@ -582,7 +514,7 @@ const addToCart = async (productId) => {
             credentials: "include"
         });
 
-        notify(data.message, data.type, 3, () => window.location.assign('/cart'));
+        notify(data.message, 'success', 3, () => window.location.assign('/cart'));
         await updateCartQty();
     } catch (error) {
         console.error("Add to Cart Failed:", error);
@@ -590,18 +522,16 @@ const addToCart = async (productId) => {
     }
 };
 
-// ====================================================================================================
-// Main Functions
-// ====================================================================================================
-
 const resetFilters = () => {
-    const { priceRange, searchInput, clearBtn, currentPriceDisplay } = getDomElements();
+    const { priceRange, searchInput, clearBtn, currentPriceDisplay, breadcrumb } = getDomElements();
 
     if (priceRange) {
         priceRange.value = 10000;
         currentPriceDisplay.textContent = '- 10000'
         appState.currentFilters.price = [0, 10000];
     }
+
+    if (breadcrumb.textContent !== '') breadcrumb.textContent = ''
 
     appState.currentFilters.categories = appState.currentCategory ? [appState.currentCategory] : [];
 
@@ -634,15 +564,10 @@ const updateAndRenderProducts = () => {
     const startIdx = (appState.currentPage - 1) * appState.productsPerPage;
     const paginatedProducts = sortedProducts.slice(startIdx, startIdx + appState.productsPerPage);
 
-    // Update UI
     renderProductCount(filteredProducts.length);
     renderProducts(paginatedProducts, getDomElements().productsContainer);
     updatePagination(filteredProducts.length, appState.currentPage, appState.productsPerPage);
 };
-
-// ====================================================================================================
-// Initialization
-// ====================================================================================================
 
 const appState = createAppState();
 
@@ -655,7 +580,7 @@ const init = async () => {
         if (categoryHeader) categoryHeader.style.display = 'none';
 
         if (appState.currentCategory) {
-            appState.currentFilters.categories.push(appState.currentCategory);
+            loadCategory(appState.currentCategory)
         }
 
         await Promise.all([

@@ -555,7 +555,7 @@ body {
   background-color: var(--bg);
 }
 
-.section-header {
+.section-header-related {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -563,7 +563,7 @@ body {
   border-bottom: 1px solid rgba(0, 0, 0, 0.08);
 }
 
-.section-header h2 {
+.section-header-related h2 {
   font-size: 1.8rem;
   font-weight: 700;
   color: var(--text);
@@ -571,7 +571,7 @@ body {
   position: relative;
 }
 
-.section-header h2::after {
+.section-header-related h2::after {
   content: "";
   position: absolute;
   bottom: 0;
@@ -784,6 +784,9 @@ img[loading="lazy"].loaded {
 }
 
 .section-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   cursor: pointer;
   color: var(--text);
 }

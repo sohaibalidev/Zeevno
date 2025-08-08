@@ -1,16 +1,13 @@
 (function setupNotifier() {
-    // Create and append the notify div
     const notifyDiv = document.createElement('div');
     notifyDiv.id = 'notify';
     document.body.appendChild(notifyDiv);
 
-    // Load custom notifier CSS
     const cssLink = document.createElement('link');
     cssLink.rel = 'stylesheet';
     cssLink.href = '/g/css/notifier.css';
     document.head.appendChild(cssLink);
 
-    // Load Boxicons CSS
     const boxiconsLink = document.createElement('link');
     boxiconsLink.rel = 'stylesheet';
     boxiconsLink.href = 'https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css';
