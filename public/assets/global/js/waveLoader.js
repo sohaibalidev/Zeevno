@@ -50,6 +50,7 @@ function createLoader(config) {
 
 window.toggleLoader = function (show = true) {
     let loader = document.getElementById('loading-overlay');
+    document.documentElement.style.overflow = show ? 'hidden' : 'auto';
 
     if (show) {
         if (!loader) {

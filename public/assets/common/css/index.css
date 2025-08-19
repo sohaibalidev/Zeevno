@@ -297,7 +297,7 @@ img {
   border-radius: var(--radius);
   overflow: hidden;
   background-color: var(--bg);
-  box-shadow: var(--shadow);
+  box-shadow: var(--shadow-sm);
   transition: var(--transition);
   cursor: pointer;
   padding-top: 10px;
@@ -308,12 +308,11 @@ img {
 
 .modern-product-container:hover {
   transform: translateY(-3px);
-  box-shadow: var(--shadow-md);
+  box-shadow: var(--shadow);
 }
 
 .modern-product-image {
   position: relative;
-  width: 100%;
   height: 200px;
   margin: 0 10px 0 10px;
   overflow: hidden;

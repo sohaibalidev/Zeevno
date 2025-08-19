@@ -52,8 +52,7 @@ function createGalleryHTML(product) {
         <img src="${product.media.imageUrls[i - 1]}" 
              alt="${product.name} - View ${i}" 
              class="thumbnail ${i === 1 ? 'active' : ''}"
-             data-index="${i}"
-             loading="lazy">
+             data-index="${i}">
     `).join('');
 
     return `
@@ -402,7 +401,7 @@ const createProductCard = (product) => {
              onclick="location.assign('/product/${id}')"
              aria-label="${name}, Price: Rs ${price}, Rating: ${reviews.total} reviews">
             <div class="modern-product-image">
-                <img src="${imageUrl}" alt="${name}" loading="lazy">
+                <img src="${imageUrl}" alt="${name}">
                 <button class="modern-cart-btn" data-id=${id} aria-label="Add ${name} to cart">
                     <span class="modern-icon-container">
                         <svg class="modern-cart-icon" height="1em" viewBox="0 0 576 512" fill="rgb(17, 17, 17)">

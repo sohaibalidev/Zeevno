@@ -1,6 +1,5 @@
 const { validateProductId } = require("../utils/validators");
 const { getDB } = require("../config/dbConfig");
-const { ObjectId } = require('mongodb');
 
 async function getProductDetails(productIds) {
     const db = getDB();

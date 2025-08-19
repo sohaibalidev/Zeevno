@@ -9,7 +9,6 @@ apiRouter.use("/cart", require("./cart.routes"));
 
 apiRouter.use('/banners', require('./banner.routes'));
 apiRouter.use('/newsletter', require('./newsletter.routes'));
-apiRouter.use('/site-settings', require('./site.routes'));
 
 router.use("/api", apiRouter);
 router.use("/", require("./pages.routes"));

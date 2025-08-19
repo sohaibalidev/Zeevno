@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', function () {
     retryButton.addEventListener('click', initCart);
 
     cartItemsContainer.addEventListener('click', function (e) {
-        const cartItem = e.target.closest('.cart-item');
+        const cartItem = e.target.closest('.new-item');
         if (!cartItem) return;
 
         const productId = cartItem.dataset.productId;
@@ -43,11 +43,11 @@ document.addEventListener('DOMContentLoaded', function () {
         ) {
             updateCartItem(productId, 'dec');
         } else if (
-            e.target.classList.contains('remove-item')
-            || e.target.parentElement.classList.contains('remove-item')
+            e.target.classList.contains('new-item-remove')
+            || e.target.parentElement.classList.contains('new-item-remove')
         ) {
             removeFromCart(productId);
-        }
+        } else openProductPage(productId);
     });
 
     checkoutBtn.addEventListener('click', function () {
@@ -82,9 +82,10 @@ document.addEventListener('DOMContentLoaded', function () {
             };
 
             if (cartState.items.length > 0) {
-                renderCart();
+                updateCartQuantity(cartState.items.length)
+                await renderCart();
             } else {
-                showEmptyCart();
+                await showEmptyCart();
             }
 
             cartContent.style.display = 'flex';
@@ -127,7 +128,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     function createCartItemElement(item) {
         const cartItem = document.createElement('div');
-        cartItem.className = 'cart-item';
+        cartItem.className = 'new-item';
         cartItem.dataset.productId = item.productId;
 
         const hasDiscount = item.pricing?.originalPrice && item.pricing.originalPrice > item.pricing.currentPrice;
@@ -139,43 +140,103 @@ document.addEventListener('DOMContentLoaded', function () {
         const isOutOfStock = stock <= 0;
         const isLowStock = stock <= 5 && stock > 0;
 
+        // cartItem.innerHTML = `
+        //     <div class="item-image">
+        //         <img src="${item.media?.primaryImage}" 
+        //              alt="${item.name}" 
+        //              onerror="this.src='/g/imgs/placeholder-product.png'">
+        //         ${isOutOfStock ? '<span class="out-of-stock-badge">Out of Stock</span>' : ''}
+        //     </div>
+        //     <div class="item-details">
+        //         <h3 class="item-title">${item.name}</h3>
+        //         ${item.category ? `<p class="item-description">${item.category}</p>` : ''}
+        //         ${item.color ? `<p class="item-variant">Color: ${item.color}</p>` : ''}
+        //         ${item.size ? `<p class="item-variant">Size: ${item.size}</p>` : ''}
+        //         ${isLowStock ? `<p class="low-stock">Only ${stock} left in stock!</p>` : ''}
+        //     </div>
+        //     <div class="custom-style-1">
+        //         <div class="item-price">
+        //             <span class="current-price">Rs ${item.pricing?.currentPrice?.toLocaleString() || '0'}</span>
+        //             ${hasDiscount ? `
+        //                 <span class="original-price">Rs ${item.pricing.originalPrice.toLocaleString()}</span>
+        //                 <span class="discount-badge">${discountPercentage}% OFF</span>
+        //             ` : ''}
+        //         </div>
+        //         <div class="item-quantity">
+        //             <button class="quantity-btn minus" ${item.quantity <= 1 ? 'disabled' : ''}>
+        //                 <i class='bx bx-minus'></i>
+        //             </button>
+        //             <span class="quantity">${item.quantity}</span>
+        //             <button class="quantity-btn plus" ${item.quantity >= stock ? 'disabled' : ''}>
+        //                 <i class='bx bx-plus'></i>
+        //             </button>
+        //         </div>
+
+        //         <div class="item-actions">
+        //             <button class="remove-item">
+        //                 <i class='bx bx-trash'></i>
+        //             </button>
+        //         </div>
+        //     </div>
+        // `;
+
         cartItem.innerHTML = `
-            <div class="item-image">
-                <img src="${item.media?.primaryImage || '/g/imgs/placeholder-product.png'}" 
-                     alt="${item.name}" 
-                     onerror="this.src='/g/imgs/placeholder-product.png'">
-                ${isOutOfStock ? '<span class="out-of-stock-badge">Out of Stock</span>' : ''}
+          <div class="new-item-image">
+            <img src="${item.media?.primaryImage}" 
+                 alt="${item.name}" 
+                 onerror="this.src='/g/imgs/placeholder-product.png'">
+            ${isOutOfStock ? '<span class="new-item-out-of-stock">Out of Stock</span>' : ''}
+          </div>
+
+          <div class="new-item-details">
+            <div class="new-item-info">
+              <h3 class="new-item-title">${item.name}</h3>
+              ${item.category ? `<p class="new-item-category">From: ${item.category}</p>` : ''}
             </div>
-            <div class="item-details">
-                <h3 class="item-title">${item.name}</h3>
-                ${item.category ? `<p class="item-description">${item.category}</p>` : ''}
-                ${item.color ? `<p class="item-variant">Color: ${item.color}</p>` : ''}
-                ${item.size ? `<p class="item-variant">Size: ${item.size}</p>` : ''}
-                ${isLowStock ? `<p class="low-stock">Only ${stock} left in stock!</p>` : ''}
-                <div class="item-actions">
-                    <button class="remove-item">
-                        <i class='bx bx-trash'></i> <span> Remove </span>
-                    </button>
+
+            <div class="new-item-price-group">
+              <div class="new-item-price-current">
+                <span class="new-item-currency">Rs</span>
+                <span class="new-item-amount">${item.pricing?.currentPrice?.toLocaleString() || '0'}</span>
+              </div>
+
+              ${hasDiscount ? `
+                <div class="new-item-price-original">
+                  <span class="new-item-currency">Rs</span>
+                  <span class="new-item-amount">${item.pricing.originalPrice.toLocaleString()}</span>
                 </div>
+                <div class="new-item-savings">
+                  <span class="new-item-savings-badge">Save Rs ${(item.pricing.originalPrice - item.pricing.currentPrice).toLocaleString()}</span>
+                  <span class="new-item-discount-badge">${discountPercentage}% OFF</span>
+                </div>
+              ` : ''}
             </div>
-            <div class="custom-style-1">
-                <div class="item-price">
-                    <span class="current-price">Rs ${item.pricing?.currentPrice?.toLocaleString() || '0'}</span>
-                    ${hasDiscount ? `
-                        <span class="original-price">Rs ${item.pricing.originalPrice.toLocaleString()}</span>
-                        <span class="discount-badge">${discountPercentage}% OFF</span>
-                    ` : ''}
-                </div>
-                <div class="item-quantity">
-                    <button class="quantity-btn minus" ${item.quantity <= 1 ? 'disabled' : ''}>
-                        <i class='bx bx-minus'></i>
-                    </button>
-                    <span class="quantity">${item.quantity}</span>
-                    <button class="quantity-btn plus" ${item.quantity >= stock ? 'disabled' : ''}>
-                        <i class='bx bx-plus'></i>
-                    </button>
-                </div>
+          </div>
+            
+          <div class="new-item-quantity-control">
+            <button class="new-item-quantity-control-btn minus" ${item.quantity <= 1 ? 'disabled' : ''} aria-label="Decrease quantity">
+              <i class='bx bx-minus'></i>
+            </button>
+            <span class="new-item-quantity-value">${item.quantity}</span>
+            <button class="new-item-quantity-control-btn plus" ${item.quantity >= stock ? 'disabled' : ''} aria-label="Increase quantity">
+              <i class='bx bx-plus'></i>
+            </button>
+          </div>
+            
+          <div class="new-item-total-price">
+            <div class="new-item-total-label">Total:</div>
+            <div class="new-item-total-amount">
+              <span class="new-item-currency">Rs</span>
+              ${(item.pricing?.currentPrice * item.quantity)?.toLocaleString() || '0'}
             </div>
+          </div>
+            
+          <div class="new-item-actions">
+            <button class="new-item-remove-btn" aria-label="Remove item">
+              <i class='bx bx-trash'></i>
+              <span class="new-item-remove-text">Remove</span>
+            </button>
+          </div>
         `;
 
         return cartItem;
@@ -248,6 +309,11 @@ document.addEventListener('DOMContentLoaded', function () {
         };
     }
 
+    function openProductPage(id) {
+        if (!id) return
+        location.assign(`/product/${id}`)
+    }
+
     async function updateCartItem(productId, action) {
         try {
             const response = await fetch(`/api/cart/${productId}`, {
@@ -294,8 +360,6 @@ document.addEventListener('DOMContentLoaded', function () {
             }
 
             const { data: updatedItem, message } = await response.json();
-
-            console.log(cartState)
 
             cartState.items = cartState.items.filter(item => {
                 return item.productId !== updatedItem.productId;
