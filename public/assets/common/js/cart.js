@@ -43,8 +43,8 @@ document.addEventListener('DOMContentLoaded', function () {
         ) {
             updateCartItem(productId, 'dec');
         } else if (
-            e.target.classList.contains('new-item-remove')
-            || e.target.parentElement.classList.contains('new-item-remove')
+            e.target.classList.contains('new-item-remove-btn')
+            || e.target.parentElement.classList.contains('new-item-remove-btn')
         ) {
             removeFromCart(productId);
         } else openProductPage(productId);
